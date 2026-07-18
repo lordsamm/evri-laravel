@@ -1,0 +1,2558 @@
+[
+  {
+    "source": "404-not-found.html",
+    "url": "/404-not-found",
+    "view": "pages.404-not-found",
+    "title": "Evri | Cheap Parcel Delivery &amp; Courier Service"
+  },
+  {
+    "source": "about-us.html",
+    "url": "/about-us",
+    "view": "pages.about-us",
+    "title": "Find Out More About Us - Your Trusted Courier | Evri"
+  },
+  {
+    "source": "accessibility.html",
+    "url": "/accessibility",
+    "view": "pages.accessibility",
+    "title": "Evri for Everyone: Accessibility | Evri"
+  },
+  {
+    "source": "additional-policies.html",
+    "url": "/additional-policies",
+    "view": "pages.additional-policies",
+    "title": "Additional Policies | Evri"
+  },
+  {
+    "source": "ai-and-automation.html",
+    "url": "/ai-and-automation",
+    "view": "pages.ai-and-automation",
+    "title": "Evri is leading the way in AI and intelligent automation"
+  },
+  {
+    "source": "amazonmfn/enquiry-form.html",
+    "url": "/amazonmfn/enquiry-form",
+    "view": "pages.amazonmfn.enquiry-form",
+    "title": "Evri | Cheap Parcel Delivery &amp; Courier Service"
+  },
+  {
+    "source": "amazonmfn.html",
+    "url": "/amazonmfn",
+    "view": "pages.amazonmfn",
+    "title": "Get Started on Amazon MFN with Evri"
+  },
+  {
+    "source": "annual-reports.html",
+    "url": "/annual-reports",
+    "view": "pages.annual-reports",
+    "title": "Annual Reports | Evri"
+  },
+  {
+    "source": "basket.html",
+    "url": "/basket",
+    "view": "pages.basket",
+    "title": "Evri | Cheap Parcel Delivery &amp; Courier Service"
+  },
+  {
+    "source": "become-a-business-partner.html",
+    "url": "/become-a-business-partner",
+    "view": "pages.become-a-business-partner",
+    "title": "Join Our Nationwide Network of Evri Business Partners"
+  },
+  {
+    "source": "become-a-courier-how-it-works.html",
+    "url": "/become-a-courier-how-it-works",
+    "view": "pages.become-a-courier-how-it-works",
+    "title": "Becoming a Self-Employed Courier | How Does it Work? | Evri"
+  },
+  {
+    "source": "business/enquiry-form/business-details.html",
+    "url": "/business/enquiry-form/business-details",
+    "view": "pages.business.enquiry-form.business-details",
+    "title": "Evri | Cheap Parcel Delivery &amp; Courier Service"
+  },
+  {
+    "source": "business-accounts.html",
+    "url": "/business-accounts",
+    "view": "pages.business-accounts",
+    "title": "Business Courier &amp; Parcel Delivery Service UK | Evri"
+  },
+  {
+    "source": "business.html",
+    "url": "/business",
+    "view": "pages.business",
+    "title": "Business Courier Service"
+  },
+  {
+    "source": "careers/be-a-courier.html",
+    "url": "/careers/be-a-courier",
+    "view": "pages.careers.be-a-courier",
+    "title": "Self-Employed Courier Jobs | Apply Today to Start Delivering"
+  },
+  {
+    "source": "careers/become-a-courier-faq.html",
+    "url": "/careers/become-a-courier-faq",
+    "view": "pages.careers.become-a-courier-faq",
+    "title": "Becoming a Self-Employed Courier | Frequently Asked Questions"
+  },
+  {
+    "source": "careers/become-a-courier-how-it-works.html",
+    "url": "/careers/become-a-courier-how-it-works",
+    "view": "pages.careers.become-a-courier-how-it-works",
+    "title": "Becoming a Self-Employed Courier | How Does it Work? | Evri"
+  },
+  {
+    "source": "careers/become-a-van-driver.html",
+    "url": "/careers/become-a-van-driver",
+    "view": "pages.careers.become-a-van-driver",
+    "title": "Become a van driver with Evri | Self-employed and employed driver jobs UK"
+  },
+  {
+    "source": "careers/become-an-hgv-driver.html",
+    "url": "/careers/become-an-hgv-driver",
+    "view": "pages.careers.become-an-hgv-driver",
+    "title": "Become an HGV Driver for Evri | HGV Driver Careers UK"
+  },
+  {
+    "source": "careers/birmingham-courier-jobs.html",
+    "url": "/careers/birmingham-courier-jobs",
+    "view": "pages.careers.birmingham-courier-jobs",
+    "title": "Become a Self-Employed Courier in Birmingham | Evri Careers"
+  },
+  {
+    "source": "careers/bristol-courier-jobs.html",
+    "url": "/careers/bristol-courier-jobs",
+    "view": "pages.careers.bristol-courier-jobs",
+    "title": "Become a Self-Employed Courier in Bristol | Evri Careers"
+  },
+  {
+    "source": "careers/cambridge-courier-jobs.html",
+    "url": "/careers/cambridge-courier-jobs",
+    "view": "pages.careers.cambridge-courier-jobs",
+    "title": "Become a Self-Employed Courier in Cambridge | Evri Careers"
+  },
+  {
+    "source": "careers/early-careers.html",
+    "url": "/careers/early-careers",
+    "view": "pages.careers.early-careers",
+    "title": "Early Career Opportunities at Evri"
+  },
+  {
+    "source": "careers/edinburgh-courier-jobs.html",
+    "url": "/careers/edinburgh-courier-jobs",
+    "view": "pages.careers.edinburgh-courier-jobs",
+    "title": "Become a Self-Employed Courier in Edinburgh | Evri Careers"
+  },
+  {
+    "source": "careers/glasgow-courier-jobs.html",
+    "url": "/careers/glasgow-courier-jobs",
+    "view": "pages.careers.glasgow-courier-jobs",
+    "title": "Become a Self-Employed Courier in Glasgow | Evri Careers"
+  },
+  {
+    "source": "careers/head-office-roles.html",
+    "url": "/careers/head-office-roles",
+    "view": "pages.careers.head-office-roles",
+    "title": "Join the Evri Head Office Team | Evri Careers | Hybrid Working"
+  },
+  {
+    "source": "careers/join-our-driving-academy.html",
+    "url": "/careers/join-our-driving-academy",
+    "view": "pages.careers.join-our-driving-academy",
+    "title": "Join Our Driving Academy | Gain Cat C &amp; Cat C+E Qualifications"
+  },
+  {
+    "source": "careers/leeds-courier-jobs.html",
+    "url": "/careers/leeds-courier-jobs",
+    "view": "pages.careers.leeds-courier-jobs",
+    "title": "Become a Self-Employed Courier in Leeds | Evri Careers"
+  },
+  {
+    "source": "careers/leicester-courier-jobs.html",
+    "url": "/careers/leicester-courier-jobs",
+    "view": "pages.careers.leicester-courier-jobs",
+    "title": "Become a Self-Employed Courier in Leicester | Evri Careers"
+  },
+  {
+    "source": "careers/life-at-evri.html",
+    "url": "/careers/life-at-evri",
+    "view": "pages.careers.life-at-evri",
+    "title": "Life at Evri"
+  },
+  {
+    "source": "careers/liverpool-courier-jobs.html",
+    "url": "/careers/liverpool-courier-jobs",
+    "view": "pages.careers.liverpool-courier-jobs",
+    "title": "Become a Self-Employed Courier in Liverpool | Evri Careers"
+  },
+  {
+    "source": "careers/london-courier-jobs.html",
+    "url": "/careers/london-courier-jobs",
+    "view": "pages.careers.london-courier-jobs",
+    "title": "Become a Self-Employed Courier in London | Evri Careers"
+  },
+  {
+    "source": "careers/manchester-courier-jobs.html",
+    "url": "/careers/manchester-courier-jobs",
+    "view": "pages.careers.manchester-courier-jobs",
+    "title": "Become a Self-Employed Courier in Manchester | Evri Careers"
+  },
+  {
+    "source": "careers/nottingham-courier-jobs.html",
+    "url": "/careers/nottingham-courier-jobs",
+    "view": "pages.careers.nottingham-courier-jobs",
+    "title": "Become a Self-Employed Courier in Nottingham | Evri Careers"
+  },
+  {
+    "source": "careers/warehouse-roles.html",
+    "url": "/careers/warehouse-roles",
+    "view": "pages.careers.warehouse-roles",
+    "title": "Exciting Careers Opportunities in Our Warehouses | Evri Careers"
+  },
+  {
+    "source": "code-of-conduct.html",
+    "url": "/code-of-conduct",
+    "view": "pages.code-of-conduct",
+    "title": "Code of Conduct | Evri"
+  },
+  {
+    "source": "complaints-procedure.html",
+    "url": "/complaints-procedure",
+    "view": "pages.complaints-procedure",
+    "title": "Complaints Procedure | Evri"
+  },
+  {
+    "source": "contact-us.html",
+    "url": "/contact-us",
+    "view": "pages.contact-us",
+    "title": "Contact Us | Evri"
+  },
+  {
+    "source": "contact-us5789.html",
+    "url": "/contact-us5789",
+    "view": "pages.contact-us5789",
+    "title": "Contact Us | Evri"
+  },
+  {
+    "source": "cookie-policy/cookie-list.html",
+    "url": "/cookie-policy/cookie-list",
+    "view": "pages.cookie-policy.cookie-list",
+    "title": "Evri | Cheap Parcel Delivery &amp; Courier Service"
+  },
+  {
+    "source": "cookie-policy.html",
+    "url": "/cookie-policy",
+    "view": "pages.cookie-policy",
+    "title": "Cookie policy | Evri"
+  },
+  {
+    "source": "correct-personal-data-form.html",
+    "url": "/correct-personal-data-form",
+    "view": "pages.correct-personal-data-form",
+    "title": "Rectification Form"
+  },
+  {
+    "source": "courier-quote.html",
+    "url": "/courier-quote",
+    "view": "pages.courier-quote",
+    "title": "Get a Courier Quote | Cheap &amp; Reliable UK Parcel Delivery | Evri"
+  },
+  {
+    "source": "courier-service.html",
+    "url": "/courier-service",
+    "view": "pages.courier-service",
+    "title": "Arrange A Courier Collection | Local Parcel Pick Up | Evri"
+  },
+  {
+    "source": "customer/account/history/index.html",
+    "url": "/customer/account/history",
+    "view": "pages.customer.account.history",
+    "title": "Evri | Cheap Parcel Delivery &amp; Courier Service"
+  },
+  {
+    "source": "customer/account/myplaces.html",
+    "url": "/customer/account/myplaces",
+    "view": "pages.customer.account.myplaces",
+    "title": "Evri | Cheap Parcel Delivery &amp; Courier Service"
+  },
+  {
+    "source": "customer/account/preferences.html",
+    "url": "/customer/account/preferences",
+    "view": "pages.customer.account.preferences",
+    "title": "Evri | Cheap Parcel Delivery &amp; Courier Service"
+  },
+  {
+    "source": "customer/account/settings/index.html",
+    "url": "/customer/account/settings",
+    "view": "pages.customer.account.settings",
+    "title": "Evri | Cheap Parcel Delivery &amp; Courier Service"
+  },
+  {
+    "source": "customer/account.html",
+    "url": "/customer/account",
+    "view": "pages.customer.account",
+    "title": "Evri | Cheap Parcel Delivery &amp; Courier Service"
+  },
+  {
+    "source": "customer/bulk-send.html",
+    "url": "/customer/bulk-send",
+    "view": "pages.customer.bulk-send",
+    "title": "Evri | Cheap Parcel Delivery &amp; Courier Service"
+  },
+  {
+    "source": "customer/bulk-upload.html",
+    "url": "/customer/bulk-upload",
+    "view": "pages.customer.bulk-upload",
+    "title": "Evri | Cheap Parcel Delivery &amp; Courier Service"
+  },
+  {
+    "source": "customer/quick-send.html",
+    "url": "/customer/quick-send",
+    "view": "pages.customer.quick-send",
+    "title": "Evri | Cheap Parcel Delivery &amp; Courier Service"
+  },
+  {
+    "source": "cyber-security.html",
+    "url": "/cyber-security",
+    "view": "pages.cyber-security",
+    "title": "How to spot and report fraud | Digital Security | Evri"
+  },
+  {
+    "source": "data-protection-complaint-form.html",
+    "url": "/data-protection-complaint-form",
+    "view": "pages.data-protection-complaint-form",
+    "title": "Data Protection Complaint Form"
+  },
+  {
+    "source": "data-protection-form.html",
+    "url": "/data-protection-form",
+    "view": "pages.data-protection-form",
+    "title": "Data Protection Form"
+  },
+  {
+    "source": "delete-personal-data-form.html",
+    "url": "/delete-personal-data-form",
+    "view": "pages.delete-personal-data-form",
+    "title": "Erasure Form"
+  },
+  {
+    "source": "delivering-innovation.html",
+    "url": "/delivering-innovation",
+    "view": "pages.delivering-innovation",
+    "title": "How Evri is Delivering Innovation | Robotics, AI &amp; More"
+  },
+  {
+    "source": "disclosure-form.html",
+    "url": "/disclosure-form",
+    "view": "pages.disclosure-form",
+    "title": "Disclosure Form"
+  },
+  {
+    "source": "driving-academy-form.html",
+    "url": "/driving-academy-form",
+    "view": "pages.driving-academy-form",
+    "title": "Evri Driving Academy enquiries form"
+  },
+  {
+    "source": "dsar-form.html",
+    "url": "/dsar-form",
+    "view": "pages.dsar-form",
+    "title": "DSAR Form"
+  },
+  {
+    "source": "environment-policy.html",
+    "url": "/environment-policy",
+    "view": "pages.environment-policy",
+    "title": "Environment Policy | Evri"
+  },
+  {
+    "source": "environment-social-and-governance/environment.html",
+    "url": "/environment-social-and-governance/environment",
+    "view": "pages.environment-social-and-governance.environment",
+    "title": "Environment &amp; Sustainability Strategy | Evri"
+  },
+  {
+    "source": "environment-social-and-governance/governance.html",
+    "url": "/environment-social-and-governance/governance",
+    "view": "pages.environment-social-and-governance.governance",
+    "title": "Corporate Governance Strategy | ESG | Evri"
+  },
+  {
+    "source": "environment-social-and-governance/social.html",
+    "url": "/environment-social-and-governance/social",
+    "view": "pages.environment-social-and-governance.social",
+    "title": "CSR Business Corporate Social Responsibility | ESG | Evri"
+  },
+  {
+    "source": "environment-social-and-governance.html",
+    "url": "/environment-social-and-governance",
+    "view": "pages.environment-social-and-governance",
+    "title": "Environment Social &amp; Governance | ESG | Evri"
+  },
+  {
+    "source": "equality-and-diversity-policy.html",
+    "url": "/equality-and-diversity-policy",
+    "view": "pages.equality-and-diversity-policy",
+    "title": "Equality &amp; Diversity Policy | Evri"
+  },
+  {
+    "source": "esg-strategy.html",
+    "url": "/esg-strategy",
+    "view": "pages.esg-strategy",
+    "title": "ESG Strategy | Evri"
+  },
+  {
+    "source": "evri-business-partner-faqs.html",
+    "url": "/evri-business-partner-faqs",
+    "view": "pages.evri-business-partner-faqs",
+    "title": "Becoming an Evri Business Partner | Frequently Asked Questions"
+  },
+  {
+    "source": "evri-business-partner-how-it-works.html",
+    "url": "/evri-business-partner-how-it-works",
+    "view": "pages.evri-business-partner-how-it-works",
+    "title": "Becoming an Evri Business Partner | How Does it Work?"
+  },
+  {
+    "source": "evri-international-faqs.html",
+    "url": "/evri-international-faqs",
+    "view": "pages.evri-international-faqs",
+    "title": "International Shipping FAQs | Evri"
+  },
+  {
+    "source": "evri-reviews.html",
+    "url": "/evri-reviews",
+    "view": "pages.evri-reviews",
+    "title": "Evri Reviews: Customers rate their experience as Great"
+  },
+  {
+    "source": "explore-our-global-fulfilment-centres.html",
+    "url": "/explore-our-global-fulfilment-centres",
+    "view": "pages.explore-our-global-fulfilment-centres",
+    "title": "Explore Our Global Fulfilment Centres | Evri Fulfilment Services"
+  },
+  {
+    "source": "faqs/account/can-i-link-my-marketplace-account-to-evri.html",
+    "url": "/faqs/account/can-i-link-my-marketplace-account-to-evri",
+    "view": "pages.faqs.account.can-i-link-my-marketplace-account-to-evri",
+    "title": "Can I link a marketplace account to Evri? | Evri"
+  },
+  {
+    "source": "faqs/account/can-i-upload-multiple-parcels-using-a-csv-file.html",
+    "url": "/faqs/account/can-i-upload-multiple-parcels-using-a-csv-file",
+    "view": "pages.faqs.account.can-i-upload-multiple-parcels-using-a-csv-file",
+    "title": "Can I upload multiple parcels using a CSV? | Evri"
+  },
+  {
+    "source": "faqs/account/how-can-i-view-my-orders.html",
+    "url": "/faqs/account/how-can-i-view-my-orders",
+    "view": "pages.faqs.account.how-can-i-view-my-orders",
+    "title": "How can I view my orders? | FAQ&#x27;s | Evri"
+  },
+  {
+    "source": "faqs/account/how-do-i-complain-about-one-of-your-services.html",
+    "url": "/faqs/account/how-do-i-complain-about-one-of-your-services",
+    "view": "pages.faqs.account.how-do-i-complain-about-one-of-your-services",
+    "title": "How do I complain about your services? | Evri"
+  },
+  {
+    "source": "faqs/account/how-do-i-make-changes-to-my-personal-details.html",
+    "url": "/faqs/account/how-do-i-make-changes-to-my-personal-details",
+    "view": "pages.faqs.account.how-do-i-make-changes-to-my-personal-details",
+    "title": "How do I make changes to my personal details? | Evri"
+  },
+  {
+    "source": "faqs/account/how-do-i-submit-a-claim-for-a-lost-or-damaged-parcel.html",
+    "url": "/faqs/account/how-do-i-submit-a-claim-for-a-lost-or-damaged-parcel",
+    "view": "pages.faqs.account.how-do-i-submit-a-claim-for-a-lost-or-damaged-parcel",
+    "title": "How do I claim for a lost&#x2F;damaged parcel? | Evri"
+  },
+  {
+    "source": "faqs/account/i-send-a-lot-of-parcels-can-you-offer-me-a-business-or-credit-account.html",
+    "url": "/faqs/account/i-send-a-lot-of-parcels-can-you-offer-me-a-business-or-credit-account",
+    "view": "pages.faqs.account.i-send-a-lot-of-parcels-can-you-offer-me-a-business-or-credit-account",
+    "title": "Can I start a business or credit account? | Evri"
+  },
+  {
+    "source": "faqs/account/is-there-a-problem-with-the-website.html",
+    "url": "/faqs/account/is-there-a-problem-with-the-website",
+    "view": "pages.faqs.account.is-there-a-problem-with-the-website",
+    "title": "Is there a problem with the website? | FAQs | Evri"
+  },
+  {
+    "source": "faqs/account/when-creating-an-order-i-lose-my-progress-when-i-login.html",
+    "url": "/faqs/account/when-creating-an-order-i-lose-my-progress-when-i-login",
+    "view": "pages.faqs.account.when-creating-an-order-i-lose-my-progress-when-i-login",
+    "title": "When Creating an Order I Lose my Progress When I Login | Evri"
+  },
+  {
+    "source": "faqs/account/why-cant-i-view-my-marketplace-orders-when-i-try-to-import-them.html",
+    "url": "/faqs/account/why-cant-i-view-my-marketplace-orders-when-i-try-to-import-them",
+    "view": "pages.faqs.account.why-cant-i-view-my-marketplace-orders-when-i-try-to-import-them",
+    "title": "Why can\u2019t I view my marketplace orders? | Evri"
+  },
+  {
+    "source": "faqs/diversions/are-diversions-guaranteed.html",
+    "url": "/faqs/diversions/are-diversions-guaranteed",
+    "view": "pages.faqs.diversions.are-diversions-guaranteed",
+    "title": "Are diversions guaranteed? | FAQs | Evri"
+  },
+  {
+    "source": "faqs/diversions/can-i-change-my-parcel-diversion-request.html",
+    "url": "/faqs/diversions/can-i-change-my-parcel-diversion-request",
+    "view": "pages.faqs.diversions.can-i-change-my-parcel-diversion-request",
+    "title": "Can I change my parcel diversion request? | Evri"
+  },
+  {
+    "source": "faqs/diversions/can-i-divert-to-multiple-neighbours-addresses-or-safe-places.html",
+    "url": "/faqs/diversions/can-i-divert-to-multiple-neighbours-addresses-or-safe-places",
+    "view": "pages.faqs.diversions.can-i-divert-to-multiple-neighbours-addresses-or-safe-places",
+    "title": "Can I divert to multiple locations? | Evri"
+  },
+  {
+    "source": "faqs/diversions/how-do-i-divert-my-parcel.html",
+    "url": "/faqs/diversions/how-do-i-divert-my-parcel",
+    "view": "pages.faqs.diversions.how-do-i-divert-my-parcel",
+    "title": "How do I divert my parcel? | FAQs | Evri"
+  },
+  {
+    "source": "faqs/diversions/if-i-know-im-going-to-be-in-can-i-cancel-my-diversion-request.html",
+    "url": "/faqs/diversions/if-i-know-im-going-to-be-in-can-i-cancel-my-diversion-request",
+    "view": "pages.faqs.diversions.if-i-know-im-going-to-be-in-can-i-cancel-my-diversion-request",
+    "title": "Can I cancel my diversion request? | Evri"
+  },
+  {
+    "source": "faqs/diversions/whats-a-parcel-diversion.html",
+    "url": "/faqs/diversions/whats-a-parcel-diversion",
+    "view": "pages.faqs.diversions.whats-a-parcel-diversion",
+    "title": "What&#x27;s a parcel diversion? | FAQs | Evri"
+  },
+  {
+    "source": "faqs/lockers/can-i-get-my-parcel-delivered-to-a-locker.html",
+    "url": "/faqs/lockers/can-i-get-my-parcel-delivered-to-a-locker",
+    "view": "pages.faqs.lockers.can-i-get-my-parcel-delivered-to-a-locker",
+    "title": "Can I get my parcel delivered to a Locker? | Evri"
+  },
+  {
+    "source": "faqs/lockers/how-do-i-use-a-locker.html",
+    "url": "/faqs/lockers/how-do-i-use-a-locker",
+    "view": "pages.faqs.lockers.how-do-i-use-a-locker",
+    "title": "How do I use a locker? | FAQs | Evri"
+  },
+  {
+    "source": "faqs/lockers/im-having-trouble-with-the-locker-what-can-i-do.html",
+    "url": "/faqs/lockers/im-having-trouble-with-the-locker-what-can-i-do",
+    "view": "pages.faqs.lockers.im-having-trouble-with-the-locker-what-can-i-do",
+    "title": "Locker barcode isn&#x27;t working, what can I do? | Evri"
+  },
+  {
+    "source": "faqs/lockers/my-barcode-isnt-scanning.html",
+    "url": "/faqs/lockers/my-barcode-isnt-scanning",
+    "view": "pages.faqs.lockers.my-barcode-isnt-scanning",
+    "title": "My barcode isn&#x27;t scanning | FAQs | Evri"
+  },
+  {
+    "source": "faqs/lockers/the-locker-is-too-small-for-my-parcel-what-can-i-do.html",
+    "url": "/faqs/lockers/the-locker-is-too-small-for-my-parcel-what-can-i-do",
+    "view": "pages.faqs.lockers.the-locker-is-too-small-for-my-parcel-what-can-i-do",
+    "title": "My locker is too small, what can I do? | Evri"
+  },
+  {
+    "source": "faqs/lockers/what-is-a-locker.html",
+    "url": "/faqs/lockers/what-is-a-locker",
+    "view": "pages.faqs.lockers.what-is-a-locker",
+    "title": "What is a locker? | FAQs | Evri"
+  },
+  {
+    "source": "faqs/parcelshops/can-i-collect-a-parcel-from-a-parcelshop.html",
+    "url": "/faqs/parcelshops/can-i-collect-a-parcel-from-a-parcelshop",
+    "view": "pages.faqs.parcelshops.can-i-collect-a-parcel-from-a-parcelshop",
+    "title": "Can I collect a parcel from a ParcelShop? | Evri"
+  },
+  {
+    "source": "faqs/parcelshops/how-do-i-print-out-parcel-labels-at-a-parcelshop.html",
+    "url": "/faqs/parcelshops/how-do-i-print-out-parcel-labels-at-a-parcelshop",
+    "view": "pages.faqs.parcelshops.how-do-i-print-out-parcel-labels-at-a-parcelshop",
+    "title": "How do I print out parcel labels at a ParcelShop? | Evri"
+  },
+  {
+    "source": "faqs/parcelshops/how-do-i-send-parcels-through-a-parcelshop.html",
+    "url": "/faqs/parcelshops/how-do-i-send-parcels-through-a-parcelshop",
+    "view": "pages.faqs.parcelshops.how-do-i-send-parcels-through-a-parcelshop",
+    "title": "How do I send parcels at a ParcelShop? | Evri"
+  },
+  {
+    "source": "faqs/parcelshops/how-do-i-sign-up-to-make-my-shop-or-store-a-evri-parcelshop.html",
+    "url": "/faqs/parcelshops/how-do-i-sign-up-to-make-my-shop-or-store-a-evri-parcelshop",
+    "view": "pages.faqs.parcelshops.how-do-i-sign-up-to-make-my-shop-or-store-a-evri-parcelshop",
+    "title": "How do I make my shop an Evri ParcelShop? | Evri"
+  },
+  {
+    "source": "faqs/parcelshops/ive-chosen-home-delivery-can-i-change-my-delivery-to-pick-it-up-from-a-parcelshop.html",
+    "url": "/faqs/parcelshops/ive-chosen-home-delivery-can-i-change-my-delivery-to-pick-it-up-from-a-parcelshop",
+    "view": "pages.faqs.parcelshops.ive-chosen-home-delivery-can-i-change-my-delivery-to-pick-it-up-from-a-parcelshop",
+    "title": "Can I change my delivery to a ParcelShop? | Evri"
+  },
+  {
+    "source": "faqs/parcelshops/what-is-pay-and-print-in-parcelshop.html",
+    "url": "/faqs/parcelshops/what-is-pay-and-print-in-parcelshop",
+    "view": "pages.faqs.parcelshops.what-is-pay-and-print-in-parcelshop",
+    "title": "What is Print in ParcelShop? | Evri"
+  },
+  {
+    "source": "faqs/parcelshops/whats-a-parcelshop.html",
+    "url": "/faqs/parcelshops/whats-a-parcelshop",
+    "view": "pages.faqs.parcelshops.whats-a-parcelshop",
+    "title": "What&#x27;s a ParcelShop? | FAQs | Evri"
+  },
+  {
+    "source": "faqs/receiving-a-parcel/can-i-collect-my-parcel.html",
+    "url": "/faqs/receiving-a-parcel/can-i-collect-my-parcel",
+    "view": "pages.faqs.receiving-a-parcel.can-i-collect-my-parcel",
+    "title": "Can I collect my parcel? | FAQs | Evri"
+  },
+  {
+    "source": "faqs/receiving-a-parcel/delivery-instructions-to-accommodate-disabilities.html",
+    "url": "/faqs/receiving-a-parcel/delivery-instructions-to-accommodate-disabilities",
+    "view": "pages.faqs.receiving-a-parcel.delivery-instructions-to-accommodate-disabilities",
+    "title": "How do I Change Delivery Instructions? | Evri FAQ | Accessibility"
+  },
+  {
+    "source": "faqs/receiving-a-parcel/expected-delivery-time.html",
+    "url": "/faqs/receiving-a-parcel/expected-delivery-time",
+    "view": "pages.faqs.receiving-a-parcel.expected-delivery-time",
+    "title": "Expected delivery time | FAQs | Evri"
+  },
+  {
+    "source": "faqs/receiving-a-parcel/how-can-i-change-my-delivery-address.html",
+    "url": "/faqs/receiving-a-parcel/how-can-i-change-my-delivery-address",
+    "view": "pages.faqs.receiving-a-parcel.how-can-i-change-my-delivery-address",
+    "title": "How can I change my delivery address? | Evri"
+  },
+  {
+    "source": "faqs/receiving-a-parcel/how-can-i-track-my-international-delivery.html",
+    "url": "/faqs/receiving-a-parcel/how-can-i-track-my-international-delivery",
+    "view": "pages.faqs.receiving-a-parcel.how-can-i-track-my-international-delivery",
+    "title": "How can I track international deliveries? | Evri"
+  },
+  {
+    "source": "faqs/receiving-a-parcel/how-do-i-track-my-parcel.html",
+    "url": "/faqs/receiving-a-parcel/how-do-i-track-my-parcel",
+    "view": "pages.faqs.receiving-a-parcel.how-do-i-track-my-parcel",
+    "title": "How do I track my parcel? | FAQs | Evri"
+  },
+  {
+    "source": "faqs/receiving-a-parcel/how-will-evri-contact-me.html",
+    "url": "/faqs/receiving-a-parcel/how-will-evri-contact-me",
+    "view": "pages.faqs.receiving-a-parcel.how-will-evri-contact-me",
+    "title": "How Will Evri Contact Me? | FAQs | Evri"
+  },
+  {
+    "source": "faqs/receiving-a-parcel/i-wont-be-in-at-my-expected-delivery-time.html",
+    "url": "/faqs/receiving-a-parcel/i-wont-be-in-at-my-expected-delivery-time",
+    "view": "pages.faqs.receiving-a-parcel.i-wont-be-in-at-my-expected-delivery-time",
+    "title": "I won&#x27;t be in at my expected delivery time | Evri"
+  },
+  {
+    "source": "faqs/receiving-a-parcel/is-this-evri-text-email-genuine.html",
+    "url": "/faqs/receiving-a-parcel/is-this-evri-text-email-genuine",
+    "view": "pages.faqs.receiving-a-parcel.is-this-evri-text-email-genuine",
+    "title": "Is this Evri Text&#x2F;Email Genuine? | FAQs | Evri"
+  },
+  {
+    "source": "faqs/receiving-a-parcel/the-parcel-was-delivered-damaged.html",
+    "url": "/faqs/receiving-a-parcel/the-parcel-was-delivered-damaged",
+    "view": "pages.faqs.receiving-a-parcel.the-parcel-was-delivered-damaged",
+    "title": "The parcel was delivered damaged | FAQs | Evri"
+  },
+  {
+    "source": "faqs/receiving-a-parcel/what-can-i-do-if-i-havent-received-my-parcel.html",
+    "url": "/faqs/receiving-a-parcel/what-can-i-do-if-i-havent-received-my-parcel",
+    "view": "pages.faqs.receiving-a-parcel.what-can-i-do-if-i-havent-received-my-parcel",
+    "title": "My parcel has not arrived, what can I do? | Evri"
+  },
+  {
+    "source": "faqs/receiving-a-parcel/what-is-an-evri-gateway.html",
+    "url": "/faqs/receiving-a-parcel/what-is-an-evri-gateway",
+    "view": "pages.faqs.receiving-a-parcel.what-is-an-evri-gateway",
+    "title": "What is an \u201cEvri gateway?\u201d | FAQs | Evri"
+  },
+  {
+    "source": "faqs/returning-a-parcel/can-i-return-an-item-with-evri.html",
+    "url": "/faqs/returning-a-parcel/can-i-return-an-item-with-evri",
+    "view": "pages.faqs.returning-a-parcel.can-i-return-an-item-with-evri",
+    "title": "Can I return an item with Evri? | FAQs | Evri"
+  },
+  {
+    "source": "faqs/returning-a-parcel/can-i-send-a-parcel-back-to-a-retailer-you-dont-return-for.html",
+    "url": "/faqs/returning-a-parcel/can-i-send-a-parcel-back-to-a-retailer-you-dont-return-for",
+    "view": "pages.faqs.returning-a-parcel.can-i-send-a-parcel-back-to-a-retailer-you-dont-return-for",
+    "title": "Can I send a parcel back to any retailer? | Evri"
+  },
+  {
+    "source": "faqs/returning-a-parcel/how-can-i-track-my-return.html",
+    "url": "/faqs/returning-a-parcel/how-can-i-track-my-return",
+    "view": "pages.faqs.returning-a-parcel.how-can-i-track-my-return",
+    "title": "How can I track my return? | FAQs | Evri"
+  },
+  {
+    "source": "faqs/returning-a-parcel/how-long-will-my-return-take-to-get-back-to-the-retailer.html",
+    "url": "/faqs/returning-a-parcel/how-long-will-my-return-take-to-get-back-to-the-retailer",
+    "view": "pages.faqs.returning-a-parcel.how-long-will-my-return-take-to-get-back-to-the-retailer",
+    "title": "What is the delivery time for returns? | Evri"
+  },
+  {
+    "source": "faqs/returning-a-parcel/how-much-does-a-return-cost.html",
+    "url": "/faqs/returning-a-parcel/how-much-does-a-return-cost",
+    "view": "pages.faqs.returning-a-parcel.how-much-does-a-return-cost",
+    "title": "How much does a return cost? | FAQs | Evri"
+  },
+  {
+    "source": "faqs/returning-a-parcel/how-should-i-package-my-returns-parcel.html",
+    "url": "/faqs/returning-a-parcel/how-should-i-package-my-returns-parcel",
+    "view": "pages.faqs.returning-a-parcel.how-should-i-package-my-returns-parcel",
+    "title": "How should I package my returns parcel? | FAQs | Evri"
+  },
+  {
+    "source": "faqs/returning-a-parcel/how-will-i-know-the-retailer-has-received-my-return.html",
+    "url": "/faqs/returning-a-parcel/how-will-i-know-the-retailer-has-received-my-return",
+    "view": "pages.faqs.returning-a-parcel.how-will-i-know-the-retailer-has-received-my-return",
+    "title": "Can I confirm a return has been received? | Evri"
+  },
+  {
+    "source": "faqs/returning-a-parcel/i-cant-find-my-retailers-name-on-the-list.html",
+    "url": "/faqs/returning-a-parcel/i-cant-find-my-retailers-name-on-the-list",
+    "view": "pages.faqs.returning-a-parcel.i-cant-find-my-retailers-name-on-the-list",
+    "title": "Do you return to any retailer? | Evri"
+  },
+  {
+    "source": "faqs/returning-a-parcel/what-if-my-return-hasnt-been-received.html",
+    "url": "/faqs/returning-a-parcel/what-if-my-return-hasnt-been-received",
+    "view": "pages.faqs.returning-a-parcel.what-if-my-return-hasnt-been-received",
+    "title": "What if my return hasn&#x27;t arrived? | FAQs | Evri"
+  },
+  {
+    "source": "faqs/returning-a-parcel/what-time-will-the-courier-collect-my-return-parcel.html",
+    "url": "/faqs/returning-a-parcel/what-time-will-the-courier-collect-my-return-parcel",
+    "view": "pages.faqs.returning-a-parcel.what-time-will-the-courier-collect-my-return-parcel",
+    "title": "What time will the courier collect my parcel? | FAQs | Evri"
+  },
+  {
+    "source": "faqs/sending-a-parcel/can-i-buy-cover-for-my-parcel.html",
+    "url": "/faqs/sending-a-parcel/can-i-buy-cover-for-my-parcel",
+    "view": "pages.faqs.sending-a-parcel.can-i-buy-cover-for-my-parcel",
+    "title": "Can I buy cover for my parcel? | FAQs | Evri UK"
+  },
+  {
+    "source": "faqs/sending-a-parcel/can-i-change-the-delivery-address-after-ive-sent-a-parcel.html",
+    "url": "/faqs/sending-a-parcel/can-i-change-the-delivery-address-after-ive-sent-a-parcel",
+    "view": "pages.faqs.sending-a-parcel.can-i-change-the-delivery-address-after-ive-sent-a-parcel",
+    "title": "Changing Delivery Address after Sending a Parcel | Evri"
+  },
+  {
+    "source": "faqs/sending-a-parcel/can-i-link-my-evri-account-to-my-marketplace-accounts-like-ebay-and-amazon.html",
+    "url": "/faqs/sending-a-parcel/can-i-link-my-evri-account-to-my-marketplace-accounts-like-ebay-and-amazon",
+    "view": "pages.faqs.sending-a-parcel.can-i-link-my-evri-account-to-my-marketplace-accounts-like-ebay-and-amazon",
+    "title": "Can I Link my Evri Account to my Marketplace Accounts? | Evri"
+  },
+  {
+    "source": "faqs/sending-a-parcel/how-do-i-cancel-my-order.html",
+    "url": "/faqs/sending-a-parcel/how-do-i-cancel-my-order",
+    "view": "pages.faqs.sending-a-parcel.how-do-i-cancel-my-order",
+    "title": "How do I cancel my order? | FAQs | Evri"
+  },
+  {
+    "source": "faqs/sending-a-parcel/how-do-i-change-my-order-details.html",
+    "url": "/faqs/sending-a-parcel/how-do-i-change-my-order-details",
+    "view": "pages.faqs.sending-a-parcel.how-do-i-change-my-order-details",
+    "title": "How do I change my order details? | FAQs | Evri"
+  },
+  {
+    "source": "faqs/sending-a-parcel/how-should-i-package-my-parcel.html",
+    "url": "/faqs/sending-a-parcel/how-should-i-package-my-parcel",
+    "view": "pages.faqs.sending-a-parcel.how-should-i-package-my-parcel",
+    "title": "How should I package my parcel? | FAQs | Evri"
+  },
+  {
+    "source": "faqs/sending-a-parcel/how-to-contact-customer-services-for-international-parcels.html",
+    "url": "/faqs/sending-a-parcel/how-to-contact-customer-services-for-international-parcels",
+    "view": "pages.faqs.sending-a-parcel.how-to-contact-customer-services-for-international-parcels",
+    "title": "How to contact customer services for international parcels | Evri"
+  },
+  {
+    "source": "faqs/sending-a-parcel/how-will-i-know-when-my-parcel-has-been-delivered.html",
+    "url": "/faqs/sending-a-parcel/how-will-i-know-when-my-parcel-has-been-delivered",
+    "view": "pages.faqs.sending-a-parcel.how-will-i-know-when-my-parcel-has-been-delivered",
+    "title": "How can I tell if my parcel has arrived? | Evri"
+  },
+  {
+    "source": "faqs/sending-a-parcel/i-cant-add-a-parcel-to-my-basket.html",
+    "url": "/faqs/sending-a-parcel/i-cant-add-a-parcel-to-my-basket",
+    "view": "pages.faqs.sending-a-parcel.i-cant-add-a-parcel-to-my-basket",
+    "title": "I can\u2019t add a parcel to my basket | FAQs | Evri"
+  },
+  {
+    "source": "faqs/sending-a-parcel/i-cant-make-a-payment.html",
+    "url": "/faqs/sending-a-parcel/i-cant-make-a-payment",
+    "view": "pages.faqs.sending-a-parcel.i-cant-make-a-payment",
+    "title": "I can\u2019t make a payment | FAQs | Evri"
+  },
+  {
+    "source": "faqs/sending-a-parcel/i-dont-have-a-printer-what-can-i-do.html",
+    "url": "/faqs/sending-a-parcel/i-dont-have-a-printer-what-can-i-do",
+    "view": "pages.faqs.sending-a-parcel.i-dont-have-a-printer-what-can-i-do",
+    "title": "I don&#x27;t have a printer, what can I do? | Evri"
+  },
+  {
+    "source": "faqs/sending-a-parcel/i-no-longer-want-to-use-the-evri-video-message.html",
+    "url": "/faqs/sending-a-parcel/i-no-longer-want-to-use-the-evri-video-message",
+    "view": "pages.faqs.sending-a-parcel.i-no-longer-want-to-use-the-evri-video-message",
+    "title": "Can I cancel an Evri video message? | Evri"
+  },
+  {
+    "source": "faqs/sending-a-parcel/international-deliveries.html",
+    "url": "/faqs/sending-a-parcel/international-deliveries",
+    "view": "pages.faqs.sending-a-parcel.international-deliveries",
+    "title": "International deliveries | FAQs | Evri"
+  },
+  {
+    "source": "faqs/sending-a-parcel/lost-my-label.html",
+    "url": "/faqs/sending-a-parcel/lost-my-label",
+    "view": "pages.faqs.sending-a-parcel.lost-my-label",
+    "title": "I&#x27;ve lost my label or Print in Store code | FAQs | Evri"
+  },
+  {
+    "source": "faqs/sending-a-parcel/post-office-evri-parcel-help.html",
+    "url": "/faqs/sending-a-parcel/post-office-evri-parcel-help",
+    "view": "pages.faqs.sending-a-parcel.post-office-evri-parcel-help",
+    "title": "Help with Parcels Sent via the Post Office | Evri"
+  },
+  {
+    "source": "faqs/sending-a-parcel/what-can-i-do-if-the-person-im-sending-my-parcel-to-isnt-going-to-be-in-for-their-delivery.html",
+    "url": "/faqs/sending-a-parcel/what-can-i-do-if-the-person-im-sending-my-parcel-to-isnt-going-to-be-in-for-their-delivery",
+    "view": "pages.faqs.sending-a-parcel.what-can-i-do-if-the-person-im-sending-my-parcel-to-isnt-going-to-be-in-for-their-delivery",
+    "title": "What if a parcel recipient is not home? | Evri"
+  },
+  {
+    "source": "faqs/sending-a-parcel/what-can-i-do-if-the-person-im-sending-the-parcel-to-doesnt-want-it-any-more.html",
+    "url": "/faqs/sending-a-parcel/what-can-i-do-if-the-person-im-sending-the-parcel-to-doesnt-want-it-any-more",
+    "view": "pages.faqs.sending-a-parcel.what-can-i-do-if-the-person-im-sending-the-parcel-to-doesnt-want-it-any-more",
+    "title": "What if a recipient doesn\u2019t want their parcel? | Evri"
+  },
+  {
+    "source": "faqs/sending-a-parcel/what-can-i-expect-from-your-next-day-service.html",
+    "url": "/faqs/sending-a-parcel/what-can-i-expect-from-your-next-day-service",
+    "view": "pages.faqs.sending-a-parcel.what-can-i-expect-from-your-next-day-service",
+    "title": "How does the next day service work? | Evri"
+  },
+  {
+    "source": "faqs/sending-a-parcel/what-can-i-send.html",
+    "url": "/faqs/sending-a-parcel/what-can-i-send",
+    "view": "pages.faqs.sending-a-parcel.what-can-i-send",
+    "title": "What can I send? | FAQs | Evri"
+  },
+  {
+    "source": "faqs/sending-a-parcel/what-if-i-cant-find-an-address.html",
+    "url": "/faqs/sending-a-parcel/what-if-i-cant-find-an-address",
+    "view": "pages.faqs.sending-a-parcel.what-if-i-cant-find-an-address",
+    "title": "What if I can&#x27;t find an address? | FAQs | Evri"
+  },
+  {
+    "source": "faqs/sending-a-parcel/what-time-will-the-courier-collect-my-parcel.html",
+    "url": "/faqs/sending-a-parcel/what-time-will-the-courier-collect-my-parcel",
+    "view": "pages.faqs.sending-a-parcel.what-time-will-the-courier-collect-my-parcel",
+    "title": "When will a courier collect my parcel? | Evri"
+  },
+  {
+    "source": "faqs/sending-a-parcel/where-can-i-send-parcels-to.html",
+    "url": "/faqs/sending-a-parcel/where-can-i-send-parcels-to",
+    "view": "pages.faqs.sending-a-parcel.where-can-i-send-parcels-to",
+    "title": "Where Can I Send Parcels To? | Evri"
+  },
+  {
+    "source": "faqs.html",
+    "url": "/faqs",
+    "view": "pages.faqs",
+    "title": "FAQs"
+  },
+  {
+    "source": "find-a-parcelshop/index.html",
+    "url": "/find-a-parcelshop",
+    "view": "pages.find-a-parcelshop",
+    "title": "Evri | Cheap Parcel Delivery &amp; Courier Service"
+  },
+  {
+    "source": "find-a-parcelshop0fb3.html",
+    "url": "/find-a-parcelshop0fb3",
+    "view": "pages.find-a-parcelshop0fb3",
+    "title": "Evri | Cheap Parcel Delivery &amp; Courier Service"
+  },
+  {
+    "source": "find-a-parcelshop3053.html",
+    "url": "/find-a-parcelshop3053",
+    "view": "pages.find-a-parcelshop3053",
+    "title": "Evri | Cheap Parcel Delivery &amp; Courier Service"
+  },
+  {
+    "source": "find-a-parcelshop4e55.html",
+    "url": "/find-a-parcelshop4e55",
+    "view": "pages.find-a-parcelshop4e55",
+    "title": "Evri | Cheap Parcel Delivery &amp; Courier Service"
+  },
+  {
+    "source": "find-a-parcelshop982c.html",
+    "url": "/find-a-parcelshop982c",
+    "view": "pages.find-a-parcelshop982c",
+    "title": "Evri | Cheap Parcel Delivery &amp; Courier Service"
+  },
+  {
+    "source": "find-a-parcelshopa177.html",
+    "url": "/find-a-parcelshopa177",
+    "view": "pages.find-a-parcelshopa177",
+    "title": "Evri | Cheap Parcel Delivery &amp; Courier Service"
+  },
+  {
+    "source": "find-an-evri-location.html",
+    "url": "/find-an-evri-location",
+    "view": "pages.find-an-evri-location",
+    "title": "Evri | Cheap Parcel Delivery &amp; Courier Service"
+  },
+  {
+    "source": "Frequent Seller Account - Save up to 50%.html",
+    "url": "/Frequent Seller Account - Save up to 50%",
+    "view": "pages.Frequent Seller Account - Save up to 50%",
+    "title": "ERROR: The request could not be satisfied"
+  },
+  {
+    "source": "frequent-seller.html",
+    "url": "/frequent-seller",
+    "view": "pages.frequent-seller",
+    "title": "Evri Frequent Seller Account"
+  },
+  {
+    "source": "frequent-sender-hub.html",
+    "url": "/frequent-sender-hub",
+    "view": "pages.frequent-sender-hub",
+    "title": "Frequent Sender Hub | Tools &amp; Guides for Regular Senders"
+  },
+  {
+    "source": "fulfilment-faqs.html",
+    "url": "/fulfilment-faqs",
+    "view": "pages.fulfilment-faqs",
+    "title": "Learn About Evri Global Fulfilment | Frequently Asked Questions"
+  },
+  {
+    "source": "fulfilment-form.html",
+    "url": "/fulfilment-form",
+    "view": "pages.fulfilment-form",
+    "title": "Evri | Cheap Parcel Delivery &amp; Courier Service"
+  },
+  {
+    "source": "fulfilment-services.html",
+    "url": "/fulfilment-services",
+    "view": "pages.fulfilment-services",
+    "title": "Global Fulfilment With a Trusted Courier Service | Evri"
+  },
+  {
+    "source": "gender-pay-gap-reporting.html",
+    "url": "/gender-pay-gap-reporting",
+    "view": "pages.gender-pay-gap-reporting",
+    "title": "Ethnicity &amp; Gender Pay Gap Reporting | Evri"
+  },
+  {
+    "source": "guides/a-guide-to-re-gifting-the-right-way.html",
+    "url": "/guides/a-guide-to-re-gifting-the-right-way",
+    "view": "pages.guides.a-guide-to-re-gifting-the-right-way",
+    "title": "Regifting the Right Way | Regifting Etiquette | Evri"
+  },
+  {
+    "source": "guides/amazon-prime-day.html",
+    "url": "/guides/amazon-prime-day",
+    "view": "pages.guides.amazon-prime-day",
+    "title": "Amazon Prime Day 2026 Guide | Seller Tips &amp; Support | Evri"
+  },
+  {
+    "source": "guides/black-friday.html",
+    "url": "/guides/black-friday",
+    "view": "pages.guides.black-friday",
+    "title": "How Small Businesses Can Win Big This Black Friday | Evri"
+  },
+  {
+    "source": "guides/bric-countries.html",
+    "url": "/guides/bric-countries",
+    "view": "pages.guides.bric-countries",
+    "title": "BRIC countrie: Growing Sales for Your Business | Evri"
+  },
+  {
+    "source": "guides/calculate-shipping-costs-for-small-businesses.html",
+    "url": "/guides/calculate-shipping-costs-for-small-businesses",
+    "view": "pages.guides.calculate-shipping-costs-for-small-businesses",
+    "title": "Calculate the Cost of Shipping as a Small Business | Evri Guides"
+  },
+  {
+    "source": "guides/creative-parcel-packaging-design-for-your-brand.html",
+    "url": "/guides/creative-parcel-packaging-design-for-your-brand",
+    "view": "pages.guides.creative-parcel-packaging-design-for-your-brand",
+    "title": "Creative Packaging Design for your Online Brand | Evri Guides"
+  },
+  {
+    "source": "guides/divert-your-parcel.html",
+    "url": "/guides/divert-your-parcel",
+    "view": "pages.guides.divert-your-parcel",
+    "title": "Want to reschedule your Evri delivery? Divert your parcel"
+  },
+  {
+    "source": "guides/easy-steps-to-packaging-fragile-items.html",
+    "url": "/guides/easy-steps-to-packaging-fragile-items",
+    "view": "pages.guides.easy-steps-to-packaging-fragile-items",
+    "title": "Packaging Fragile Items for Shipping | Fragile Parcels | Evri"
+  },
+  {
+    "source": "guides/ebay-seller-hub.html",
+    "url": "/guides/ebay-seller-hub",
+    "view": "pages.guides.ebay-seller-hub",
+    "title": "eBay Hub | Sell online and send parcels easily with Evri"
+  },
+  {
+    "source": "guides/ebay-simple-delivery.html",
+    "url": "/guides/ebay-simple-delivery",
+    "view": "pages.guides.ebay-simple-delivery",
+    "title": "eBay Simple Delivery Explained | Evri Shipping Options"
+  },
+  {
+    "source": "guides/everything-you-need-to-know-about-sustainable-packaging.html",
+    "url": "/guides/everything-you-need-to-know-about-sustainable-packaging",
+    "view": "pages.guides.everything-you-need-to-know-about-sustainable-packaging",
+    "title": "Eco-Friendly Packaging Ideas To Use | Evri"
+  },
+  {
+    "source": "guides/evri-vs-royal-mail.html",
+    "url": "/guides/evri-vs-royal-mail",
+    "view": "pages.guides.evri-vs-royal-mail",
+    "title": "Evri vs Royal Mail Price Comparison"
+  },
+  {
+    "source": "guides/evri-vs-yodel.html",
+    "url": "/guides/evri-vs-yodel",
+    "view": "pages.guides.evri-vs-yodel",
+    "title": "Yodel vs Evri: Which parcel delivery service is better?"
+  },
+  {
+    "source": "guides/export-to-the-usa.html",
+    "url": "/guides/export-to-the-usa",
+    "view": "pages.guides.export-to-the-usa",
+    "title": "Export to the USA | Start Expanding your Business Today | Evri"
+  },
+  {
+    "source": "guides/fathers-day-gift-delivery.html",
+    "url": "/guides/fathers-day-gift-delivery",
+    "view": "pages.guides.fathers-day-gift-delivery",
+    "title": "Father&#x27;s Day Delivery &amp; Gift Ideas Guide | Evri"
+  },
+  {
+    "source": "guides/halloween.html",
+    "url": "/guides/halloween",
+    "view": "pages.guides.halloween",
+    "title": "Ship Halloween costumes &amp; items UK &amp; worldwide | Evri"
+  },
+  {
+    "source": "guides/how-can-your-business-utilise-green-shipping.html",
+    "url": "/guides/how-can-your-business-utilise-green-shipping",
+    "view": "pages.guides.how-can-your-business-utilise-green-shipping",
+    "title": "What is Green Shipping? | Sustainable Shipping UK | Evri"
+  },
+  {
+    "source": "guides/how-to-label-a-parcel.html",
+    "url": "/guides/how-to-label-a-parcel",
+    "view": "pages.guides.how-to-label-a-parcel",
+    "title": "How to Label a Parcel in The UK | Labelling Parcels | Evri"
+  },
+  {
+    "source": "guides/how-to-package-books.html",
+    "url": "/guides/how-to-package-books",
+    "view": "pages.guides.how-to-package-books",
+    "title": "How to Package Books for Shipping | Packing Books | Evri"
+  },
+  {
+    "source": "guides/how-to-package-clothes-for-shipping.html",
+    "url": "/guides/how-to-package-clothes-for-shipping",
+    "view": "pages.guides.how-to-package-clothes-for-shipping",
+    "title": "Packaging Clothes For Shipping | Clothes Parcels | Evri"
+  },
+  {
+    "source": "guides/how-to-package-laptops.html",
+    "url": "/guides/how-to-package-laptops",
+    "view": "pages.guides.how-to-package-laptops",
+    "title": "Posting a Laptop For Shipping | How To Post a Laptop | Evri"
+  },
+  {
+    "source": "guides/how-to-package-shoes-for-shipping.html",
+    "url": "/guides/how-to-package-shoes-for-shipping",
+    "view": "pages.guides.how-to-package-shoes-for-shipping",
+    "title": "How to Post Shoes Properly | Shipping Shoes Safely | Evri"
+  },
+  {
+    "source": "guides/how-to-package-toys.html",
+    "url": "/guides/how-to-package-toys",
+    "view": "pages.guides.how-to-package-toys",
+    "title": "How to Package Toys for Shipping | Wrapping Soft Toys | Evri"
+  },
+  {
+    "source": "guides/how-to-post-chocolate.html",
+    "url": "/guides/how-to-post-chocolate",
+    "view": "pages.guides.how-to-post-chocolate",
+    "title": "Guide to Posting Chocolate | Evri Courier Service"
+  },
+  {
+    "source": "guides/how-to-sell-books-online.html",
+    "url": "/guides/how-to-sell-books-online",
+    "view": "pages.guides.how-to-sell-books-online",
+    "title": "How to Sell Books Online | Selling Books Online | Evri"
+  },
+  {
+    "source": "guides/how-to-sell-clothes-online.html",
+    "url": "/guides/how-to-sell-clothes-online",
+    "view": "pages.guides.how-to-sell-clothes-online",
+    "title": "How To Sell Clothes Online | Selling Clothes Online | Evri"
+  },
+  {
+    "source": "guides/how-to-sell-on-amazon.html",
+    "url": "/guides/how-to-sell-on-amazon",
+    "view": "pages.guides.how-to-sell-on-amazon",
+    "title": "How to Sell on Amazon in 2025: A Guide for UK Sellers | Evri"
+  },
+  {
+    "source": "guides/how-to-sell-on-ebay.html",
+    "url": "/guides/how-to-sell-on-ebay",
+    "view": "pages.guides.how-to-sell-on-ebay",
+    "title": "How to Sell on eBay: A Simple Guide for UK Sellers | Evri"
+  },
+  {
+    "source": "guides/how-to-sell-on-etsy.html",
+    "url": "/guides/how-to-sell-on-etsy",
+    "view": "pages.guides.how-to-sell-on-etsy",
+    "title": "Ultimate Guide to Selling on Etsy: Start Your Shop Today | Evri"
+  },
+  {
+    "source": "guides/how-to-sell-on-tiktok-shop.html",
+    "url": "/guides/how-to-sell-on-tiktok-shop",
+    "view": "pages.guides.how-to-sell-on-tiktok-shop",
+    "title": "How to Start Selling on The TikTok Shop | Evri Business Guides"
+  },
+  {
+    "source": "guides/how-to-sell-on-vinted.html",
+    "url": "/guides/how-to-sell-on-vinted",
+    "view": "pages.guides.how-to-sell-on-vinted",
+    "title": "Selling on Vinted: A Step-by-Step Guide for UK Sellers | Evri"
+  },
+  {
+    "source": "guides/how-to-send-a-bike.html",
+    "url": "/guides/how-to-send-a-bike",
+    "view": "pages.guides.how-to-send-a-bike",
+    "title": "How to Send a Bike with a Courier | Evri Cheap &amp; Fast Delivery"
+  },
+  {
+    "source": "guides/how-to-send-a-heavy-package.html",
+    "url": "/guides/how-to-send-a-heavy-package",
+    "view": "pages.guides.how-to-send-a-heavy-package",
+    "title": "How to Send a Heavy Package | Packaging Heavy Items | Evri"
+  },
+  {
+    "source": "guides/how-to-send-an-international-parcel.html",
+    "url": "/guides/how-to-send-an-international-parcel",
+    "view": "pages.guides.how-to-send-an-international-parcel",
+    "title": "How to send an international parcel | Evri"
+  },
+  {
+    "source": "guides/how-to-start-a-side-hustle.html",
+    "url": "/guides/how-to-start-a-side-hustle",
+    "view": "pages.guides.how-to-start-a-side-hustle",
+    "title": "Side Hustle: A Guide on How to Start a Side Hustle UK | Evri"
+  },
+  {
+    "source": "guides/how-to-start-a-small-business.html",
+    "url": "/guides/how-to-start-a-small-business",
+    "view": "pages.guides.how-to-start-a-small-business",
+    "title": "The Evri guide to setting up a small business"
+  },
+  {
+    "source": "guides/how-to-write-a-returns-policy.html",
+    "url": "/guides/how-to-write-a-returns-policy",
+    "view": "pages.guides.how-to-write-a-returns-policy",
+    "title": "How to Write a Returns Policy in 2025 | Guides for UK Businesses"
+  },
+  {
+    "source": "guides/international-childrens-day.html",
+    "url": "/guides/international-childrens-day",
+    "view": "pages.guides.international-childrens-day",
+    "title": "International Children\u2019s Day Gifts &amp; Delivery | Evri"
+  },
+  {
+    "source": "guides/international-mothers-day.html",
+    "url": "/guides/international-mothers-day",
+    "view": "pages.guides.international-mothers-day",
+    "title": "Mother&#x27;s Day Gift Delivery | Send International Mother&#x27;s Day Parcels | Evri"
+  },
+  {
+    "source": "guides/mint-countries.html",
+    "url": "/guides/mint-countries",
+    "view": "pages.guides.mint-countries",
+    "title": "MINT countries: How Could They Bring More Revenue? | Evri"
+  },
+  {
+    "source": "guides/parcel-cover.html",
+    "url": "/guides/parcel-cover",
+    "view": "pages.guides.parcel-cover",
+    "title": "Parcel Cover | Protect your parcels with cover | Evri"
+  },
+  {
+    "source": "guides/parcelshop-or-locker-which-is-best.html",
+    "url": "/guides/parcelshop-or-locker-which-is-best",
+    "view": "pages.guides.parcelshop-or-locker-which-is-best",
+    "title": "Parcelshop or Locker \u2013 Which is Best For Me? | Evri Guides"
+  },
+  {
+    "source": "guides/safe-place.html",
+    "url": "/guides/safe-place",
+    "view": "pages.guides.safe-place",
+    "title": "Evri safe place: Receive parcels even when you\u2019re not in!"
+  },
+  {
+    "source": "guides/second-hand-trends.html",
+    "url": "/guides/second-hand-trends",
+    "view": "pages.guides.second-hand-trends",
+    "title": "How the Second-Hand Boom is Reshaping eCommerce | Evri Insights"
+  },
+  {
+    "source": "guides/send-car-parts.html",
+    "url": "/guides/send-car-parts",
+    "view": "pages.guides.send-car-parts",
+    "title": "Send Car Parts with a Courier | Evri Cheap Parcel Delivery"
+  },
+  {
+    "source": "guides/send-gifts-abroad.html",
+    "url": "/guides/send-gifts-abroad",
+    "view": "pages.guides.send-gifts-abroad",
+    "title": "Send Gifts Abroad | International Gift Delivery Service | Evri"
+  },
+  {
+    "source": "guides/setting-up-domestic-shipping-for-your-business.html",
+    "url": "/guides/setting-up-domestic-shipping-for-your-business",
+    "view": "pages.guides.setting-up-domestic-shipping-for-your-business",
+    "title": "How to Set Up Domestic Shipping for Your Business | Evri"
+  },
+  {
+    "source": "guides/side-hustle-ideas.html",
+    "url": "/guides/side-hustle-ideas",
+    "view": "pages.guides.side-hustle-ideas",
+    "title": "Side hustle ideas for beginners, students and online businesses | Evri"
+  },
+  {
+    "source": "guides/small-business-events.html",
+    "url": "/guides/small-business-events",
+    "view": "pages.guides.small-business-events",
+    "title": "9 Key Events for Small Businesses to Boost Sales in 2026 | Evri"
+  },
+  {
+    "source": "guides/small-business-shipping.html",
+    "url": "/guides/small-business-shipping",
+    "view": "pages.guides.small-business-shipping",
+    "title": "Small Business Shipping Solutions - Cheap Courier UK | Evri"
+  },
+  {
+    "source": "guides/us-customs-changes-2025.html",
+    "url": "/guides/us-customs-changes-2025",
+    "view": "pages.guides.us-customs-changes-2025",
+    "title": "Stay Ahead of US Customs Changes With Evri&#x27;s Delivery Model"
+  },
+  {
+    "source": "guides/valentines-day.html",
+    "url": "/guides/valentines-day",
+    "view": "pages.guides.valentines-day",
+    "title": "Send love this Valentine\u2019s Day | Evri Parcel Services"
+  },
+  {
+    "source": "guides/what-are-tiger-cub-economies.html",
+    "url": "/guides/what-are-tiger-cub-economies",
+    "view": "pages.guides.what-are-tiger-cub-economies",
+    "title": "What are Tiger Cub Economies | Asian Tiger Economies | Evri"
+  },
+  {
+    "source": "guides/what-is-a-subscription-model-business.html",
+    "url": "/guides/what-is-a-subscription-model-business",
+    "view": "pages.guides.what-is-a-subscription-model-business",
+    "title": "What is a Subscription Model Business? | Evri"
+  },
+  {
+    "source": "guides/what-is-logistics-management.html",
+    "url": "/guides/what-is-logistics-management",
+    "view": "pages.guides.what-is-logistics-management",
+    "title": "What is Logistics Management? | Managing Logistics | Evri"
+  },
+  {
+    "source": "guides/what-is-on-demand-delivery-uk-shipping.html",
+    "url": "/guides/what-is-on-demand-delivery-uk-shipping",
+    "view": "pages.guides.what-is-on-demand-delivery-uk-shipping",
+    "title": "What is on-demand delivery? | On-demand delivery UK | Evri"
+  },
+  {
+    "source": "guides/what-is-recorded-delivery.html",
+    "url": "/guides/what-is-recorded-delivery",
+    "view": "pages.guides.what-is-recorded-delivery",
+    "title": "What is Recorded Delivery? | Signed for Delivery | Evri"
+  },
+  {
+    "source": "guides/world-chocolate-day.html",
+    "url": "/guides/world-chocolate-day",
+    "view": "pages.guides.world-chocolate-day",
+    "title": "How to Celebrate World Chocolate Day 2026 | Send Sweet Gifts | Evri"
+  },
+  {
+    "source": "guides.html",
+    "url": "/guides",
+    "view": "pages.guides",
+    "title": "Parcel Guides | Send, Track &amp; Return Parcel Guides | Evri"
+  },
+  {
+    "source": "help-and-support/help-centre/evri-international-faqs.html",
+    "url": "/help-and-support/help-centre/evri-international-faqs",
+    "view": "pages.help-and-support.help-centre.evri-international-faqs",
+    "title": "Evri | Cheap Parcel Delivery &amp; Courier Service"
+  },
+  {
+    "source": "help-and-support/help-centre/index.html",
+    "url": "/help-and-support/help-centre",
+    "view": "pages.help-and-support.help-centre",
+    "title": "Evri | Cheap Parcel Delivery &amp; Courier Service"
+  },
+  {
+    "source": "help-and-support/help-centre/receiving/not-find-parcel/all-correct.html",
+    "url": "/help-and-support/help-centre/receiving/not-find-parcel/all-correct",
+    "view": "pages.help-and-support.help-centre.receiving.not-find-parcel.all-correct",
+    "title": "Evri | Cheap Parcel Delivery &amp; Courier Service"
+  },
+  {
+    "source": "help-and-support/help-centre/receiving.html",
+    "url": "/help-and-support/help-centre/receiving",
+    "view": "pages.help-and-support.help-centre.receiving",
+    "title": "Evri | Cheap Parcel Delivery &amp; Courier Service"
+  },
+  {
+    "source": "help-and-support/help-centre/returning.html",
+    "url": "/help-and-support/help-centre/returning",
+    "view": "pages.help-and-support.help-centre.returning",
+    "title": "Evri | Cheap Parcel Delivery &amp; Courier Service"
+  },
+  {
+    "source": "help-and-support/help-centre/sending/delivery-problem/status-has-not-changed.html",
+    "url": "/help-and-support/help-centre/sending/delivery-problem/status-has-not-changed",
+    "view": "pages.help-and-support.help-centre.sending.delivery-problem.status-has-not-changed",
+    "title": "Evri | Cheap Parcel Delivery &amp; Courier Service"
+  },
+  {
+    "source": "help-and-support/help-centre/sending.html",
+    "url": "/help-and-support/help-centre/sending",
+    "view": "pages.help-and-support.help-centre.sending",
+    "title": "Evri | Cheap Parcel Delivery &amp; Courier Service"
+  },
+  {
+    "source": "help-and-support/help-centre/something-else.html",
+    "url": "/help-and-support/help-centre/something-else",
+    "view": "pages.help-and-support.help-centre.something-else",
+    "title": "Evri | Cheap Parcel Delivery &amp; Courier Service"
+  },
+  {
+    "source": "index.html",
+    "url": "/",
+    "view": "pages.home",
+    "title": "Evri | Send Parcels with Cheap UK Delivery &amp; Courier Service"
+  },
+  {
+    "source": "international-business-shipping.html",
+    "url": "/international-business-shipping",
+    "view": "pages.international-business-shipping",
+    "title": "International business shipping | Evri"
+  },
+  {
+    "source": "international-courier-services.html",
+    "url": "/international-courier-services",
+    "view": "pages.international-courier-services",
+    "title": "International Courier Service | Send Parcels Abroad | Evri"
+  },
+  {
+    "source": "international-prices.html",
+    "url": "/international-prices",
+    "view": "pages.international-prices",
+    "title": "Our Prices | International Shipping Costs | Evri Parcel Delivery"
+  },
+  {
+    "source": "international-send.html",
+    "url": "/international-send",
+    "view": "pages.international-send",
+    "title": "Send International Parcels | International Shipping | Evri"
+  },
+  {
+    "source": "leadership.html",
+    "url": "/leadership",
+    "view": "pages.leadership",
+    "title": "Our Leadership Team | Evri"
+  },
+  {
+    "source": "location-charge-postcodes.html",
+    "url": "/location-charge-postcodes",
+    "view": "pages.location-charge-postcodes",
+    "title": "Location Charge Postcodes | Delivery to Remote Locations | Evri"
+  },
+  {
+    "source": "locker-host-form.html",
+    "url": "/locker-host-form",
+    "view": "pages.locker-host-form",
+    "title": "Locker Host Form"
+  },
+  {
+    "source": "lockers.html",
+    "url": "/lockers",
+    "view": "pages.lockers",
+    "title": "Parcel Delivery &amp; Collection Lockers | Collect Parcels | Evri"
+  },
+  {
+    "source": "modern-slavery.html",
+    "url": "/modern-slavery",
+    "view": "pages.modern-slavery",
+    "title": "Modern Slavery Policy | Evri"
+  },
+  {
+    "source": "news/agentic-ai-logistics.html",
+    "url": "/news/agentic-ai-logistics",
+    "view": "pages.news.agentic-ai-logistics",
+    "title": "Agentic AI Meets Logistics: Powering our next Wave of Innovation"
+  },
+  {
+    "source": "news/ai-and-automation-at-evri.html",
+    "url": "/news/ai-and-automation-at-evri",
+    "view": "pages.news.ai-and-automation-at-evri",
+    "title": "AI &amp; Automation at Evri"
+  },
+  {
+    "source": "news/ai-fleet-lease-management.html",
+    "url": "/news/ai-fleet-lease-management",
+    "view": "pages.news.ai-fleet-lease-management",
+    "title": "Operations Fleet Lease Management use case | Evri"
+  },
+  {
+    "source": "news/customer-service-response-and-wrap-up-use-case.html",
+    "url": "/news/customer-service-response-and-wrap-up-use-case",
+    "view": "pages.news.customer-service-response-and-wrap-up-use-case",
+    "title": "Customer service response and wrap-up use case | Evri"
+  },
+  {
+    "source": "news/dhl-ecommerce-uk-to-merge-with-evri-news.html",
+    "url": "/news/dhl-ecommerce-uk-to-merge-with-evri-news",
+    "view": "pages.news.dhl-ecommerce-uk-to-merge-with-evri-news",
+    "title": "DHL eCommerce UK to merge with Evri to create UK\u2019s premier parcel delivery business | Evri"
+  },
+  {
+    "source": "news/eu-customs-update-2026.html",
+    "url": "/news/eu-customs-update-2026",
+    "view": "pages.news.eu-customs-update-2026",
+    "title": "EU Customs Update 2026 | Evri"
+  },
+  {
+    "source": "news/evri-launches-microsoft-365-copilot-chat.html",
+    "url": "/news/evri-launches-microsoft-365-copilot-chat",
+    "view": "pages.news.evri-launches-microsoft-365-copilot-chat",
+    "title": "Evri successfully launches Microsoft 365 Copilot Chat"
+  },
+  {
+    "source": "news/last-posting-dates-for-christmas-2024.html",
+    "url": "/news/last-posting-dates-for-christmas-2024",
+    "view": "pages.news.last-posting-dates-for-christmas-2024",
+    "title": "Last Posting Dates for Christmas 2024 | Evri"
+  },
+  {
+    "source": "news/last-posting-dates-for-christmas-2025.html",
+    "url": "/news/last-posting-dates-for-christmas-2025",
+    "view": "pages.news.last-posting-dates-for-christmas-2025",
+    "title": "Last Posting Dates for Christmas 2025 | Evri"
+  },
+  {
+    "source": "news/us-tariffs-china-hong-kong.html",
+    "url": "/news/us-tariffs-china-hong-kong",
+    "view": "pages.news.us-tariffs-china-hong-kong",
+    "title": "US Tariffs on Goods from China &amp; Hong Kong: What You Need to Know"
+  },
+  {
+    "source": "news/us-tariffs.html",
+    "url": "/news/us-tariffs",
+    "view": "pages.news.us-tariffs",
+    "title": "New US Tariffs: What You Need to Know"
+  },
+  {
+    "source": "news/winter-2025-early-bird.html",
+    "url": "/news/winter-2025-early-bird",
+    "view": "pages.news.winter-2025-early-bird",
+    "title": "BA early bird offer | Evri"
+  },
+  {
+    "source": "news.html",
+    "url": "/news",
+    "view": "pages.news",
+    "title": "Evri News"
+  },
+  {
+    "source": "next-day-parcel-delivery.html",
+    "url": "/next-day-parcel-delivery",
+    "view": "pages.next-day-parcel-delivery",
+    "title": "Next Day Parcel Delivery | Next Day Courier Services | Evri"
+  },
+  {
+    "source": "object-to-data-processing-form.html",
+    "url": "/object-to-data-processing-form",
+    "view": "pages.object-to-data-processing-form",
+    "title": "Objection Form"
+  },
+  {
+    "source": "our-services/alexa.html",
+    "url": "/our-services/alexa",
+    "view": "pages.our-services.alexa",
+    "title": "Evri &amp; Amazon Alexa Skill | Integrations | Evri"
+  },
+  {
+    "source": "our-services/amazon-integration.html",
+    "url": "/our-services/amazon-integration",
+    "view": "pages.our-services.amazon-integration",
+    "title": "Cheap Amazon Parcel Delivery | Link Your Amazon Account with Evri"
+  },
+  {
+    "source": "our-services/amazon-sellers.html",
+    "url": "/our-services/amazon-sellers",
+    "view": "pages.our-services.amazon-sellers",
+    "title": "Amazon Sellers | Amazon Parcel Delivery | Evri"
+  },
+  {
+    "source": "our-services/best-courier-services-in-the-uk.html",
+    "url": "/our-services/best-courier-services-in-the-uk",
+    "view": "pages.our-services.best-courier-services-in-the-uk",
+    "title": "The Best Courier Service for Small &amp; Medium Parcels UK | Evri"
+  },
+  {
+    "source": "our-services/bulk-send.html",
+    "url": "/our-services/bulk-send",
+    "view": "pages.our-services.bulk-send",
+    "title": "Bulk Deliveries | Send Multiple Parcels | Evri"
+  },
+  {
+    "source": "our-services/courier-service-birmingham.html",
+    "url": "/our-services/courier-service-birmingham",
+    "view": "pages.our-services.courier-service-birmingham",
+    "title": "Courier Services Birmingham | Next Day Delivery | Evri"
+  },
+  {
+    "source": "our-services/courier-service-bristol.html",
+    "url": "/our-services/courier-service-bristol",
+    "view": "pages.our-services.courier-service-bristol",
+    "title": "Courier Services Bristol | Next Day Delivery Bristol | Evri"
+  },
+  {
+    "source": "our-services/courier-service-cambridge.html",
+    "url": "/our-services/courier-service-cambridge",
+    "view": "pages.our-services.courier-service-cambridge",
+    "title": "Courier Services Cambridge | Tracked Next Day Delivery | Evri"
+  },
+  {
+    "source": "our-services/courier-service-cardiff.html",
+    "url": "/our-services/courier-service-cardiff",
+    "view": "pages.our-services.courier-service-cardiff",
+    "title": "Courier services in Cardiff with Evri"
+  },
+  {
+    "source": "our-services/courier-service-edinburgh.html",
+    "url": "/our-services/courier-service-edinburgh",
+    "view": "pages.our-services.courier-service-edinburgh",
+    "title": "Courier Services Edinburgh | Next Day Delivery Edinburgh | Evri"
+  },
+  {
+    "source": "our-services/courier-service-glasgow.html",
+    "url": "/our-services/courier-service-glasgow",
+    "view": "pages.our-services.courier-service-glasgow",
+    "title": "Courier Services Glasgow | Next Day Delivery Glasgow | Evri"
+  },
+  {
+    "source": "our-services/courier-service-leeds.html",
+    "url": "/our-services/courier-service-leeds",
+    "view": "pages.our-services.courier-service-leeds",
+    "title": "Courier Services Leeds | Next Day Delivery Available | Evri"
+  },
+  {
+    "source": "our-services/courier-service-leicester.html",
+    "url": "/our-services/courier-service-leicester",
+    "view": "pages.our-services.courier-service-leicester",
+    "title": "Courier Services Leicester | Next Day Delivery Available | Evri"
+  },
+  {
+    "source": "our-services/courier-service-liverpool.html",
+    "url": "/our-services/courier-service-liverpool",
+    "view": "pages.our-services.courier-service-liverpool",
+    "title": "Courier services in Liverpool with Evri"
+  },
+  {
+    "source": "our-services/courier-service-london.html",
+    "url": "/our-services/courier-service-london",
+    "view": "pages.our-services.courier-service-london",
+    "title": "Courier Services London | Next Day Delivery In London | Evri"
+  },
+  {
+    "source": "our-services/courier-service-manchester.html",
+    "url": "/our-services/courier-service-manchester",
+    "view": "pages.our-services.courier-service-manchester",
+    "title": "Courier Services Manchester | Next Day Delivery Couriers | Evri"
+  },
+  {
+    "source": "our-services/courier-service-milton-keynes.html",
+    "url": "/our-services/courier-service-milton-keynes",
+    "view": "pages.our-services.courier-service-milton-keynes",
+    "title": "Courier services in Milton Keynes with Evri"
+  },
+  {
+    "source": "our-services/courier-service-northern-ireland.html",
+    "url": "/our-services/courier-service-northern-ireland",
+    "view": "pages.our-services.courier-service-northern-ireland",
+    "title": "Courier services in Northern Ireland with Evri"
+  },
+  {
+    "source": "our-services/courier-service-nottingham.html",
+    "url": "/our-services/courier-service-nottingham",
+    "view": "pages.our-services.courier-service-nottingham",
+    "title": "Courier Services Nottingham | Next Day Delivery Couriers | Evri"
+  },
+  {
+    "source": "our-services/courier-service-scotland.html",
+    "url": "/our-services/courier-service-scotland",
+    "view": "pages.our-services.courier-service-scotland",
+    "title": "Courier services in Scotland with Evri"
+  },
+  {
+    "source": "our-services/courier-service-warrington.html",
+    "url": "/our-services/courier-service-warrington",
+    "view": "pages.our-services.courier-service-warrington",
+    "title": "Courier services in Warrington with Evri"
+  },
+  {
+    "source": "our-services/courier-service-york.html",
+    "url": "/our-services/courier-service-york",
+    "view": "pages.our-services.courier-service-york",
+    "title": "Courier services in York with Evri"
+  },
+  {
+    "source": "our-services/courier-service.html",
+    "url": "/our-services/courier-service",
+    "view": "pages.our-services.courier-service",
+    "title": "Arrange A Courier Collection | Local Parcel Pick Up | Evri"
+  },
+  {
+    "source": "our-services/courier-services-northampton.html",
+    "url": "/our-services/courier-services-northampton",
+    "view": "pages.our-services.courier-services-northampton",
+    "title": "Courier services in Northampton with Evri"
+  },
+  {
+    "source": "our-services/ebay-integration.html",
+    "url": "/our-services/ebay-integration",
+    "view": "pages.our-services.ebay-integration",
+    "title": "Cheap eBay Courier Services | Link Your eBay Account with Evri"
+  },
+  {
+    "source": "our-services/etsy-integration.html",
+    "url": "/our-services/etsy-integration",
+    "view": "pages.our-services.etsy-integration",
+    "title": "Etsy Integration | Integrate Your Etsy Account with Evri"
+  },
+  {
+    "source": "our-services/evri-premium-dhl.html",
+    "url": "/our-services/evri-premium-dhl",
+    "view": "pages.our-services.evri-premium-dhl",
+    "title": "Evri Premium \u2013 a network of DHL"
+  },
+  {
+    "source": "our-services/evri-video.html",
+    "url": "/our-services/evri-video",
+    "view": "pages.our-services.evri-video",
+    "title": "Evri Video | Video with your Parcel | Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/africa-and-the-middle-east.html",
+    "url": "/our-services/international-courier-services/africa-and-the-middle-east",
+    "view": "pages.our-services.international-courier-services.africa-and-the-middle-east",
+    "title": "Send parcel to Africa &amp; the Middle East | Fast &amp; Reliable | Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/argentina.html",
+    "url": "/our-services/international-courier-services/argentina",
+    "view": "pages.our-services.international-courier-services.argentina",
+    "title": "Send A Parcel To Argentina | Cheap International Courier | Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/asia.html",
+    "url": "/our-services/international-courier-services/asia",
+    "view": "pages.our-services.international-courier-services.asia",
+    "title": "Parcel Postage to Asia | Pricing Starts from \u00a37.71 | Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/australia.html",
+    "url": "/our-services/international-courier-services/australia",
+    "view": "pages.our-services.international-courier-services.australia",
+    "title": "Send A Parcel to Australia from the UK | Prices from \u00a39.99 | Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/austria.html",
+    "url": "/our-services/international-courier-services/austria",
+    "view": "pages.our-services.international-courier-services.austria",
+    "title": "Send A Parcel to Austria from the UK | Prices from \u00a37.99 | Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/bahrain.html",
+    "url": "/our-services/international-courier-services/bahrain",
+    "view": "pages.our-services.international-courier-services.bahrain",
+    "title": "Shipping to Bahrain | Reliable Parcel Delivery to Bahrain | Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/belgium.html",
+    "url": "/our-services/international-courier-services/belgium",
+    "view": "pages.our-services.international-courier-services.belgium",
+    "title": "Send Parcels to Belgium | Shipping to Belgium from the UK | Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/berlin.html",
+    "url": "/our-services/international-courier-services/berlin",
+    "view": "pages.our-services.international-courier-services.berlin",
+    "title": "Send Parcels to Berlin | Cheap Postage to Berlin | Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/brazil.html",
+    "url": "/our-services/international-courier-services/brazil",
+    "view": "pages.our-services.international-courier-services.brazil",
+    "title": "Send Parcels to Brazil | Shipping to Brazil from the UK | Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/bulgaria.html",
+    "url": "/our-services/international-courier-services/bulgaria",
+    "view": "pages.our-services.international-courier-services.bulgaria",
+    "title": "Send a Parcel to Bulgaria from the UK | Fast &amp; Reliable Courier Service"
+  },
+  {
+    "source": "our-services/international-courier-services/california.html",
+    "url": "/our-services/international-courier-services/california",
+    "view": "pages.our-services.international-courier-services.california",
+    "title": "Cheap Shipping to California from the UK | Evri International"
+  },
+  {
+    "source": "our-services/international-courier-services/canada.html",
+    "url": "/our-services/international-courier-services/canada",
+    "view": "pages.our-services.international-courier-services.canada",
+    "title": "Postage to Canada | Ship A Parcel to Canada from the UK | Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/china.html",
+    "url": "/our-services/international-courier-services/china",
+    "view": "pages.our-services.international-courier-services.china",
+    "title": "Send Parcels to China | Cheap Postage to China from UK | Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/costa-rica.html",
+    "url": "/our-services/international-courier-services/costa-rica",
+    "view": "pages.our-services.international-courier-services.costa-rica",
+    "title": "Send A Parcel To Costa Rica | Cheap International Courier | Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/croatia.html",
+    "url": "/our-services/international-courier-services/croatia",
+    "view": "pages.our-services.international-courier-services.croatia",
+    "title": "Send a Parcel to Croatia | Cheap International Delivery | Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/cyprus.html",
+    "url": "/our-services/international-courier-services/cyprus",
+    "view": "pages.our-services.international-courier-services.cyprus",
+    "title": "Post to Cyprus from the UK | International Courier Service | Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/czech-republic.html",
+    "url": "/our-services/international-courier-services/czech-republic",
+    "view": "pages.our-services.international-courier-services.czech-republic",
+    "title": "Send A Parcel to the Czech Republic from the UK | Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/denmark.html",
+    "url": "/our-services/international-courier-services/denmark",
+    "view": "pages.our-services.international-courier-services.denmark",
+    "title": "Send A parcel to Denmark | Cheap Shipping to Denmark | Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/dublin.html",
+    "url": "/our-services/international-courier-services/dublin",
+    "view": "pages.our-services.international-courier-services.dublin",
+    "title": "Postage to Dublin from the UK | Secure, Tracked Delivery | Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/ecuador.html",
+    "url": "/our-services/international-courier-services/ecuador",
+    "view": "pages.our-services.international-courier-services.ecuador",
+    "title": "Send A Parcel To Ecuador | Cheap International Courier | Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/estonia.html",
+    "url": "/our-services/international-courier-services/estonia",
+    "view": "pages.our-services.international-courier-services.estonia",
+    "title": "Send A Parcel to Estonia | Cheap Shipping to Estonia | Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/europe.html",
+    "url": "/our-services/international-courier-services/europe",
+    "view": "pages.our-services.international-courier-services.europe",
+    "title": "Postage to Europe | Send parcels to Europe | Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/finland.html",
+    "url": "/our-services/international-courier-services/finland",
+    "view": "pages.our-services.international-courier-services.finland",
+    "title": "Send A parcel to Finland | Cheap Postage to Finland | Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/france.html",
+    "url": "/our-services/international-courier-services/france",
+    "view": "pages.our-services.international-courier-services.france",
+    "title": "Send a parcel to France | Postage to France from the UK | Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/germany.html",
+    "url": "/our-services/international-courier-services/germany",
+    "view": "pages.our-services.international-courier-services.germany",
+    "title": "Send Parcel to Germany | Postage to Germany from the UK | Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/greece.html",
+    "url": "/our-services/international-courier-services/greece",
+    "view": "pages.our-services.international-courier-services.greece",
+    "title": "Send A parcel to Greece | Cheap Postage to Greece | Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/hong-kong.html",
+    "url": "/our-services/international-courier-services/hong-kong",
+    "view": "pages.our-services.international-courier-services.hong-kong",
+    "title": "Send A parcel to Hong Kong | Cheap Shipping to HK | Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/hungary.html",
+    "url": "/our-services/international-courier-services/hungary",
+    "view": "pages.our-services.international-courier-services.hungary",
+    "title": "Send A Parcel to Hungary | Cheap Postage to Hungary | Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/india.html",
+    "url": "/our-services/international-courier-services/india",
+    "view": "pages.our-services.international-courier-services.india",
+    "title": "Send A parcel to India | Postage To India from The UK | Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/ireland.html",
+    "url": "/our-services/international-courier-services/ireland",
+    "view": "pages.our-services.international-courier-services.ireland",
+    "title": "Send A Parcel to Ireland | Cheap Postage from \u00a37.89 | Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/israel.html",
+    "url": "/our-services/international-courier-services/israel",
+    "view": "pages.our-services.international-courier-services.israel",
+    "title": "Posting To Israel | Cheap Postage to Israel from the UK | Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/italy.html",
+    "url": "/our-services/international-courier-services/italy",
+    "view": "pages.our-services.international-courier-services.italy",
+    "title": "Sending a Parcel to Italy | Shipping from UK to Italy | Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/japan.html",
+    "url": "/our-services/international-courier-services/japan",
+    "view": "pages.our-services.international-courier-services.japan",
+    "title": "Send A Parcel to Japan | Cheap Postage to Japan | Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/kuwait.html",
+    "url": "/our-services/international-courier-services/kuwait",
+    "view": "pages.our-services.international-courier-services.kuwait",
+    "title": "Send a Parcel to Kuwait from the UK | Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/latvia.html",
+    "url": "/our-services/international-courier-services/latvia",
+    "view": "pages.our-services.international-courier-services.latvia",
+    "title": "Send a Parcel to Latvia from the UK | Affordable Parcel Delivery"
+  },
+  {
+    "source": "our-services/international-courier-services/lithuania.html",
+    "url": "/our-services/international-courier-services/lithuania",
+    "view": "pages.our-services.international-courier-services.lithuania",
+    "title": "Send a Parcel to Lithuania | Cheap International Delivery | Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/luxembourg.html",
+    "url": "/our-services/international-courier-services/luxembourg",
+    "view": "pages.our-services.international-courier-services.luxembourg",
+    "title": "Reliable Parcel Delivery to Luxembourg | Fast &amp; Secure Courier Service"
+  },
+  {
+    "source": "our-services/international-courier-services/malaysia.html",
+    "url": "/our-services/international-courier-services/malaysia",
+    "view": "pages.our-services.international-courier-services.malaysia",
+    "title": "Send A Parcel to Malaysia | Cheap Shipping to Malaysia | Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/mexico.html",
+    "url": "/our-services/international-courier-services/mexico",
+    "view": "pages.our-services.international-courier-services.mexico",
+    "title": "Send A Parcel to Mexico | Cheap Shipping to Mexico | Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/netherlands.html",
+    "url": "/our-services/international-courier-services/netherlands",
+    "view": "pages.our-services.international-courier-services.netherlands",
+    "title": "Send A Parcel to The Netherlands | Post To The Netherlands | Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/new-york.html",
+    "url": "/our-services/international-courier-services/new-york",
+    "view": "pages.our-services.international-courier-services.new-york",
+    "title": "Postage to New York | Send A Parcel to NY | Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/new-zealand.html",
+    "url": "/our-services/international-courier-services/new-zealand",
+    "view": "pages.our-services.international-courier-services.new-zealand",
+    "title": "Post to New Zealand | Send a Parcel to New Zealand | Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/north-america.html",
+    "url": "/our-services/international-courier-services/north-america",
+    "view": "pages.our-services.international-courier-services.north-america",
+    "title": "Send A Parcel to North America from \u00a310.89 | Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/norway.html",
+    "url": "/our-services/international-courier-services/norway",
+    "view": "pages.our-services.international-courier-services.norway",
+    "title": "Postage to Norway | Send A Parcel to Norway | Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/oman.html",
+    "url": "/our-services/international-courier-services/oman",
+    "view": "pages.our-services.international-courier-services.oman",
+    "title": "Send a Parcel to Oman from the UK | Reliable &amp; Affordable Courier Service"
+  },
+  {
+    "source": "our-services/international-courier-services/pakistan.html",
+    "url": "/our-services/international-courier-services/pakistan",
+    "view": "pages.our-services.international-courier-services.pakistan",
+    "title": "Send A parcel to Pakistan | Cheap Shipping to Pakistan | Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/panama.html",
+    "url": "/our-services/international-courier-services/panama",
+    "view": "pages.our-services.international-courier-services.panama",
+    "title": "Send a Parcel to Panama | Cheap International Courier | Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/paris.html",
+    "url": "/our-services/international-courier-services/paris",
+    "view": "pages.our-services.international-courier-services.paris",
+    "title": "Shipping to Paris | Send parcels with Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/peru.html",
+    "url": "/our-services/international-courier-services/peru",
+    "view": "pages.our-services.international-courier-services.peru",
+    "title": "Send A Parcel To Peru | Cheap International Courier | Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/philippines.html",
+    "url": "/our-services/international-courier-services/philippines",
+    "view": "pages.our-services.international-courier-services.philippines",
+    "title": "Postage to Philippines | Send A Parcel to Philippines | Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/poland.html",
+    "url": "/our-services/international-courier-services/poland",
+    "view": "pages.our-services.international-courier-services.poland",
+    "title": "Sending A Parcel to Poland | Cheap Shipping to Poland | Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/portugal.html",
+    "url": "/our-services/international-courier-services/portugal",
+    "view": "pages.our-services.international-courier-services.portugal",
+    "title": "Postage to Portugal | Cheap Shipping to Portugal | Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/qatar.html",
+    "url": "/our-services/international-courier-services/qatar",
+    "view": "pages.our-services.international-courier-services.qatar",
+    "title": "Send a Parcel to Qatar from the UK | Fast &amp; Reliable Courier Service"
+  },
+  {
+    "source": "our-services/international-courier-services/romania.html",
+    "url": "/our-services/international-courier-services/romania",
+    "view": "pages.our-services.international-courier-services.romania",
+    "title": "Send A Parcel to Romania from \u00a37.51 | Tracked Delivery | Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/saudi-arabia.html",
+    "url": "/our-services/international-courier-services/saudi-arabia",
+    "view": "pages.our-services.international-courier-services.saudi-arabia",
+    "title": "Send a Parcel to Saudi Arabia from the UK | Fast &amp; Reliable Courier Service"
+  },
+  {
+    "source": "our-services/international-courier-services/singapore.html",
+    "url": "/our-services/international-courier-services/singapore",
+    "view": "pages.our-services.international-courier-services.singapore",
+    "title": "Shipping to Singapore | Send A Parcel to Singapore | Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/slovakia.html",
+    "url": "/our-services/international-courier-services/slovakia",
+    "view": "pages.our-services.international-courier-services.slovakia",
+    "title": "Send a Parcel to Slovakia | Cheap International Delivery | Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/slovenia.html",
+    "url": "/our-services/international-courier-services/slovenia",
+    "view": "pages.our-services.international-courier-services.slovenia",
+    "title": "Shipping to Slovenia | Send from the UK with Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/south-africa.html",
+    "url": "/our-services/international-courier-services/south-africa",
+    "view": "pages.our-services.international-courier-services.south-africa",
+    "title": "Send Parcels to South Africa | Cheap Courier Service | Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/spain.html",
+    "url": "/our-services/international-courier-services/spain",
+    "view": "pages.our-services.international-courier-services.spain",
+    "title": "Send A Parcel to Spain | Cheap Postage from \u00a36.71 | Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/sri-lanka.html",
+    "url": "/our-services/international-courier-services/sri-lanka",
+    "view": "pages.our-services.international-courier-services.sri-lanka",
+    "title": "Send a parcel to Sri Lanka | Cheap Postage to Sri Lanka | Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/sweden.html",
+    "url": "/our-services/international-courier-services/sweden",
+    "view": "pages.our-services.international-courier-services.sweden",
+    "title": "Send A Parcel to Sweden | Cheap Postage to Sweden | Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/switzerland.html",
+    "url": "/our-services/international-courier-services/switzerland",
+    "view": "pages.our-services.international-courier-services.switzerland",
+    "title": "Postage To Switzerland | Send A Parcel To Switzerland | Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/texas.html",
+    "url": "/our-services/international-courier-services/texas",
+    "view": "pages.our-services.international-courier-services.texas",
+    "title": "Postage to Texas from the UK | Send A Parcel to Texas | Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/thailand.html",
+    "url": "/our-services/international-courier-services/thailand",
+    "view": "pages.our-services.international-courier-services.thailand",
+    "title": "Send a Parcel to Thailand | Cheap Postage to Thailand | Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/the-gulf-cooperation-council.html",
+    "url": "/our-services/international-courier-services/the-gulf-cooperation-council",
+    "view": "pages.our-services.international-courier-services.the-gulf-cooperation-council",
+    "title": "Send a Parcel to the Gulf Cooperation Council\u00a0 | Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/turkey.html",
+    "url": "/our-services/international-courier-services/turkey",
+    "view": "pages.our-services.international-courier-services.turkey",
+    "title": "Send a Parcel to Turkey | Easy &amp; Affordable Courier Services | Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/united-arab-emirates.html",
+    "url": "/our-services/international-courier-services/united-arab-emirates",
+    "view": "pages.our-services.international-courier-services.united-arab-emirates",
+    "title": "Parcel Delivery to United Arab Emirates (UAE) from \u00a39.01 | Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/usa.html",
+    "url": "/our-services/international-courier-services/usa",
+    "view": "pages.our-services.international-courier-services.usa",
+    "title": "Send a parcel to USA | Cheap Shipping to USA | Evri"
+  },
+  {
+    "source": "our-services/international-courier-services/vancouver.html",
+    "url": "/our-services/international-courier-services/vancouver",
+    "view": "pages.our-services.international-courier-services.vancouver",
+    "title": "Shipping to Vancouver | Send parcels with Evri"
+  },
+  {
+    "source": "our-services/international-courier-services.html",
+    "url": "/our-services/international-courier-services",
+    "view": "pages.our-services.international-courier-services",
+    "title": "International Courier Service | Send Parcels Abroad | Evri"
+  },
+  {
+    "source": "our-services/large-parcel.html",
+    "url": "/our-services/large-parcel",
+    "view": "pages.our-services.large-parcel",
+    "title": "Large Parcel Delivery UK | Send A Heavy Parcel | Evri"
+  },
+  {
+    "source": "our-services/long-parcel.html",
+    "url": "/our-services/long-parcel",
+    "view": "pages.our-services.long-parcel",
+    "title": "Send a Long Parcel | Evri Courier Service UK | Cheap &amp; Reliable"
+  },
+  {
+    "source": "our-services/mobile-app.html",
+    "url": "/our-services/mobile-app",
+    "view": "pages.our-services.mobile-app",
+    "title": "Evri Parcel App | Courier Delivery &amp; Parcel Tracking App | Evri"
+  },
+  {
+    "source": "our-services/next-day-parcel-delivery.html",
+    "url": "/our-services/next-day-parcel-delivery",
+    "view": "pages.our-services.next-day-parcel-delivery",
+    "title": "Next Day Parcel Delivery | Next Day Courier Services | Evri"
+  },
+  {
+    "source": "our-services/our-prices.html",
+    "url": "/our-services/our-prices",
+    "view": "pages.our-services.our-prices",
+    "title": "Courier &amp; Parcel Delivery Prices | Postage Prices UK | Evri"
+  },
+  {
+    "source": "our-services/parcel-to-birmingham.html",
+    "url": "/our-services/parcel-to-birmingham",
+    "view": "pages.our-services.parcel-to-birmingham",
+    "title": "Send a Parcel to Birmingham | Cheap Courier Service | Evri"
+  },
+  {
+    "source": "our-services/parcel-to-london.html",
+    "url": "/our-services/parcel-to-london",
+    "view": "pages.our-services.parcel-to-london",
+    "title": "Send a Parcel to London | Cheap Courier Service | Evri"
+  },
+  {
+    "source": "our-services/parcel-to-manchester.html",
+    "url": "/our-services/parcel-to-manchester",
+    "view": "pages.our-services.parcel-to-manchester",
+    "title": "Send a Parcel to Manchester | Cheap Courier Service | Evri"
+  },
+  {
+    "source": "our-services/parcelshop-delivery.html",
+    "url": "/our-services/parcelshop-delivery",
+    "view": "pages.our-services.parcelshop-delivery",
+    "title": "Send Parcels for Less with Delivery to a ParcelShop | Evri"
+  },
+  {
+    "source": "our-services/post-office-services.html",
+    "url": "/our-services/post-office-services",
+    "view": "pages.our-services.post-office-services",
+    "title": "Post Office ParcelShops | Send Parcels Easily | Evri"
+  },
+  {
+    "source": "our-services/postable.html",
+    "url": "/our-services/postable",
+    "view": "pages.our-services.postable",
+    "title": "Post a Large Letter | Sending a Large Letter | Evri"
+  },
+  {
+    "source": "our-services/purchase-sustainable-packaging.html",
+    "url": "/our-services/purchase-sustainable-packaging",
+    "view": "pages.our-services.purchase-sustainable-packaging",
+    "title": "Purchase Sustainable Packaging | Free Parcel Tape and Labels"
+  },
+  {
+    "source": "our-services/quick-send.html",
+    "url": "/our-services/quick-send",
+    "view": "pages.our-services.quick-send",
+    "title": "Quick send: A faster way to book your parcels online | Evri"
+  },
+  {
+    "source": "our-services/saturday-delivery.html",
+    "url": "/our-services/saturday-delivery",
+    "view": "pages.our-services.saturday-delivery",
+    "title": "Saturday Parcel Courier &amp; Delivery Service | Evri"
+  },
+  {
+    "source": "our-services/shopify-integration.html",
+    "url": "/our-services/shopify-integration",
+    "view": "pages.our-services.shopify-integration",
+    "title": "Shopify Integration | Link Your Shopify Store with Evri"
+  },
+  {
+    "source": "our-services/signature.html",
+    "url": "/our-services/signature",
+    "view": "pages.our-services.signature",
+    "title": "Recorded Delivery: Get proof of delivery from recipients | Evri"
+  },
+  {
+    "source": "our-services/small-parcel.html",
+    "url": "/our-services/small-parcel",
+    "view": "pages.our-services.small-parcel",
+    "title": "Send Small Parcels | New Small Parcel Delivery Service UK | Evri"
+  },
+  {
+    "source": "our-services/sunday-delivery.html",
+    "url": "/our-services/sunday-delivery",
+    "view": "pages.our-services.sunday-delivery",
+    "title": "Sunday Parcel Courier &amp; Delivery Service | Evri"
+  },
+  {
+    "source": "our-services/tesco-clubcard.html",
+    "url": "/our-services/tesco-clubcard",
+    "view": "pages.our-services.tesco-clubcard",
+    "title": "Tesco Clubcard | Save While You Send | Evri"
+  },
+  {
+    "source": "our-services/weekend-delivery.html",
+    "url": "/our-services/weekend-delivery",
+    "view": "pages.our-services.weekend-delivery",
+    "title": "Weekend Courier Service | Parcel Collection &amp; Delivery | Evri"
+  },
+  {
+    "source": "our-services.html",
+    "url": "/our-services",
+    "view": "pages.our-services",
+    "title": "Courier &amp; Parcel Delivery Services | Evri"
+  },
+  {
+    "source": "parcelshops/become-a-parcelshop.html",
+    "url": "/parcelshops/become-a-parcelshop",
+    "view": "pages.parcelshops.become-a-parcelshop",
+    "title": "Become a ParcelShop | Increase Sales | Evri"
+  },
+  {
+    "source": "parcelshops/host-a-locker.html",
+    "url": "/parcelshops/host-a-locker",
+    "view": "pages.parcelshops.host-a-locker",
+    "title": "Host an Evri Locker | Boost footfall, guarantee income | Evri"
+  },
+  {
+    "source": "parcelshops/location-hub.html",
+    "url": "/parcelshops/location-hub",
+    "view": "pages.parcelshops.location-hub",
+    "title": "Parcel drop-off and collection points | Evri locations"
+  },
+  {
+    "source": "parcelshops/lockers.html",
+    "url": "/parcelshops/lockers",
+    "view": "pages.parcelshops.lockers",
+    "title": "Parcel Delivery &amp; Collection Lockers | Collect Parcels | Evri"
+  },
+  {
+    "source": "parcelshops/print-in-parcelshop.html",
+    "url": "/parcelshops/print-in-parcelshop",
+    "view": "pages.parcelshops.print-in-parcelshop",
+    "title": "Print In ParcelShop | Print Parcel Labels | Evri"
+  },
+  {
+    "source": "parcelshops.html",
+    "url": "/parcelshops",
+    "view": "pages.parcelshops",
+    "title": "ParcelShops | Parcel Pick Up &amp; Drop Off Points | Evri"
+  },
+  {
+    "source": "pdb-form.html",
+    "url": "/pdb-form",
+    "view": "pages.pdb-form",
+    "title": "PDB Form"
+  },
+  {
+    "source": "peak-warehouse-space.html",
+    "url": "/peak-warehouse-space",
+    "view": "pages.peak-warehouse-space",
+    "title": "Turn Your Unused Warehouse Space Into An Extra \u00a310,000+ | Evri"
+  },
+  {
+    "source": "press/dhl-ecommerce-uk-to-merge-with-evri.html",
+    "url": "/press/dhl-ecommerce-uk-to-merge-with-evri",
+    "view": "pages.press.dhl-ecommerce-uk-to-merge-with-evri",
+    "title": "DHL eCommerce UK to merge with Evri To offer a Premium Service"
+  },
+  {
+    "source": "press/evri-ai-data-apprenticeship.html",
+    "url": "/press/evri-ai-data-apprenticeship",
+    "view": "pages.press.evri-ai-data-apprenticeship",
+    "title": "Evri Group extends apprenticeship offer with new AI and data programmes | Evri"
+  },
+  {
+    "source": "press/evri-and-asda-launch-parcelshop-service.html",
+    "url": "/press/evri-and-asda-launch-parcelshop-service",
+    "view": "pages.press.evri-and-asda-launch-parcelshop-service",
+    "title": "Evri &amp; Asda launch ParcelShop service in Asda stores | Evri"
+  },
+  {
+    "source": "press/evri-announces-1-million-investment-into-ai-strategy-to-further-transform-the-customer-experience.html",
+    "url": "/press/evri-announces-1-million-investment-into-ai-strategy-to-further-transform-the-customer-experience",
+    "view": "pages.press.evri-announces-1-million-investment-into-ai-strategy-to-further-transform-the-customer-experience",
+    "title": "Evri announces \u00a31 million investment into AI strategy to further transform the customer experience"
+  },
+  {
+    "source": "press/evri-boosts-convenience-with-major-new-locker-partnerships-at-tesco-and-motor-fuel-group.html",
+    "url": "/press/evri-boosts-convenience-with-major-new-locker-partnerships-at-tesco-and-motor-fuel-group",
+    "view": "pages.press.evri-boosts-convenience-with-major-new-locker-partnerships-at-tesco-and-motor-fuel-group",
+    "title": "Evri boosts convenience with major new locker partnerships at Tesco and Motor Fuel Group"
+  },
+  {
+    "source": "press/evri-chooses-east-of-england-co-op-for-first-owned-lockers.html",
+    "url": "/press/evri-chooses-east-of-england-co-op-for-first-owned-lockers",
+    "view": "pages.press.evri-chooses-east-of-england-co-op-for-first-owned-lockers",
+    "title": "Evri chooses East of England Co-op for first owned lockers"
+  },
+  {
+    "source": "press/evri-delivers-record-year-and-significant-investment-in-customer-service.html",
+    "url": "/press/evri-delivers-record-year-and-significant-investment-in-customer-service",
+    "view": "pages.press.evri-delivers-record-year-and-significant-investment-in-customer-service",
+    "title": "Evri Delivers Record Year &amp; Customer Service Investment | Evri"
+  },
+  {
+    "source": "press/evri-driving-academy-opens-its-doors-to-external-candidates-avonmouth.html",
+    "url": "/press/evri-driving-academy-opens-its-doors-to-external-candidates-avonmouth",
+    "view": "pages.press.evri-driving-academy-opens-its-doors-to-external-candidates-avonmouth",
+    "title": "Evri Driving Academy opens its doors to\u00a0external candidates | Evri"
+  },
+  {
+    "source": "press/evri-driving-academy-opens-its-doors-to-external-candidates-normanton.html",
+    "url": "/press/evri-driving-academy-opens-its-doors-to-external-candidates-normanton",
+    "view": "pages.press.evri-driving-academy-opens-its-doors-to-external-candidates-normanton",
+    "title": "Evri Driving Academy opens its doors to\u00a0external candidates | Evri"
+  },
+  {
+    "source": "press/evri-embarks-on-robot-dog-deliveries.html",
+    "url": "/press/evri-embarks-on-robot-dog-deliveries",
+    "view": "pages.press.evri-embarks-on-robot-dog-deliveries",
+    "title": "Evri emBARKS on robot dog deliveries | Evri"
+  },
+  {
+    "source": "press/evri-embraces-artificial-intelligence-with-amazon-web-services-to-further-enhance-customer-experience.html",
+    "url": "/press/evri-embraces-artificial-intelligence-with-amazon-web-services-to-further-enhance-customer-experience",
+    "view": "pages.press.evri-embraces-artificial-intelligence-with-amazon-web-services-to-further-enhance-customer-experience",
+    "title": "Evri embraces artificial intelligence with Amazon Web Services to further enhance customer experience"
+  },
+  {
+    "source": "press/evri-group-boosts-growth-with-over-3700-new-community-courier-warehouse-driver-and-head-office-roles.html",
+    "url": "/press/evri-group-boosts-growth-with-over-3700-new-community-courier-warehouse-driver-and-head-office-roles",
+    "view": "pages.press.evri-group-boosts-growth-with-over-3700-new-community-courier-warehouse-driver-and-head-office-roles",
+    "title": "Evri\u00a0Group\u00a0boosts\u00a0growth\u00a0with\u00a0over\u00a03700 new\u00a0community courier,\u00a0warehouse,\u00a0driver\u00a0and head office\u00a0roles\u00a0| Evri"
+  },
+  {
+    "source": "press/evri-group-delivers-parcel-volumes-of-over-one-billion.html",
+    "url": "/press/evri-group-delivers-parcel-volumes-of-over-one-billion",
+    "view": "pages.press.evri-group-delivers-parcel-volumes-of-over-one-billion",
+    "title": "Evri Group Delivers Parcel Volumes of Over One Billion"
+  },
+  {
+    "source": "press/evri-invest-4m-expand-fulfiment-barnsley.html",
+    "url": "/press/evri-invest-4m-expand-fulfiment-barnsley",
+    "view": "pages.press.evri-invest-4m-expand-fulfiment-barnsley",
+    "title": "Evri Group invest over \u00a34m to expand fulfilment network in Barnsley"
+  },
+  {
+    "source": "press/evri-is-trialing-autonomous-robot-deliveries-in-barnsley---the-uks-first-government-backed-tech-town.html",
+    "url": "/press/evri-is-trialing-autonomous-robot-deliveries-in-barnsley---the-uks-first-government-backed-tech-town",
+    "view": "pages.press.evri-is-trialing-autonomous-robot-deliveries-in-barnsley---the-uks-first-government-backed-tech-town",
+    "title": "Evri is trialing autonomous robot deliveries in Barnsley - the UK&#x27;s first government-backed \u2018tech town\u2019 | Evri"
+  },
+  {
+    "source": "press/evri-recognised-sustainability-performance.html",
+    "url": "/press/evri-recognised-sustainability-performance",
+    "view": "pages.press.evri-recognised-sustainability-performance",
+    "title": "Evri Recognised in Top 5% of Companies Globally for Sustainability Performance"
+  },
+  {
+    "source": "press/Evri-Recognised-Top-5%-Companies-Globally-Sustainability-Performance.html",
+    "url": "/press/Evri-Recognised-Top-5%-Companies-Globally-Sustainability-Performance",
+    "view": "pages.press.Evri-Recognised-Top-5%-Companies-Globally-Sustainability-Performance",
+    "title": "ERROR: The request could not be satisfied"
+  },
+  {
+    "source": "press/hoyland-common-pupils-evri-tour.html",
+    "url": "/press/hoyland-common-pupils-evri-tour",
+    "view": "pages.press.hoyland-common-pupils-evri-tour",
+    "title": "Evri Hoyland Common Pupils Make Their Own Delivery at Evri Hub"
+  },
+  {
+    "source": "press/introducing-the-evri-group-the-uks-premier-parcel-delivery-company.html",
+    "url": "/press/introducing-the-evri-group-the-uks-premier-parcel-delivery-company",
+    "view": "pages.press.introducing-the-evri-group-the-uks-premier-parcel-delivery-company",
+    "title": "Introducing the Evri Group: the UK\u2019s Premier Parcel Delivery Company"
+  },
+  {
+    "source": "press/robots-in-rugby-evri-set-to-trial-autonomous-guided-vehicles-in-its-rugby-hub.html",
+    "url": "/press/robots-in-rugby-evri-set-to-trial-autonomous-guided-vehicles-in-its-rugby-hub",
+    "view": "pages.press.robots-in-rugby-evri-set-to-trial-autonomous-guided-vehicles-in-its-rugby-hub",
+    "title": "Robots in Rugby: Evri set to trial autonomous guided vehicles in its Rugby hub"
+  },
+  {
+    "source": "press/world-cup-sofaconomy-to-generate-388-million-spend-by-brits.html",
+    "url": "/press/world-cup-sofaconomy-to-generate-388-million-spend-by-brits",
+    "view": "pages.press.world-cup-sofaconomy-to-generate-388-million-spend-by-brits",
+    "title": "world-cup-sofaconomy-to-generate-388-million-spend-by-brits"
+  },
+  {
+    "source": "press.html",
+    "url": "/press",
+    "view": "pages.press",
+    "title": "Evri Press"
+  },
+  {
+    "source": "privacy-policy.html",
+    "url": "/privacy-policy",
+    "view": "pages.privacy-policy",
+    "title": "Privacy Notice | Evri"
+  },
+  {
+    "source": "public-interest-and-disclosure-policy.html",
+    "url": "/public-interest-and-disclosure-policy",
+    "view": "pages.public-interest-and-disclosure-policy",
+    "title": "Public Interest &amp; Disclosure Policy | Evri"
+  },
+  {
+    "source": "responsible-disclosure-policy.html",
+    "url": "/responsible-disclosure-policy",
+    "view": "pages.responsible-disclosure-policy",
+    "title": "Responsible Disclosure Policy | Evri"
+  },
+  {
+    "source": "return/direct8a98.html",
+    "url": "/return/direct8a98",
+    "view": "pages.return.direct8a98",
+    "title": "Evri | Cheap Parcel Delivery &amp; Courier Service"
+  },
+  {
+    "source": "return-a-parcel/how-to-return-a-parcel.html",
+    "url": "/return-a-parcel/how-to-return-a-parcel",
+    "view": "pages.return-a-parcel.how-to-return-a-parcel",
+    "title": "How to Return a Parcel with Evri | Evri Parcel Returns | Evri"
+  },
+  {
+    "source": "return-a-parcel.html",
+    "url": "/return-a-parcel",
+    "view": "pages.return-a-parcel",
+    "title": "Parcel Returns Service | Courier Returns | Evri"
+  },
+  {
+    "source": "send/how-to-send-a-parcel.html",
+    "url": "/send/how-to-send-a-parcel",
+    "view": "pages.send.how-to-send-a-parcel",
+    "title": "How to Send a Parcel UK | Courier Collection &amp; Drop Off  | Evri"
+  },
+  {
+    "source": "send/how-to-wrap-a-parcel.html",
+    "url": "/send/how-to-wrap-a-parcel",
+    "view": "pages.send.how-to-wrap-a-parcel",
+    "title": "chevron right"
+  },
+  {
+    "source": "send/parcel-size-and-weight-guide.html",
+    "url": "/send/parcel-size-and-weight-guide",
+    "view": "pages.send.parcel-size-and-weight-guide",
+    "title": "Parcel Size &amp; Weight Guide | How to Measure &amp; Weigh a Parcel | Evri"
+  },
+  {
+    "source": "send/parcel-to-belfast.html",
+    "url": "/send/parcel-to-belfast",
+    "view": "pages.send.parcel-to-belfast",
+    "title": "Send a Parcel to Belfast | Cheap Courier Service | Evri"
+  },
+  {
+    "source": "send/parcel-to-edinburgh.html",
+    "url": "/send/parcel-to-edinburgh",
+    "view": "pages.send.parcel-to-edinburgh",
+    "title": "Send a Parcel to Edinburgh | Cheap Courier Service | Evri"
+  },
+  {
+    "source": "send/parcel-to-glasgow.html",
+    "url": "/send/parcel-to-glasgow",
+    "view": "pages.send.parcel-to-glasgow",
+    "title": "Send a Parcel to Glasgow | Cheap Courier Service | Evri"
+  },
+  {
+    "source": "send/parcel-to-northern-ireland.html",
+    "url": "/send/parcel-to-northern-ireland",
+    "view": "pages.send.parcel-to-northern-ireland",
+    "title": "Send a Parcel to Northern Ireland | Cheap &amp; Reliable Delivery"
+  },
+  {
+    "source": "send/parcel-to-the-isle-of-man.html",
+    "url": "/send/parcel-to-the-isle-of-man",
+    "view": "pages.send.parcel-to-the-isle-of-man",
+    "title": "Send a Parcel to The Isle of Man | Cheap Courier Service | Evri"
+  },
+  {
+    "source": "send/what-i-can-and-cannot-send.html",
+    "url": "/send/what-i-can-and-cannot-send",
+    "view": "pages.send.what-i-can-and-cannot-send",
+    "title": "What You Can &amp; Can&#x27;t Send by Courier | Evri"
+  },
+  {
+    "source": "send.html",
+    "url": "/send",
+    "view": "pages.send",
+    "title": "Send a Parcel in the UK | Cheap Parcel Service | Evri"
+  },
+  {
+    "source": "service-status.html",
+    "url": "/service-status",
+    "view": "pages.service-status",
+    "title": "Service status | Evri"
+  },
+  {
+    "source": "sign-in.html",
+    "url": "/sign-in",
+    "view": "pages.sign-in",
+    "title": "Evri | Cheap Parcel Delivery &amp; Courier Service"
+  },
+  {
+    "source": "standard-account.html",
+    "url": "/standard-account",
+    "view": "pages.standard-account",
+    "title": "Evri account | Sign up for great savings and benefits today"
+  },
+  {
+    "source": "switch-to-evri.html",
+    "url": "/switch-to-evri",
+    "view": "pages.switch-to-evri",
+    "title": "Send Cheap Parcels UK | Cheap Postage UK | Evri"
+  },
+  {
+    "source": "tax.html",
+    "url": "/tax",
+    "view": "pages.tax",
+    "title": "Find Out More About Our Tax Policy | Evri"
+  },
+  {
+    "source": "terms-and-conditions.html",
+    "url": "/terms-and-conditions",
+    "view": "pages.terms-and-conditions",
+    "title": "Terms and conditions | Evri"
+  },
+  {
+    "source": "terms-of-use.html",
+    "url": "/terms-of-use",
+    "view": "pages.terms-of-use",
+    "title": "Terms of use | Evri"
+  },
+  {
+    "source": "track-a-parcel.html",
+    "url": "/track-a-parcel",
+    "view": "pages.track-a-parcel",
+    "title": "Parcel Tracking UK | Track My Parcel  | Evri"
+  }
+]
