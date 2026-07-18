@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ShipmentController;
+use App\Http\Controllers\ShipmentTrackingController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -444,4 +445,9 @@ Route::view('track-a-parcel', 'pages.track-a-parcel');
 
 Route::prefix('admin')->name('admin.')->group(function (): void {
     Route::resource('shipments', ShipmentController::class)->except(['destroy']);
+    
+    Route::prefix('shipments/{shipment}')->name('shipments.')->group(function (): void {
+        Route::resource('trackings', ShipmentTrackingController::class)->except(['index']);
+        Route::get('trackings', [ShipmentTrackingController::class, 'index'])->name('trackings.index');
+    });
 });

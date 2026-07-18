@@ -3,6 +3,7 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 
 class Shipment extends Model
 {
@@ -89,5 +90,13 @@ class Shipment extends Model
         } while (static::where('tracking_number', $number)->exists());
 
         return $number;
+    }
+
+    /**
+     * Get all tracking events for the shipment.
+     */
+    public function trackingEvents(): HasMany
+    {
+        return $this->hasMany(ShipmentTracking::class)->chronological();
     }
 }

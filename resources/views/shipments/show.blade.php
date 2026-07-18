@@ -6,7 +6,8 @@
     <div class="page-header">
         <h2>Shipment Details</h2>
         <div>
-            <a href="{{ route('admin.shipments.edit', $shipment) }}" class="btn btn-primary">Edit</a>
+            <a href="{{ route('admin.shipments.trackings.index', $shipment) }}" class="btn btn-primary">View Tracking Timeline</a>
+            <a href="{{ route('admin.shipments.edit', $shipment) }}" class="btn btn-secondary">Edit</a>
             <a href="{{ route('admin.shipments.index') }}" class="btn btn-secondary">Back to list</a>
         </div>
     </div>
