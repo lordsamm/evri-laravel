@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ShipmentController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -434,3 +435,13 @@ Route::view('tax', 'pages.tax');
 Route::view('terms-and-conditions', 'pages.terms-and-conditions');
 Route::view('terms-of-use', 'pages.terms-of-use');
 Route::view('track-a-parcel', 'pages.track-a-parcel');
+
+/*
+|--------------------------------------------------------------------------
+| Admin shipment routes
+|--------------------------------------------------------------------------
+*/
+
+Route::prefix('admin')->name('admin.')->group(function (): void {
+    Route::resource('shipments', ShipmentController::class)->except(['destroy']);
+});
