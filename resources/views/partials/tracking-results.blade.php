@@ -2,18 +2,80 @@
 <div class="tracking-results-section" style="max-width: 800px; margin: 2rem auto; padding: 0 1rem;">
     <div style="background: white; border-radius: 8px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
         <h2 style="margin-top: 0; margin-bottom: 1rem; color: #1a1a1a; border-bottom: 2px solid #f0f0f0; padding-bottom: 0.5rem;">Shipment Details</h2>
+        
+        <h3 style="font-size: 1rem; font-weight: 600; color: #333; margin: 1.5rem 0 0.5rem 0;">Sender Information</h3>
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
             <div style="display: flex; flex-direction: column;">
                 <label style="font-weight: 600; color: #666; font-size: 0.875rem; margin-bottom: 0.25rem;">Tracking Number</label>
                 <span style="font-family: monospace; font-size: 1.1rem; font-weight: 600; color: #0066cc;">{{ $shipment->tracking_number }}</span>
             </div>
             <div style="display: flex; flex-direction: column;">
-                <label style="font-weight: 600; color: #666; font-size: 0.875rem; margin-bottom: 0.25rem;">Sender</label>
+                <label style="font-weight: 600; color: #666; font-size: 0.875rem; margin-bottom: 0.25rem;">Sender Name</label>
                 <span style="color: #1a1a1a; font-size: 1rem;">{{ $shipment->sender_name }}</span>
             </div>
             <div style="display: flex; flex-direction: column;">
-                <label style="font-weight: 600; color: #666; font-size: 0.875rem; margin-bottom: 0.25rem;">Receiver</label>
+                <label style="font-weight: 600; color: #666; font-size: 0.875rem; margin-bottom: 0.25rem;">Sender Phone</label>
+                <span style="color: #1a1a1a; font-size: 1rem;">{{ $shipment->sender_phone ?? '—' }}</span>
+            </div>
+            <div style="display: flex; flex-direction: column;">
+                <label style="font-weight: 600; color: #666; font-size: 0.875rem; margin-bottom: 0.25rem;">Sender Email</label>
+                <span style="color: #1a1a1a; font-size: 1rem;">{{ $shipment->sender_email ?? '—' }}</span>
+            </div>
+        </div>
+        
+        <h3 style="font-size: 1rem; font-weight: 600; color: #333; margin: 1.5rem 0 0.5rem 0;">Receiver Information</h3>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
+            <div style="display: flex; flex-direction: column;">
+                <label style="font-weight: 600; color: #666; font-size: 0.875rem; margin-bottom: 0.25rem;">Receiver Name</label>
                 <span style="color: #1a1a1a; font-size: 1rem;">{{ $shipment->receiver_name }}</span>
+            </div>
+            <div style="display: flex; flex-direction: column;">
+                <label style="font-weight: 600; color: #666; font-size: 0.875rem; margin-bottom: 0.25rem;">Receiver Phone</label>
+                <span style="color: #1a1a1a; font-size: 1rem;">{{ $shipment->receiver_phone ?? '—' }}</span>
+            </div>
+            <div style="display: flex; flex-direction: column;">
+                <label style="font-weight: 600; color: #666; font-size: 0.875rem; margin-bottom: 0.25rem;">Receiver Email</label>
+                <span style="color: #1a1a1a; font-size: 1rem;">{{ $shipment->receiver_email ?? '—' }}</span>
+            </div>
+        </div>
+        
+        <h3 style="font-size: 1rem; font-weight: 600; color: #333; margin: 1.5rem 0 0.5rem 0;">Route Information</h3>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
+            <div style="display: flex; flex-direction: column;">
+                <label style="font-weight: 600; color: #666; font-size: 0.875rem; margin-bottom: 0.25rem;">Origin Country</label>
+                <span style="color: #1a1a1a; font-size: 1rem;">{{ $shipment->originCountry?->name ?? '—' }}</span>
+            </div>
+            <div style="display: flex; flex-direction: column;">
+                <label style="font-weight: 600; color: #666; font-size: 0.875rem; margin-bottom: 0.25rem;">Destination Country</label>
+                <span style="color: #1a1a1a; font-size: 1rem;">{{ $shipment->destinationCountry?->name ?? '—' }}</span>
+            </div>
+        </div>
+        
+        <h3 style="font-size: 1rem; font-weight: 600; color: #333; margin: 1.5rem 0 0.5rem 0;">Parcel Information</h3>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
+            <div style="display: flex; flex-direction: column; grid-column: 1 / -1;">
+                <label style="font-weight: 600; color: #666; font-size: 0.875rem; margin-bottom: 0.25rem;">Parcel Description</label>
+                <span style="color: #1a1a1a; font-size: 1rem;">{{ $shipment->parcel_description ?? '—' }}</span>
+            </div>
+            <div style="display: flex; flex-direction: column;">
+                <label style="font-weight: 600; color: #666; font-size: 0.875rem; margin-bottom: 0.25rem;">Parcel Weight</label>
+                <span style="color: #1a1a1a; font-size: 1rem;">{{ $shipment->parcel_weight ? number_format($shipment->parcel_weight, 2) . ' kg' : '—' }}</span>
+            </div>
+            <div style="display: flex; flex-direction: column;">
+                <label style="font-weight: 600; color: #666; font-size: 0.875rem; margin-bottom: 0.25rem;">Parcel Quantity</label>
+                <span style="color: #1a1a1a; font-size: 1rem;">{{ $shipment->parcel_quantity ?? 1 }}</span>
+            </div>
+            <div style="display: flex; flex-direction: column;">
+                <label style="font-weight: 600; color: #666; font-size: 0.875rem; margin-bottom: 0.25rem;">Declared Value</label>
+                <span style="color: #1a1a1a; font-size: 1rem;">{{ $shipment->declared_value ? '£' . number_format($shipment->declared_value, 2) : '—' }}</span>
+            </div>
+        </div>
+        
+        <h3 style="font-size: 1rem; font-weight: 600; color: #333; margin: 1.5rem 0 0.5rem 0;">Shipping Information</h3>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
+            <div style="display: flex; flex-direction: column;">
+                <label style="font-weight: 600; color: #666; font-size: 0.875rem; margin-bottom: 0.25rem;">Shipping Method</label>
+                <span style="color: #1a1a1a; font-size: 1rem;">{{ $shipment->shipping_method }}</span>
             </div>
             <div style="display: flex; flex-direction: column;">
                 <label style="font-weight: 600; color: #666; font-size: 0.875rem; margin-bottom: 0.25rem;">Current Status</label>
@@ -22,14 +84,6 @@
             <div style="display: flex; flex-direction: column;">
                 <label style="font-weight: 600; color: #666; font-size: 0.875rem; margin-bottom: 0.25rem;">Payment Status</label>
                 <span style="color: #1a1a1a; font-size: 1rem;">{{ ucfirst($shipment->payment_status) }}</span>
-            </div>
-            <div style="display: flex; flex-direction: column;">
-                <label style="font-weight: 600; color: #666; font-size: 0.875rem; margin-bottom: 0.25rem;">Origin Country</label>
-                <span style="color: #1a1a1a; font-size: 1rem;">{{ $shipment->originCountry?->name ?? '—' }}</span>
-            </div>
-            <div style="display: flex; flex-direction: column;">
-                <label style="font-weight: 600; color: #666; font-size: 0.875rem; margin-bottom: 0.25rem;">Destination Country</label>
-                <span style="color: #1a1a1a; font-size: 1rem;">{{ $shipment->destinationCountry?->name ?? '—' }}</span>
             </div>
             <div style="display: flex; flex-direction: column;">
                 <label style="font-weight: 600; color: #666; font-size: 0.875rem; margin-bottom: 0.25rem;">Estimated Delivery</label>

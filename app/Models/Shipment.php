@@ -29,9 +29,21 @@ class Shipment extends Model
      */
     protected $fillable = [
         'sender_name',
+        'sender_phone',
+        'sender_email',
+        'sender_address',
         'receiver_name',
+        'receiver_phone',
+        'receiver_email',
+        'receiver_address',
         'origin_country_id',
         'destination_country_id',
+        'parcel_description',
+        'parcel_weight',
+        'parcel_quantity',
+        'declared_value',
+        'shipping_method',
+        'internal_notes',
         'current_status',
         'payment_status',
         'shipping_cost',
@@ -45,6 +57,8 @@ class Shipment extends Model
     {
         return [
             'shipping_cost' => 'decimal:2',
+            'parcel_weight' => 'decimal:2',
+            'declared_value' => 'decimal:2',
             'estimated_delivery' => 'date',
         ];
     }
