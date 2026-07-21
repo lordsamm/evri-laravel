@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CountryController;
 use App\Http\Controllers\ShipmentController;
 use App\Http\Controllers\ShipmentTrackingController;
 use App\Http\Controllers\TrackingController;
@@ -448,6 +449,7 @@ Route::post('/track', [TrackingController::class, 'track'])->name('tracking.trac
 
 Route::prefix('admin')->name('admin.')->group(function (): void {
     Route::resource('shipments', ShipmentController::class)->except(['destroy']);
+    Route::resource('countries', CountryController::class)->except(['destroy']);
     
     Route::prefix('shipments/{shipment}')->name('shipments.')->group(function (): void {
         Route::resource('trackings', ShipmentTrackingController::class)->except(['index']);

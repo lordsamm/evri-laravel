@@ -1,6 +1,7 @@
 @php
     $currentStatusOptions = \App\Models\Shipment::currentStatusOptions();
     $paymentStatusOptions = \App\Models\Shipment::paymentStatusOptions();
+    $countries = \App\Models\Country::active()->get();
 @endphp
 
 <div class="form-group">
@@ -20,18 +21,30 @@
 </div>
 
 <div class="form-group">
-    <label for="origin_country_id">Origin Country ID</label>
-    <input type="number" name="origin_country_id" id="origin_country_id" value="{{ old('origin_country_id', $shipment->origin_country_id) }}" min="1">
-    <div class="help-text">Optional for now. Country module not yet available.</div>
+    <label for="origin_country_id">Origin Country</label>
+    <select name="origin_country_id" id="origin_country_id">
+        <option value="">Select a country</option>
+        @foreach ($countries as $country)
+            <option value="{{ $country->id }}" @selected(old('origin_country_id', $shipment->origin_country_id) == $country->id)>
+                {{ $country->name }}
+            </option>
+        @endforeach
+    </select>
     @error('origin_country_id')
         <div class="error-text">{{ $message }}</div>
     @enderror
 </div>
 
 <div class="form-group">
-    <label for="destination_country_id">Destination Country ID</label>
-    <input type="number" name="destination_country_id" id="destination_country_id" value="{{ old('destination_country_id', $shipment->destination_country_id) }}" min="1">
-    <div class="help-text">Optional for now. Country module not yet available.</div>
+    <label for="destination_country_id">Destination Country</label>
+    <select name="destination_country_id" id="destination_country_id">
+        <option value="">Select a country</option>
+        @foreach ($countries as $country)
+            <option value="{{ $country->id }}" @selected(old('destination_country_id', $shipment->destination_country_id) == $country->id)>
+                {{ $country->name }}
+            </option>
+        @endforeach
+    </select>
     @error('destination_country_id')
         <div class="error-text">{{ $message }}</div>
     @enderror

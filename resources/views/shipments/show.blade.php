@@ -27,12 +27,12 @@
                 {{ $shipment->receiver_name }}
             </div>
             <div class="detail-item">
-                <strong>Origin Country ID</strong>
-                {{ $shipment->origin_country_id ?? '—' }}
+                <strong>Origin Country</strong>
+                {{ $shipment->originCountry?->name ?? '—' }}
             </div>
             <div class="detail-item">
-                <strong>Destination Country ID</strong>
-                {{ $shipment->destination_country_id ?? '—' }}
+                <strong>Destination Country</strong>
+                {{ $shipment->destinationCountry?->name ?? '—' }}
             </div>
             <div class="detail-item">
                 <strong>Current Status</strong>

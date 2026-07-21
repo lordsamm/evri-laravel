@@ -3,6 +3,7 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 
 class Shipment extends Model
@@ -98,5 +99,21 @@ class Shipment extends Model
     public function trackingEvents(): HasMany
     {
         return $this->hasMany(ShipmentTracking::class)->chronological();
+    }
+
+    /**
+     * Get the origin country for the shipment.
+     */
+    public function originCountry(): BelongsTo
+    {
+        return $this->belongsTo(Country::class, 'origin_country_id');
+    }
+
+    /**
+     * Get the destination country for the shipment.
+     */
+    public function destinationCountry(): BelongsTo
+    {
+        return $this->belongsTo(Country::class, 'destination_country_id');
     }
 }

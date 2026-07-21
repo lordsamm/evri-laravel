@@ -24,12 +24,12 @@
                 <span style="color: #1a1a1a; font-size: 1rem;">{{ ucfirst($shipment->payment_status) }}</span>
             </div>
             <div style="display: flex; flex-direction: column;">
-                <label style="font-weight: 600; color: #666; font-size: 0.875rem; margin-bottom: 0.25rem;">Origin Country ID</label>
-                <span style="color: #1a1a1a; font-size: 1rem;">{{ $shipment->origin_country_id ?? '—' }}</span>
+                <label style="font-weight: 600; color: #666; font-size: 0.875rem; margin-bottom: 0.25rem;">Origin Country</label>
+                <span style="color: #1a1a1a; font-size: 1rem;">{{ $shipment->originCountry?->name ?? '—' }}</span>
             </div>
             <div style="display: flex; flex-direction: column;">
-                <label style="font-weight: 600; color: #666; font-size: 0.875rem; margin-bottom: 0.25rem;">Destination Country ID</label>
-                <span style="color: #1a1a1a; font-size: 1rem;">{{ $shipment->destination_country_id ?? '—' }}</span>
+                <label style="font-weight: 600; color: #666; font-size: 0.875rem; margin-bottom: 0.25rem;">Destination Country</label>
+                <span style="color: #1a1a1a; font-size: 1rem;">{{ $shipment->destinationCountry?->name ?? '—' }}</span>
             </div>
             <div style="display: flex; flex-direction: column;">
                 <label style="font-weight: 600; color: #666; font-size: 0.875rem; margin-bottom: 0.25rem;">Estimated Delivery</label>
