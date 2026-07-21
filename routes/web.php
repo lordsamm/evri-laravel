@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ShipmentController;
 use App\Http\Controllers\ShipmentTrackingController;
+use App\Http\Controllers\TrackingController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -436,6 +437,8 @@ Route::view('tax', 'pages.tax');
 Route::view('terms-and-conditions', 'pages.terms-and-conditions');
 Route::view('terms-of-use', 'pages.terms-of-use');
 Route::view('track-a-parcel', 'pages.track-a-parcel');
+
+Route::post('/track', [TrackingController::class, 'track'])->name('tracking.track');
 
 /*
 |--------------------------------------------------------------------------
