@@ -130,4 +130,12 @@ class Shipment extends Model
     {
         return $this->belongsTo(Country::class, 'destination_country_id');
     }
+
+    /**
+     * Get all fees for the shipment.
+     */
+    public function fees(): HasMany
+    {
+        return $this->hasMany(ShipmentFee::class);
+    }
 }

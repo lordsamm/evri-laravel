@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\CountryController;
 use App\Http\Controllers\ShipmentController;
+use App\Http\Controllers\ShipmentFeeController;
 use App\Http\Controllers\ShipmentTrackingController;
 use App\Http\Controllers\TrackingController;
 use Illuminate\Support\Facades\Route;
@@ -454,5 +455,6 @@ Route::prefix('admin')->name('admin.')->group(function (): void {
     Route::prefix('shipments/{shipment}')->name('shipments.')->group(function (): void {
         Route::resource('trackings', ShipmentTrackingController::class)->except(['index']);
         Route::get('trackings', [ShipmentTrackingController::class, 'index'])->name('trackings.index');
+        Route::resource('fees', ShipmentFeeController::class);
     });
 });
