@@ -120,6 +120,51 @@
         @endif
     </div>
 
+    @php
+        $unpaidFees = $shipment->fees->where('status', 'unpaid');
+        $totalOutstanding = $unpaidFees->sum('amount');
+    @endphp
+
+    @if ($unpaidFees->isNotEmpty())
+        <div style="background: white; border-radius: 8px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+            <h2 style="margin-top: 0; margin-bottom: 1rem; color: #1a1a1a; border-bottom: 2px solid #f0f0f0; padding-bottom: 0.5rem;">Outstanding Charges</h2>
+            
+            <table style="width: 100%; border-collapse: collapse; margin-bottom: 1rem;">
+                <thead>
+                    <tr style="background: #f8f9fa;">
+                        <th style="padding: 0.75rem; text-align: left; border-bottom: 1px solid #dee2e6;">Fee Name</th>
+                        <th style="padding: 0.75rem; text-align: right; border-bottom: 1px solid #dee2e6;">Amount</th>
+                        <th style="padding: 0.75rem; text-align: center; border-bottom: 1px solid #dee2e6;">Payment Proof</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach ($unpaidFees as $fee)
+                        @php
+                            $pendingProof = $fee->paymentProof && $fee->paymentProof->status === 'pending';
+                        @endphp
+                        <tr>
+                            <td style="padding: 0.75rem; border-bottom: 1px solid #dee2e6;">{{ $fee->fee_name }}</td>
+                            <td style="padding: 0.75rem; text-align: right; border-bottom: 1px solid #dee2e6;">£{{ number_format($fee->amount, 2) }}</td>
+                            <td style="padding: 0.75rem; text-align: center; border-bottom: 1px solid #dee2e6;">
+                                @if ($pendingProof)
+                                    <span style="color: #0c5460; font-size: 0.875rem;">Payment proof received. Awaiting verification.</span>
+                                @else
+                                    <a href="{{ route('payment-proofs.create', [$shipment, $fee]) }}" style="display: inline-block; padding: 0.5rem 1rem; border-radius: 4px; text-decoration: none; font-weight: 500; cursor: pointer; background: #0066cc; color: white; border: none; font-size: 0.875rem;">Upload Proof</a>
+                                @endif
+                            </td>
+                        </tr>
+                    @endforeach
+                </tbody>
+                <tfoot>
+                    <tr style="background: #f8f9fa; font-weight: 600;">
+                        <td style="padding: 0.75rem; border-top: 2px solid #dee2e6;" colspan="2">Total Outstanding</td>
+                        <td style="padding: 0.75rem; text-align: right; border-top: 2px solid #dee2e6;">£{{ number_format($totalOutstanding, 2) }}</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    @endif
+
     <div style="text-align: center;">
         <a href="{{ url('/track-a-parcel') }}" style="display: inline-block; padding: 0.5rem 1rem; border-radius: 4px; text-decoration: none; font-weight: 500; cursor: pointer; background: #6c757d; color: white; border: none;">Track Another Parcel</a>
     </div>

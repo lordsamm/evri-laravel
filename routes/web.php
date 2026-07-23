@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\CountryController;
+use App\Http\Controllers\PaymentProofController;
 use App\Http\Controllers\ShipmentController;
 use App\Http\Controllers\ShipmentFeeController;
 use App\Http\Controllers\ShipmentTrackingController;
@@ -441,6 +442,7 @@ Route::view('terms-of-use', 'pages.terms-of-use');
 Route::view('track-a-parcel', 'pages.track-a-parcel');
 
 Route::post('/track', [TrackingController::class, 'track'])->name('tracking.track');
+Route::get('/track/{trackingNumber}', [TrackingController::class, 'show'])->name('tracking.show');
 
 /*
 |--------------------------------------------------------------------------
@@ -457,4 +459,10 @@ Route::prefix('admin')->name('admin.')->group(function (): void {
         Route::get('trackings', [ShipmentTrackingController::class, 'index'])->name('trackings.index');
         Route::resource('fees', ShipmentFeeController::class);
     });
+
+    Route::resource('payment-proofs', PaymentProofController::class)->only(['index', 'show']);
 });
+
+// Public payment proof submission routes
+Route::get('shipments/{shipment}/fees/{fee}/payment-proof/create', [PaymentProofController::class, 'create'])->name('payment-proofs.create');
+Route::post('shipments/{shipment}/fees/{fee}/payment-proof', [PaymentProofController::class, 'store'])->name('payment-proofs.store');

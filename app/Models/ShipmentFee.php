@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\HasOne;
 
 class ShipmentFee extends Model
 {
@@ -30,5 +31,10 @@ class ShipmentFee extends Model
     public function shipment(): BelongsTo
     {
         return $this->belongsTo(Shipment::class);
+    }
+
+    public function paymentProof(): HasOne
+    {
+        return $this->hasOne(PaymentProof::class);
     }
 }

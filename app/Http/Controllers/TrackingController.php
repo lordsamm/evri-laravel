@@ -28,4 +28,20 @@ class TrackingController extends Controller
             'trackingNumber' => $trackingNumber,
         ]);
     }
+
+    /**
+     * Display tracking results for a given tracking number via GET.
+     */
+    public function show(Request $request, string $trackingNumber): View
+    {
+        $shipment = Shipment::where('tracking_number', $trackingNumber)->first();
+
+        $trackingEvents = $shipment ? $shipment->trackingEvents : null;
+
+        return view('pages.track-a-parcel', [
+            'shipment' => $shipment,
+            'trackingEvents' => $trackingEvents,
+            'trackingNumber' => $trackingNumber,
+        ]);
+    }
 }
