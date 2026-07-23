@@ -46,10 +46,29 @@ class PaymentProofController extends Controller
         return view('payment-proofs.index', compact('proofs'));
     }
 
-    public function show(PaymentProof $proof): View
+    public function show(PaymentProof $payment_proof): View
     {
-        $proof->load('shipmentFee.shipment');
+        $payment_proof->load('shipmentFee.shipment');
 
-        return view('payment-proofs.show', compact('proof'));
+        return view('payment-proofs.show', ['proof' => $payment_proof]);
+    }
+
+    public function verify(PaymentProof $payment_proof): RedirectResponse
+    {
+        $payment_proof->update(['status' => PaymentProof::STATUS_VERIFIED]);
+        $payment_proof->shipmentFee->update(['status' => ShipmentFee::STATUS_PAID]);
+
+        return redirect()
+            ->route('admin.payment-proofs.show', $payment_proof)
+            ->with('success', 'Payment proof verified successfully. Fee marked as paid.');
+    }
+
+    public function reject(PaymentProof $payment_proof): RedirectResponse
+    {
+        $payment_proof->update(['status' => PaymentProof::STATUS_REJECTED]);
+
+        return redirect()
+            ->route('admin.payment-proofs.show', $payment_proof)
+            ->with('success', 'Payment proof rejected successfully.');
     }
 }

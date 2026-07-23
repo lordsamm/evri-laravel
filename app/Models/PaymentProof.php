@@ -22,6 +22,6 @@ class PaymentProof extends Model
 
     public function shipmentFee(): BelongsTo
     {
-        return $this->belongsTo(ShipmentFee::class);
+        return $this->belongsTo(ShipmentFee::class, 'shipment_fee_id');
     }
 }

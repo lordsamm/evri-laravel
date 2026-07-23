@@ -15,10 +15,10 @@
             <table class="table">
                 <thead>
                     <tr>
-                        <th>Shipment</th>
+                        <th>Tracking Number</th>
                         <th>Fee</th>
-                        <th>Payer Name</th>
-                        <th>Payment Reference</th>
+                        <th>Amount</th>
+                        <th>Payer</th>
                         <th>Status</th>
                         <th>Submitted</th>
                         <th>Actions</th>
@@ -32,9 +32,9 @@
                                     {{ $proof->shipmentFee->shipment->tracking_number }}
                                 </a>
                             </td>
-                            <td>{{ $proof->shipmentFee->fee_name }} (£{{ number_format($proof->shipmentFee->amount, 2) }})</td>
+                            <td>{{ $proof->shipmentFee->fee_name }}</td>
+                            <td>£{{ number_format($proof->shipmentFee->amount, 2) }}</td>
                             <td>{{ $proof->payer_name }}</td>
-                            <td>{{ $proof->payment_reference ?? '—' }}</td>
                             <td>
                                 @if ($proof->status === 'pending')
                                     <span class="badge bg-warning">Pending</span>
