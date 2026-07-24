@@ -57,6 +57,13 @@ class PaymentProofController extends Controller
     {
         $payment_proof->update(['status' => PaymentProof::STATUS_VERIFIED]);
         $payment_proof->shipmentFee->update(['status' => ShipmentFee::STATUS_PAID]);
+        
+        // Update shipment payment status if all fees are paid
+        $shipment = $payment_proof->shipmentFee->shipment;
+        $allFeesPaid = $shipment->fees()->where('status', ShipmentFee::STATUS_PAID)->count() === $shipment->fees()->count();
+        if ($allFeesPaid) {
+            $shipment->update(['payment_status' => Shipment::PAYMENT_PAID]);
+        }
 
         return redirect()
             ->route('admin.payment-proofs.show', $payment_proof)

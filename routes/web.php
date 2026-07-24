@@ -461,8 +461,8 @@ Route::prefix('admin')->name('admin.')->group(function (): void {
     });
 
     Route::resource('payment-proofs', PaymentProofController::class)->only(['index', 'show']);
-    Route::post('payment-proofs/{payment-proof}/verify', [PaymentProofController::class, 'verify'])->name('payment-proofs.verify');
-    Route::post('payment-proofs/{payment-proof}/reject', [PaymentProofController::class, 'reject'])->name('payment-proofs.reject');
+    Route::post('payment-proofs/{payment_proof}/verify', [PaymentProofController::class, 'verify'])->name('payment-proofs.verify');
+    Route::post('payment-proofs/{payment_proof}/reject', [PaymentProofController::class, 'reject'])->name('payment-proofs.reject');
 });
 
 // Public payment proof submission routes
