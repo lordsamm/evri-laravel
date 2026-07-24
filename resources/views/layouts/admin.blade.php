@@ -147,6 +147,12 @@
         <nav class="admin-nav">
             <a href="{{ route('admin.shipments.index') }}">All Shipments</a>
             <a href="{{ route('admin.shipments.create') }}">Create Shipment</a>
+            <a href="{{ route('admin.countries.index') }}">Countries</a>
+            <a href="{{ route('admin.payment-proofs.index') }}">Payment Proofs</a>
+            <form method="POST" action="{{ route('admin.logout') }}" style="display: inline;">
+                @csrf
+                <button type="submit" style="background: none; border: none; color: #fff; cursor: pointer; font-size: 0.95rem;">Logout</button>
+            </form>
         </nav>
     </header>
 

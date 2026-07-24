@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AuthController;
 use App\Http\Controllers\CountryController;
 use App\Http\Controllers\PaymentProofController;
 use App\Http\Controllers\ShipmentController;
@@ -446,11 +447,21 @@ Route::get('/track/{trackingNumber}', [TrackingController::class, 'show'])->name
 
 /*
 |--------------------------------------------------------------------------
+| Admin authentication routes
+|--------------------------------------------------------------------------
+*/
+
+Route::get('/admin/login', [AuthController::class, 'showLoginForm'])->name('admin.login');
+Route::post('/admin/login', [AuthController::class, 'login'])->name('admin.login.post');
+Route::post('/admin/logout', [AuthController::class, 'logout'])->name('admin.logout');
+
+/*
+|--------------------------------------------------------------------------
 | Admin shipment routes
 |--------------------------------------------------------------------------
 */
 
-Route::prefix('admin')->name('admin.')->group(function (): void {
+Route::prefix('admin')->name('admin.')->middleware('auth')->group(function (): void {
     Route::resource('shipments', ShipmentController::class)->except(['destroy']);
     Route::resource('countries', CountryController::class)->except(['destroy']);
     
