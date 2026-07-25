@@ -3,79 +3,312 @@
 @section('title', 'Dashboard')
 
 @section('content')
-<div class="container-fluid">
-    <h1>Dashboard</h1>
+<div class="container-fluid p-0">
+    <div class="page-header">
+        <h2>Dashboard</h2>
+    </div>
 
-    <h2>📦 Shipment Statistics</h2>
-    <ul>
-        <li>Total Shipments: {{ $totalShipments }}</li>
-        <li>Pending Shipments: {{ $pendingShipments }}</li>
-        <li>In Transit: {{ $inTransitShipments }}</li>
-        <li>Delivered: {{ $deliveredShipments }}</li>
-        <li>Returned: {{ $returnedShipments }}</li>
-        <li>Held: {{ $heldShipments }}</li>
-        <li>Cancelled: {{ $cancelledShipments }}</li>
-    </ul>
+    <!-- SECTION 1: Statistics Cards -->
+    <div class="row g-4 mb-4">
+        <!-- Total Shipments -->
+        <div class="col-12 col-md-6 col-lg-4">
+            <a href="{{ route('admin.shipments.index') }}" class="stat-card">
+                <div class="card h-100 p-4">
+                    <div class="stat-icon text-primary">
+                        <i class="bi bi-box-seam"></i>
+                    </div>
+                    <div class="stat-number">{{ $totalShipments }}</div>
+                    <div class="stat-title">Total Shipments</div>
+                </div>
+            </a>
+        </div>
 
-    <h2>💳 Payment Statistics</h2>
-    <ul>
-        <li>Total Fees: {{ $totalFees }}</li>
-        <li>Paid Fees: {{ $paidFees }}</li>
-        <li>Unpaid Fees: {{ $unpaidFees }}</li>
-        <li>Pending Payment Proofs: {{ $pendingPaymentProofs }}</li>
-        <li>Verified Payment Proofs: {{ $verifiedPaymentProofs }}</li>
-        <li>Rejected Payment Proofs: {{ $rejectedPaymentProofs }}</li>
-    </ul>
+        <!-- Active Shipments -->
+        <div class="col-12 col-md-6 col-lg-4">
+            <a href="{{ route('admin.shipments.index') }}" class="stat-card">
+                <div class="card h-100 p-4">
+                    <div class="stat-icon text-warning">
+                        <i class="bi bi-truck"></i>
+                    </div>
+                    <div class="stat-number">{{ $pendingShipments + $inTransitShipments + $heldShipments }}</div>
+                    <div class="stat-title">Active Shipments</div>
+                </div>
+            </a>
+        </div>
 
-    <h2>🌍 Country Statistics</h2>
-    <ul>
-        <li>Total Countries: {{ $totalCountries }}</li>
-        <li>Active Countries: {{ $activeCountries }}</li>
-    </ul>
+        <!-- Delivered Shipments -->
+        <div class="col-12 col-md-6 col-lg-4">
+            <a href="{{ route('admin.shipments.index') }}" class="stat-card">
+                <div class="card h-100 p-4">
+                    <div class="stat-icon text-success">
+                        <i class="bi bi-check-circle"></i>
+                    </div>
+                    <div class="stat-number">{{ $deliveredShipments }}</div>
+                    <div class="stat-title">Delivered Shipments</div>
+                </div>
+            </a>
+        </div>
 
-    <h2>📈 Revenue Statistics</h2>
-    <ul>
-        <li>Total Fees Value: £{{ number_format($totalFeesValue, 2) }}</li>
-        <li>Paid Revenue: £{{ number_format($paidRevenue, 2) }}</li>
-        <li>Outstanding Revenue: £{{ number_format($outstandingRevenue, 2) }}</li>
-    </ul>
+        <!-- Countries -->
+        <div class="col-12 col-md-6 col-lg-4">
+            <a href="{{ route('admin.countries.index') }}" class="stat-card">
+                <div class="card h-100 p-4">
+                    <div class="stat-icon text-info">
+                        <i class="bi bi-globe"></i>
+                    </div>
+                    <div class="stat-number">{{ $totalCountries }}</div>
+                    <div class="stat-title">Countries</div>
+                </div>
+            </a>
+        </div>
 
-    <h2>📋 Recent Activity</h2>
-    
-    <h3>Latest 5 Shipments</h3>
-    <ul>
-        @foreach($recentShipments as $shipment)
-            <li>{{ $shipment->tracking_number }} - {{ $shipment->current_status }}</li>
-        @endforeach
-    </ul>
+        <!-- Pending Payment Proofs -->
+        <div class="col-12 col-md-6 col-lg-4">
+            <a href="{{ route('admin.payment-proofs.index') }}" class="stat-card">
+                <div class="card h-100 p-4">
+                    <div class="stat-icon text-danger">
+                        <i class="bi bi-credit-card"></i>
+                    </div>
+                    <div class="stat-number">{{ $pendingPaymentProofs }}</div>
+                    <div class="stat-title">Pending Payment Proofs</div>
+                </div>
+            </a>
+        </div>
 
-    <h3>Latest 5 Tracking Updates</h3>
-    <ul>
-        @foreach($recentTrackingUpdates as $tracking)
-            <li>{{ $tracking->shipment->tracking_number }} - {{ $tracking->status }}</li>
-        @endforeach
-    </ul>
+        <!-- Outstanding Revenue -->
+        <div class="col-12 col-md-6 col-lg-4">
+            <a href="#" class="stat-card">
+                <div class="card h-100 p-4">
+                    <div class="stat-icon text-success">
+                        <i class="bi bi-currency-pound"></i>
+                    </div>
+                    <div class="stat-number">£{{ number_format($outstandingRevenue, 2) }}</div>
+                    <div class="stat-title">Outstanding Revenue</div>
+                </div>
+            </a>
+        </div>
+    </div>
 
-    <h3>Latest 5 Payment Proofs</h3>
-    <ul>
-        @foreach($recentPaymentProofs as $proof)
-            <li>{{ $proof->payer_name }} - {{ $proof->status }}</li>
-        @endforeach
-    </ul>
+    <!-- SECTION 2: Charts -->
+    <div class="row g-4 mb-4">
+        <div class="col-12 col-lg-6">
+            <div class="card p-4">
+                <h5 class="mb-4">Shipment Status Distribution</h5>
+                <canvas id="shipmentStatusChart"></canvas>
+            </div>
+        </div>
+        <div class="col-12 col-lg-6">
+            <div class="card p-4">
+                <h5 class="mb-4">Monthly Shipment Activity</h5>
+                <canvas id="monthlyActivityChart"></canvas>
+            </div>
+        </div>
+    </div>
 
-    <h2>⚡ Quick Actions Data</h2>
-    <ul>
-        <li>Create Shipment: {{ route('admin.shipments.create') }}</li>
-        <li>Add Country: {{ route('admin.countries.create') }}</li>
-        <li>View Pending Payments: {{ route('admin.payment-proofs.index') }}</li>
-        <li>View All Shipments: {{ route('admin.shipments.index') }}</li>
-    </ul>
+    <!-- SECTION 3: Recent Shipments -->
+    <div class="row mb-4">
+        <div class="col-12">
+            <div class="card p-4">
+                <h5 class="mb-4">Recent Shipments</h5>
+                <div class="table-responsive">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Tracking Number</th>
+                                <th>Sender</th>
+                                <th>Receiver</th>
+                                <th>Current Status</th>
+                                <th>Created</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach($recentShipments as $shipment)
+                            <tr>
+                                <td>{{ $shipment->tracking_number }}</td>
+                                <td>{{ $shipment->sender_name }}</td>
+                                <td>{{ $shipment->receiver_name }}</td>
+                                <td>
+                                    <span class="badge bg-{{ $shipment->current_status === 'delivered' ? 'success' : ($shipment->current_status === 'pending' ? 'warning' : 'primary') }}">
+                                        {{ ucfirst($shipment->current_status) }}
+                                    </span>
+                                </td>
+                                <td>{{ $shipment->created_at ? $shipment->created_at->format('M d, Y') : '—' }}</td>
+                                <td>
+                                    <a href="{{ route('admin.shipments.show', $shipment) }}" class="btn btn-sm btn-primary">View</a>
+                                </td>
+                            </tr>
+                            @endforeach
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <h2>🔗 Navigation Data</h2>
-    <ul>
-        <li>Pending Payments ({{ $pendingPaymentsCount }})</li>
-        <li>Shipments ({{ $totalShipments }})</li>
-        <li>Countries ({{ $totalCountries }})</li>
-    </ul>
+    <!-- SECTION 4: Recent Tracking Updates -->
+    <div class="row mb-4">
+        <div class="col-12">
+            <div class="card p-4">
+                <h5 class="mb-4">Recent Tracking Updates</h5>
+                <div class="table-responsive">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Tracking Number</th>
+                                <th>Location</th>
+                                <th>Status</th>
+                                <th>Date</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach($recentTrackingUpdates as $tracking)
+                            <tr>
+                                <td>{{ $tracking->shipment->tracking_number }}</td>
+                                <td>{{ $tracking->location }}</td>
+                                <td>
+                                    <span class="badge bg-info">{{ ucfirst($tracking->tracking_status) }}</span>
+                                </td>
+                                <td>{{ $tracking->event_datetime ? $tracking->event_datetime->format('M d, Y H:i') : '—' }}</td>
+                            </tr>
+                            @endforeach
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECTION 5: Recent Payment Proofs -->
+    <div class="row mb-4">
+        <div class="col-12">
+            <div class="card p-4">
+                <h5 class="mb-4">Recent Payment Proofs</h5>
+                <div class="table-responsive">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Tracking Number</th>
+                                <th>Fee Name</th>
+                                <th>Payer</th>
+                                <th>Status</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach($recentPaymentProofs as $proof)
+                            <tr>
+                                <td>{{ $proof->shipmentFee->shipment->tracking_number ?? '—' }}</td>
+                                <td>{{ $proof->shipmentFee->fee_name ?? '—' }}</td>
+                                <td>{{ $proof->payer_name }}</td>
+                                <td>
+                                    @if($proof->status === 'pending')
+                                        <span class="badge bg-warning">Pending</span>
+                                    @elseif($proof->status === 'verified')
+                                        <span class="badge bg-success">Verified</span>
+                                    @elseif($proof->status === 'rejected')
+                                        <span class="badge bg-danger">Rejected</span>
+                                    @endif
+                                </td>
+                                <td>
+                                    <a href="{{ route('admin.payment-proofs.show', $proof) }}" class="btn btn-sm btn-primary">View</a>
+                                </td>
+                            </tr>
+                            @endforeach
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECTION 6: Quick Actions -->
+    <div class="row mb-4">
+        <div class="col-12">
+            <div class="card p-4">
+                <h5 class="mb-4">Quick Actions</h5>
+                <div class="d-flex flex-wrap gap-3">
+                    <a href="{{ route('admin.shipments.create') }}" class="btn btn-lg btn-primary">
+                        <i class="bi bi-plus-circle me-2"></i>Create Shipment
+                    </a>
+                    <a href="{{ route('admin.countries.index') }}" class="btn btn-lg btn-secondary">
+                        <i class="bi bi-globe me-2"></i>Manage Countries
+                    </a>
+                    <a href="{{ route('admin.payment-proofs.index') }}" class="btn btn-lg btn-secondary">
+                        <i class="bi bi-credit-card me-2"></i>Review Payment Proofs
+                    </a>
+                    <a href="#" class="btn btn-lg btn-secondary">
+                        <i class="bi bi-cash-stack me-2"></i>Manage Shipment Fees
+                    </a>
+                    <a href="#" class="btn btn-lg btn-secondary">
+                        <i class="bi bi-geo-alt me-2"></i>Manage Tracking
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECTION 7: Dashboard Footer -->
+    <div class="dashboard-footer">
+        <p class="mb-0">Last Updated: {{ now()->format('F j, Y, g:i A') }}</p>
+    </div>
 </div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<script>
+    // Shipment Status Distribution Pie Chart
+    const shipmentStatusCtx = document.getElementById('shipmentStatusChart').getContext('2d');
+    new Chart(shipmentStatusCtx, {
+        type: 'pie',
+        data: {
+            labels: ['Pending', 'In Transit', 'Delivered', 'Held', 'Returned', 'Cancelled'],
+            datasets: [{
+                data: [{{ $pendingShipments }}, {{ $inTransitShipments }}, {{ $deliveredShipments }}, {{ $heldShipments }}, {{ $returnedShipments }}, {{ $cancelledShipments }}],
+                backgroundColor: [
+                    '#ffc107',
+                    '#0d6efd',
+                    '#198754',
+                    '#fd7e14',
+                    '#6c757d',
+                    '#dc3545'
+                ]
+            }]
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                legend: {
+                    position: 'bottom'
+                }
+            }
+        }
+    });
+
+    // Monthly Shipment Activity Bar Chart (Placeholder)
+    const monthlyActivityCtx = document.getElementById('monthlyActivityChart').getContext('2d');
+    new Chart(monthlyActivityCtx, {
+        type: 'bar',
+        data: {
+            labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'],
+            datasets: [{
+                label: 'Shipments',
+                data: [12, 19, 3, 5, 2, 3],
+                backgroundColor: '#007a53'
+            }]
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                legend: {
+                    display: false
+                }
+            },
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            }
+        }
+    });
+</script>
 @endsection

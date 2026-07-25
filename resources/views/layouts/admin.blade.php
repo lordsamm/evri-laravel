@@ -4,14 +4,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>@yield('title', 'Admin') — Evri Shipments</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <style>
-        * { box-sizing: border-box; }
         body {
             font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-            margin: 0;
             background: #f4f6f8;
             color: #1a1a1a;
-            line-height: 1.5;
         }
         .admin-header {
             background: #007a53;
@@ -28,7 +27,7 @@
             text-decoration: none;
         }
         .admin-container {
-            max-width: 1100px;
+            max-width: 1400px;
             margin: 0 auto;
             padding: 1.5rem;
         }
@@ -45,12 +44,41 @@
         .card {
             background: #fff;
             border: 1px solid #dde3ea;
-            border-radius: 8px;
-            padding: 1.25rem;
+            border-radius: 12px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .stat-card {
+            cursor: pointer;
+            text-decoration: none;
+            color: inherit;
+        }
+        .stat-card:hover {
+            text-decoration: none;
+            color: inherit;
+        }
+        .stat-icon {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+        .stat-number {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 0.25rem;
+        }
+        .stat-title {
+            font-size: 0.875rem;
+            color: #5a6570;
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
         }
         .alert {
             padding: 0.75rem 1rem;
-            border-radius: 6px;
+            border-radius: 8px;
             margin-bottom: 1rem;
         }
         .alert-success {
@@ -59,24 +87,29 @@
             color: #145c38;
         }
         .btn {
-            display: inline-block;
             padding: 0.5rem 1rem;
             border-radius: 6px;
-            border: 1px solid transparent;
-            text-decoration: none;
             font-size: 0.95rem;
             cursor: pointer;
         }
         .btn-primary {
             background: #007a53;
             color: #fff;
+            border-color: #007a53;
+        }
+        .btn-primary:hover {
+            background: #006344;
+            border-color: #006344;
         }
         .btn-secondary {
             background: #fff;
             color: #333;
             border-color: #ccd4dc;
         }
-        .btn + .btn { margin-left: 0.5rem; }
+        .btn-lg {
+            padding: 0.75rem 1.5rem;
+            font-size: 1rem;
+        }
         table {
             width: 100%;
             border-collapse: collapse;
@@ -92,6 +125,7 @@
             text-transform: uppercase;
             letter-spacing: 0.03em;
             color: #5a6570;
+            background: #f8f9fa;
         }
         .form-group { margin-bottom: 1rem; }
         label {
@@ -121,12 +155,12 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 1rem;
+            margin-bottom: 1.5rem;
             gap: 1rem;
         }
         .page-header h2 {
             margin: 0;
-            font-size: 1.5rem;
+            font-size: 1.75rem;
         }
         .detail-grid {
             display: grid;
@@ -138,6 +172,13 @@
             font-size: 0.85rem;
             color: #5a6570;
             margin-bottom: 0.25rem;
+        }
+        .dashboard-footer {
+            margin-top: 2rem;
+            padding-top: 1rem;
+            border-top: 1px solid #e8edf2;
+            color: #5a6570;
+            font-size: 0.875rem;
         }
     </style>
 </head>
@@ -164,5 +205,6 @@
 
         @yield('content')
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
