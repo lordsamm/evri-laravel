@@ -143,8 +143,9 @@
 </head>
 <body>
     <header class="admin-header">
-        <h1><a href="{{ route('admin.shipments.index') }}">Evri Admin — Shipments</a></h1>
+        <h1><a href="{{ route('admin.dashboard') }}">Evri Admin — Dashboard</a></h1>
         <nav class="admin-nav">
+            <a href="{{ route('admin.dashboard') }}">Dashboard</a>
             <a href="{{ route('admin.shipments.index') }}">All Shipments</a>
             <a href="{{ route('admin.shipments.create') }}">Create Shipment</a>
             <a href="{{ route('admin.countries.index') }}">Countries</a>

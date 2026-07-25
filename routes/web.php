@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\CountryController;
 use App\Http\Controllers\PaymentProofController;
 use App\Http\Controllers\ShipmentController;
@@ -462,6 +463,7 @@ Route::post('/admin/logout', [AuthController::class, 'logout'])->name('admin.log
 */
 
 Route::prefix('admin')->name('admin.')->middleware('auth')->group(function (): void {
+    Route::get('/', [DashboardController::class, 'index'])->name('dashboard');
     Route::resource('shipments', ShipmentController::class)->except(['destroy']);
     Route::resource('countries', CountryController::class)->except(['destroy']);
     
