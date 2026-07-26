@@ -23,6 +23,7 @@
 
         @if ($trackingEvents->isEmpty())
             <div class="text-center py-5">
+                <div style="font-size: 3rem; margin-bottom: 1rem;">📍</div>
                 <p class="mb-0 text-muted">No tracking events yet.</p>
                 <a href="{{ route('admin.shipments.trackings.create', $shipment) }}" class="btn btn-primary mt-3">Add the first tracking event</a>
             </div>

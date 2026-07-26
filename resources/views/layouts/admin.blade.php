@@ -366,6 +366,13 @@
             font-size: 0.875rem;
             margin-top: var(--spacing-sm);
             font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: var(--spacing-xs);
+        }
+        .error-text::before {
+            content: '⚠';
+            font-size: 1rem;
         }
         
         /* Page Header */

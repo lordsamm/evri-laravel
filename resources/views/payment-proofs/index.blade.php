@@ -11,6 +11,7 @@
     <div class="card p-4">
         @if ($proofs->isEmpty())
             <div class="text-center py-5">
+                <div style="font-size: 3rem; margin-bottom: 1rem;">💳</div>
                 <p class="mb-0 text-muted">No payment proofs submitted yet.</p>
             </div>
         @else

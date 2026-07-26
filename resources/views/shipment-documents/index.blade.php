@@ -68,6 +68,7 @@
                     @else
                         <tr>
                             <td colspan="7" class="text-center py-5">
+                                <div style="font-size: 3rem; margin-bottom: 1rem;">📄</div>
                                 <p class="mb-0 text-muted">No documents uploaded yet.</p>
                                 <a href="{{ route('admin.shipments.documents.create', $shipment) }}" class="btn btn-primary mt-3">Upload First Document</a>
                             </td>

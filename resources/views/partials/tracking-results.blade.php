@@ -1,4 +1,4 @@
-@if(isset($shipment))
+@if(isset($shipment) && $shipment)
 <div class="tracking-results-section" style="max-width: 800px; margin: 2rem auto; padding: 0 1rem;">
     <div style="background: white; border-radius: 8px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
         <h2 style="margin-top: 0; margin-bottom: 1rem; color: #1a1a1a; border-bottom: 2px solid #f0f0f0; padding-bottom: 0.5rem;">Shipment Details</h2>
@@ -167,6 +167,18 @@
 
     <div style="text-align: center;">
         <a href="{{ url('/track-a-parcel') }}" style="display: inline-block; padding: 0.5rem 1rem; border-radius: 4px; text-decoration: none; font-weight: 500; cursor: pointer; background: #6c757d; color: white; border: none;">Track Another Parcel</a>
+    </div>
+</div>
+@elseif(isset($shipment) && !$shipment)
+<div class="tracking-results-section" style="max-width: 600px; margin: 2rem auto; padding: 0 1rem;">
+    <div style="background: white; border-radius: 8px; padding: 3rem 2rem; text-align: center; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <div style="font-size: 4rem; margin-bottom: 1rem;">📦</div>
+        <h2 style="color: #1a1a1a; margin-bottom: 1rem;">Shipment Not Found</h2>
+        <p style="color: #666; margin-bottom: 2rem; font-size: 1.1rem;">
+            We couldn't find a shipment with tracking number <strong style="color: #0066cc;">{{ $trackingNumber ?? 'the provided number' }}</strong>.
+        </p>
+        <p style="color: #666; margin-bottom: 2rem;">Please check the tracking number and try again, or contact customer support for assistance.</p>
+        <a href="{{ url('/track-a-parcel') }}" style="display: inline-block; padding: 0.75rem 2rem; border-radius: 4px; text-decoration: none; font-weight: 600; cursor: pointer; background: #0066cc; color: white; border: none; font-size: 1rem;">Track Another Parcel</a>
     </div>
 </div>
 @endif

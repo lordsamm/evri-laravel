@@ -15,6 +15,7 @@
     <div class="card p-4">
         @if ($fees->isEmpty())
             <div class="text-center py-5">
+                <div style="font-size: 3rem; margin-bottom: 1rem;">💰</div>
                 <p class="mb-0 text-muted">No fees recorded for this shipment.</p>
                 <a href="{{ route('admin.shipments.fees.create', $shipment) }}" class="btn btn-primary mt-3">Add the first fee</a>
             </div>
