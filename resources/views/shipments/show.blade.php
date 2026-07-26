@@ -6,14 +6,32 @@
     <div class="page-header">
         <h2>Shipment Details</h2>
         <div>
-            <a href="{{ route('admin.shipments.trackings.index', $shipment) }}" class="btn btn-primary">View Tracking Timeline</a>
-            <a href="{{ route('admin.shipments.fees.index', $shipment) }}" class="btn btn-primary">Manage Fees</a>
             <a href="{{ route('admin.shipments.edit', $shipment) }}" class="btn btn-secondary">Edit</a>
             <a href="{{ route('admin.shipments.index') }}" class="btn btn-secondary">Back to list</a>
         </div>
     </div>
 
-    <div class="card">
+    <!-- Navigation Tabs -->
+    <ul class="nav nav-tabs mb-4" id="shipmentTabs" role="tablist">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="details-tab" data-bs-toggle="tab" data-bs-target="#details" type="button" role="tab">Details</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="tracking-tab" data-bs-toggle="tab" data-bs-target="#tracking" type="button" role="tab">Tracking</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="fees-tab" data-bs-toggle="tab" data-bs-target="#fees" type="button" role="tab">Fees</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="documents-tab" data-bs-toggle="tab" data-bs-target="#documents" type="button" role="tab">Documents</button>
+        </li>
+    </ul>
+
+    <!-- Tab Content -->
+    <div class="tab-content" id="shipmentTabsContent">
+        <!-- Details Tab -->
+        <div class="tab-pane fade show active" id="details" role="tabpanel">
+            <div class="card p-4">
         <h3>Sender Information</h3>
         <div class="detail-grid">
             <div class="detail-item">
@@ -127,6 +145,43 @@
             <div class="detail-item">
                 <strong>Last Updated</strong>
                 {{ $shipment->updated_at->format('d M Y H:i') }}
+            </div>
+        </div>
+            </div>
+        </div>
+
+        <!-- Tracking Tab -->
+        <div class="tab-pane fade" id="tracking" role="tabpanel">
+            <div class="card p-4">
+                <div class="d-flex justify-content-between align-items-center mb-4">
+                    <h3>Tracking Timeline</h3>
+                    <a href="{{ route('admin.shipments.trackings.index', $shipment) }}" class="btn btn-primary">Manage Tracking</a>
+                </div>
+                <p class="text-muted">View and manage tracking events for this shipment.</p>
+            </div>
+        </div>
+
+        <!-- Fees Tab -->
+        <div class="tab-pane fade" id="fees" role="tabpanel">
+            <div class="card p-4">
+                <div class="d-flex justify-content-between align-items-center mb-4">
+                    <h3>Shipment Fees</h3>
+                    <a href="{{ route('admin.shipments.fees.index', $shipment) }}" class="btn btn-primary">Manage Fees</a>
+                </div>
+                <p class="text-muted">View and manage fees for this shipment.</p>
+            </div>
+        </div>
+
+        <!-- Documents Tab -->
+        <div class="tab-pane fade" id="documents" role="tabpanel">
+            <div class="card p-4">
+                <div class="d-flex justify-content-between align-items-center mb-4">
+                    <h3>Documents</h3>
+                    <a href="{{ route('admin.shipments.documents.index', $shipment) }}" class="btn btn-primary">
+                        <i class="bi bi-upload me-2"></i>Upload Document
+                    </a>
+                </div>
+                <p class="text-muted">Upload, preview, download, and manage shipment documents.</p>
             </div>
         </div>
     </div>

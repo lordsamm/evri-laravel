@@ -138,4 +138,12 @@ class Shipment extends Model
     {
         return $this->hasMany(ShipmentFee::class);
     }
+
+    /**
+     * Get all documents for the shipment.
+     */
+    public function documents(): HasMany
+    {
+        return $this->hasMany(ShipmentDocument::class);
+    }
 }

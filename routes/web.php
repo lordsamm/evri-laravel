@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\ShipmentDocumentController;
 use App\Http\Controllers\CountryController;
 use App\Http\Controllers\PaymentProofController;
 use App\Http\Controllers\ShipmentController;
@@ -471,6 +472,9 @@ Route::prefix('admin')->name('admin.')->middleware('auth')->group(function (): v
         Route::resource('trackings', ShipmentTrackingController::class)->except(['index']);
         Route::get('trackings', [ShipmentTrackingController::class, 'index'])->name('trackings.index');
         Route::resource('fees', ShipmentFeeController::class);
+        Route::resource('documents', ShipmentDocumentController::class);
+        Route::get('documents/{document}/preview', [ShipmentDocumentController::class, 'preview'])->name('documents.preview');
+        Route::get('documents/{document}/download', [ShipmentDocumentController::class, 'download'])->name('documents.download');
     });
 
     Route::resource('payment-proofs', PaymentProofController::class)->only(['index', 'show']);
