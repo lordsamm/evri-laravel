@@ -53,6 +53,14 @@ class ShipmentController extends Controller
      */
     public function show(Shipment $shipment): View
     {
+        $shipment->load([
+            'originCountry',
+            'destinationCountry',
+            'trackingEvents' => fn($query) => $query->chronological(),
+            'fees',
+            'documents',
+        ]);
+
         return view('shipments.show', compact('shipment'));
     }
 
