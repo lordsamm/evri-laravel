@@ -1,5 +1,14 @@
 <?php
 
+use App\Http\Controllers\AuthController;
+use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\ShipmentDocumentController;
+use App\Http\Controllers\CountryController;
+use App\Http\Controllers\PaymentProofController;
+use App\Http\Controllers\ShipmentController;
+use App\Http\Controllers\ShipmentFeeController;
+use App\Http\Controllers\ShipmentTrackingController;
+use App\Http\Controllers\TrackingController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -48,7 +57,6 @@ Route::view('careers/warehouse-roles', 'pages.careers/warehouse-roles');
 Route::view('code-of-conduct', 'pages.code-of-conduct');
 Route::view('complaints-procedure', 'pages.complaints-procedure');
 Route::view('contact-us', 'pages.contact-us');
-Route::view('contact-us5789', 'pages.contact-us5789');
 Route::view('cookie-policy', 'pages.cookie-policy');
 Route::view('cookie-policy/cookie-list', 'pages.cookie-policy/cookie-list');
 Route::view('correct-personal-data-form', 'pages.correct-personal-data-form');
@@ -157,11 +165,6 @@ Route::view('faqs/sending-a-parcel/what-if-i-cant-find-an-address', 'pages.faqs/
 Route::view('faqs/sending-a-parcel/what-time-will-the-courier-collect-my-parcel', 'pages.faqs/sending-a-parcel/what-time-will-the-courier-collect-my-parcel');
 Route::view('faqs/sending-a-parcel/where-can-i-send-parcels-to', 'pages.faqs/sending-a-parcel/where-can-i-send-parcels-to');
 Route::view('find-a-parcelshop', 'pages.find-a-parcelshop');
-Route::view('find-a-parcelshop0fb3', 'pages.find-a-parcelshop0fb3');
-Route::view('find-a-parcelshop3053', 'pages.find-a-parcelshop3053');
-Route::view('find-a-parcelshop4e55', 'pages.find-a-parcelshop4e55');
-Route::view('find-a-parcelshop982c', 'pages.find-a-parcelshop982c');
-Route::view('find-a-parcelshopa177', 'pages.find-a-parcelshopa177');
 Route::view('find-an-evri-location', 'pages.find-an-evri-location');
 Route::view('frequent-seller', 'pages.frequent-seller');
 Route::view('frequent-sender-hub', 'pages.frequent-sender-hub');
@@ -434,3 +437,45 @@ Route::view('tax', 'pages.tax');
 Route::view('terms-and-conditions', 'pages.terms-and-conditions');
 Route::view('terms-of-use', 'pages.terms-of-use');
 Route::view('track-a-parcel', 'pages.track-a-parcel');
+
+Route::post('/track', [TrackingController::class, 'track'])->name('tracking.track');
+Route::get('/track/{trackingNumber}', [TrackingController::class, 'show'])->name('tracking.show');
+
+/*
+|--------------------------------------------------------------------------
+| Admin authentication routes
+|--------------------------------------------------------------------------
+*/
+
+Route::get('/admin/login', [AuthController::class, 'showLoginForm'])->name('admin.login');
+Route::post('/admin/login', [AuthController::class, 'login'])->name('admin.login.post');
+Route::post('/admin/logout', [AuthController::class, 'logout'])->name('admin.logout');
+
+/*
+|--------------------------------------------------------------------------
+| Admin shipment routes
+|--------------------------------------------------------------------------
+*/
+
+Route::prefix('admin')->name('admin.')->middleware('auth')->group(function (): void {
+    Route::get('/', [DashboardController::class, 'index'])->name('dashboard');
+    Route::resource('shipments', ShipmentController::class)->except(['destroy']);
+    Route::resource('countries', CountryController::class)->except(['destroy']);
+    
+    Route::prefix('shipments/{shipment}')->name('shipments.')->group(function (): void {
+        Route::resource('trackings', ShipmentTrackingController::class)->except(['index']);
+        Route::get('trackings', [ShipmentTrackingController::class, 'index'])->name('trackings.index');
+        Route::resource('fees', ShipmentFeeController::class);
+        Route::resource('documents', ShipmentDocumentController::class);
+        Route::get('documents/{document}/preview', [ShipmentDocumentController::class, 'preview'])->name('documents.preview');
+        Route::get('documents/{document}/download', [ShipmentDocumentController::class, 'download'])->name('documents.download');
+    });
+
+    Route::resource('payment-proofs', PaymentProofController::class)->only(['index', 'show']);
+    Route::post('payment-proofs/{payment_proof}/verify', [PaymentProofController::class, 'verify'])->name('payment-proofs.verify');
+    Route::post('payment-proofs/{payment_proof}/reject', [PaymentProofController::class, 'reject'])->name('payment-proofs.reject');
+});
+
+// Public payment proof submission routes
+Route::get('shipments/{shipment}/fees/{fee}/payment-proof/create', [PaymentProofController::class, 'create'])->name('payment-proofs.create');
+Route::post('shipments/{shipment}/fees/{fee}/payment-proof', [PaymentProofController::class, 'store'])->name('payment-proofs.store');
