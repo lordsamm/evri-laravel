@@ -6,7 +6,7 @@
     <div class="page-header">
         <h2>Shipment Details</h2>
         <div>
-            <a href="{{ route('admin.shipments.edit', $shipment) }}" class="btn btn-secondary">Edit</a>
+            <a href="{{ route('admin.shipments.edit', $shipment) }}" class="btn btn-primary">Edit</a>
             <a href="{{ route('admin.shipments.index') }}" class="btn btn-secondary">Back to list</a>
         </div>
     </div>
@@ -36,23 +36,23 @@
         <div class="detail-grid">
             <div class="detail-item">
                 <strong>Tracking Number</strong>
-                {{ $shipment->tracking_number }}
+                <span>{{ $shipment->tracking_number }}</span>
             </div>
             <div class="detail-item">
                 <strong>Sender Name</strong>
-                {{ $shipment->sender_name }}
+                <span>{{ $shipment->sender_name }}</span>
             </div>
             <div class="detail-item">
                 <strong>Sender Phone</strong>
-                {{ $shipment->sender_phone ?? '—' }}
+                <span>{{ $shipment->sender_phone ?? '—' }}</span>
             </div>
             <div class="detail-item">
                 <strong>Sender Email</strong>
-                {{ $shipment->sender_email ?? '—' }}
+                <span>{{ $shipment->sender_email ?? '—' }}</span>
             </div>
             <div class="detail-item" style="grid-column: 1 / -1;">
                 <strong>Sender Address</strong>
-                {{ $shipment->sender_address ?? '—' }}
+                <span>{{ $shipment->sender_address ?? '—' }}</span>
             </div>
         </div>
 
@@ -60,19 +60,19 @@
         <div class="detail-grid">
             <div class="detail-item">
                 <strong>Receiver Name</strong>
-                {{ $shipment->receiver_name }}
+                <span>{{ $shipment->receiver_name }}</span>
             </div>
             <div class="detail-item">
                 <strong>Receiver Phone</strong>
-                {{ $shipment->receiver_phone ?? '—' }}
+                <span>{{ $shipment->receiver_phone ?? '—' }}</span>
             </div>
             <div class="detail-item">
                 <strong>Receiver Email</strong>
-                {{ $shipment->receiver_email ?? '—' }}
+                <span>{{ $shipment->receiver_email ?? '—' }}</span>
             </div>
             <div class="detail-item" style="grid-column: 1 / -1;">
                 <strong>Receiver Address</strong>
-                {{ $shipment->receiver_address ?? '—' }}
+                <span>{{ $shipment->receiver_address ?? '—' }}</span>
             </div>
         </div>
 
@@ -80,11 +80,11 @@
         <div class="detail-grid">
             <div class="detail-item">
                 <strong>Origin Country</strong>
-                {{ $shipment->originCountry?->name ?? '—' }}
+                <span>{{ $shipment->originCountry?->name ?? '—' }}</span>
             </div>
             <div class="detail-item">
                 <strong>Destination Country</strong>
-                {{ $shipment->destinationCountry?->name ?? '—' }}
+                <span>{{ $shipment->destinationCountry?->name ?? '—' }}</span>
             </div>
         </div>
 
@@ -92,19 +92,19 @@
         <div class="detail-grid">
             <div class="detail-item" style="grid-column: 1 / -1;">
                 <strong>Parcel Description</strong>
-                {{ $shipment->parcel_description ?? '—' }}
+                <span>{{ $shipment->parcel_description ?? '—' }}</span>
             </div>
             <div class="detail-item">
                 <strong>Parcel Weight</strong>
-                {{ $shipment->parcel_weight ? number_format($shipment->parcel_weight, 2) . ' kg' : '—' }}
+                <span>{{ $shipment->parcel_weight ? number_format($shipment->parcel_weight, 2) . ' kg' : '—' }}</span>
             </div>
             <div class="detail-item">
                 <strong>Parcel Quantity</strong>
-                {{ $shipment->parcel_quantity ?? 1 }}
+                <span>{{ $shipment->parcel_quantity ?? 1 }}</span>
             </div>
             <div class="detail-item">
                 <strong>Declared Value</strong>
-                {{ $shipment->declared_value ? '£' . number_format($shipment->declared_value, 2) : '—' }}
+                <span>{{ $shipment->declared_value ? '£' . number_format($shipment->declared_value, 2) : '—' }}</span>
             </div>
         </div>
 
@@ -112,27 +112,35 @@
         <div class="detail-grid">
             <div class="detail-item">
                 <strong>Shipping Method</strong>
-                {{ $shipment->shipping_method }}
+                <span>{{ $shipment->shipping_method }}</span>
             </div>
             <div class="detail-item">
                 <strong>Current Status</strong>
-                {{ str_replace('_', ' ', ucfirst($shipment->current_status)) }}
+                <span>
+                    @if($shipment->current_status === 'delivered')
+                        <span class="badge badge-success">{{ str_replace('_', ' ', ucfirst($shipment->current_status)) }}</span>
+                    @elseif($shipment->current_status === 'pending')
+                        <span class="badge badge-warning">{{ str_replace('_', ' ', ucfirst($shipment->current_status)) }}</span>
+                    @else
+                        <span class="badge badge-purple">{{ str_replace('_', ' ', ucfirst($shipment->current_status)) }}</span>
+                    @endif
+                </span>
             </div>
             <div class="detail-item">
                 <strong>Payment Status</strong>
-                {{ ucfirst($shipment->payment_status) }}
+                <span>{{ ucfirst($shipment->payment_status) }}</span>
             </div>
             <div class="detail-item">
                 <strong>Shipping Cost</strong>
-                £{{ number_format($shipment->shipping_cost, 2) }}
+                <span>£{{ number_format($shipment->shipping_cost, 2) }}</span>
             </div>
             <div class="detail-item">
                 <strong>Estimated Delivery</strong>
-                {{ $shipment->estimated_delivery?->format('d M Y') ?? '—' }}
+                <span>{{ $shipment->estimated_delivery?->format('d M Y') ?? '—' }}</span>
             </div>
             <div class="detail-item" style="grid-column: 1 / -1;">
                 <strong>Internal Notes</strong>
-                {{ $shipment->internal_notes ?? '—' }}
+                <span>{{ $shipment->internal_notes ?? '—' }}</span>
             </div>
         </div>
 
@@ -140,11 +148,11 @@
         <div class="detail-grid">
             <div class="detail-item">
                 <strong>Created</strong>
-                {{ $shipment->created_at->format('d M Y H:i') }}
+                <span>{{ $shipment->created_at->format('d M Y H:i') }}</span>
             </div>
             <div class="detail-item">
                 <strong>Last Updated</strong>
-                {{ $shipment->updated_at->format('d M Y H:i') }}
+                <span>{{ $shipment->updated_at->format('d M Y H:i') }}</span>
             </div>
         </div>
             </div>

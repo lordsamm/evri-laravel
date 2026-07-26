@@ -3,20 +3,14 @@
 @section('title', 'Edit Country')
 
 @section('content')
-<div class="container-fluid">
-    <div class="row mb-3">
-        <div class="col">
-            <h1>Edit Country</h1>
-        </div>
-        <div class="col text-end">
-            <a href="{{ route('admin.countries.index') }}" class="btn btn-secondary">Back to Countries</a>
-        </div>
+<div class="container-fluid p-0">
+    <div class="page-header">
+        <h2>Edit Country</h2>
+        <a href="{{ route('admin.countries.index') }}" class="btn btn-secondary">Back to Countries</a>
     </div>
 
-    <div class="card">
-        <div class="card-body">
-            @include('countries._form')
-        </div>
+    <div class="card p-4">
+        @include('countries._form')
     </div>
 </div>
 @endsection

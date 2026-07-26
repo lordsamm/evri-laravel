@@ -11,8 +11,8 @@
         </div>
     </div>
 
-    <div class="card">
-        <div class="shipment-info" style="margin-bottom: 1rem;">
+    <div class="card p-4">
+        <div style="padding: 1rem; background: var(--evri-purple-bg); border-radius: var(--radius-lg); margin-bottom: var(--spacing-lg);">
             <strong>Shipment:</strong> {{ $shipment->tracking_number }}
             <span style="margin: 0 1rem;">|</span>
             <strong>From:</strong> {{ $shipment->sender_name }}

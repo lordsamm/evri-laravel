@@ -11,7 +11,7 @@
         </div>
     </div>
 
-    <div class="card">
+    <div class="card p-4">
         <form method="POST" action="{{ route('admin.shipments.update', $shipment) }}">
             @csrf
             @method('PUT')

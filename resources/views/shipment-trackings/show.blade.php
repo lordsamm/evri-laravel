@@ -12,8 +12,8 @@
         </div>
     </div>
 
-    <div class="card">
-        <div class="shipment-info" style="margin-bottom: 1rem;">
+    <div class="card p-4">
+        <div style="padding: 1rem; background: var(--evri-purple-bg); border-radius: var(--radius-lg); margin-bottom: var(--spacing-lg);">
             <strong>Shipment:</strong> {{ $shipment->tracking_number }}
             <span style="margin: 0 1rem;">|</span>
             <strong>From:</strong> {{ $shipment->sender_name }}
@@ -24,31 +24,31 @@
         <div class="detail-grid">
             <div class="detail-item">
                 <strong>Tracking Status</strong>
-                {{ str_replace('_', ' ', ucfirst($trackingEvent->tracking_status)) }}
+                <span>{{ str_replace('_', ' ', ucfirst($trackingEvent->tracking_status)) }}</span>
             </div>
             <div class="detail-item">
                 <strong>Location</strong>
-                {{ $trackingEvent->location }}
+                <span>{{ $trackingEvent->location }}</span>
             </div>
             <div class="detail-item">
                 <strong>Country ID</strong>
-                {{ $trackingEvent->country_id ?? '—' }}
+                <span>{{ $trackingEvent->country_id ?? '—' }}</span>
             </div>
             <div class="detail-item">
                 <strong>Event Date & Time</strong>
-                {{ $trackingEvent->event_datetime->format('d M Y H:i') }}
+                <span>{{ $trackingEvent->event_datetime->format('d M Y H:i') }}</span>
             </div>
             <div class="detail-item" style="grid-column: 1 / -1;">
                 <strong>Description</strong>
-                {{ $trackingEvent->description ?? '—' }}
+                <span>{{ $trackingEvent->description ?? '—' }}</span>
             </div>
             <div class="detail-item">
                 <strong>Created</strong>
-                {{ $trackingEvent->created_at->format('d M Y H:i') }}
+                <span>{{ $trackingEvent->created_at->format('d M Y H:i') }}</span>
             </div>
             <div class="detail-item">
                 <strong>Last Updated</strong>
-                {{ $trackingEvent->updated_at->format('d M Y H:i') }}
+                <span>{{ $trackingEvent->updated_at->format('d M Y H:i') }}</span>
             </div>
         </div>
     </div>

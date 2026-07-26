@@ -3,19 +3,15 @@
 @section('title', 'Countries')
 
 @section('content')
-<div class="container-fluid">
-    <div class="row mb-3">
-        <div class="col">
-            <h1>Countries</h1>
-        </div>
-        <div class="col text-end">
-            <a href="{{ route('admin.countries.create') }}" class="btn btn-primary">Add Country</a>
-        </div>
+<div class="container-fluid p-0">
+    <div class="page-header">
+        <h2>Countries</h2>
+        <a href="{{ route('admin.countries.create') }}" class="btn btn-primary">Add Country</a>
     </div>
 
-    <div class="card">
-        <div class="card-body">
-            <table class="table">
+    <div class="card p-4">
+        <div class="table-responsive">
+            <table class="table table-hover">
                 <thead>
                     <tr>
                         <th>Name</th>
@@ -35,14 +31,14 @@
                             <td>{{ $country->phone_code ?? '—' }}</td>
                             <td>
                                 @if ($country->is_active)
-                                    <span class="badge bg-success">Active</span>
+                                    <span class="badge badge-success">Active</span>
                                 @else
-                                    <span class="badge bg-secondary">Inactive</span>
+                                    <span class="badge badge-purple">Inactive</span>
                                 @endif
                             </td>
                             <td>
-                                <a href="{{ route('admin.countries.show', $country) }}" class="btn btn-sm btn-info">View</a>
-                                <a href="{{ route('admin.countries.edit', $country) }}" class="btn btn-sm btn-warning">Edit</a>
+                                <a href="{{ route('admin.countries.show', $country) }}" class="btn btn-sm btn-primary">View</a>
+                                <a href="{{ route('admin.countries.edit', $country) }}" class="btn btn-sm btn-secondary">Edit</a>
                             </td>
                         </tr>
                     @endforeach

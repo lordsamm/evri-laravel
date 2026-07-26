@@ -3,13 +3,11 @@
 @section('title', 'Fee - '.$fee->fee_name)
 
 @section('content')
-<div class="container-fluid">
-    <div class="row mb-3">
-        <div class="col">
-            <h1>Fee Details</h1>
-        </div>
-        <div class="col text-end">
-            <a href="{{ route('admin.shipments.fees.edit', [$shipment, $fee]) }}" class="btn btn-warning">Edit</a>
+<div class="container-fluid p-0">
+    <div class="page-header">
+        <h2>Fee Details</h2>
+        <div>
+            <a href="{{ route('admin.shipments.fees.edit', [$shipment, $fee]) }}" class="btn btn-primary">Edit</a>
             <form method="POST" action="{{ route('admin.shipments.fees.destroy', [$shipment, $fee]) }}" style="display: inline;" onsubmit="return confirm('Are you sure you want to delete this fee?');">
                 @csrf
                 @method('DELETE')
@@ -20,43 +18,45 @@
         </div>
     </div>
 
-    <div class="card">
+    <div class="card p-4">
         <div class="detail-grid">
             <div class="detail-item">
                 <strong>Shipment</strong>
-                <a href="{{ route('admin.shipments.show', $shipment) }}">{{ $shipment->tracking_number }}</a>
+                <span><a href="{{ route('admin.shipments.show', $shipment) }}">{{ $shipment->tracking_number }}</a></span>
             </div>
             <div class="detail-item">
                 <strong>Fee Name</strong>
-                {{ $fee->fee_name }}
+                <span>{{ $fee->fee_name }}</span>
             </div>
             <div class="detail-item" style="grid-column: 1 / -1;">
                 <strong>Description</strong>
-                {{ $fee->description ?? '—' }}
+                <span>{{ $fee->description ?? '—' }}</span>
             </div>
             <div class="detail-item">
                 <strong>Amount</strong>
-                £{{ number_format($fee->amount, 2) }}
+                <span>£{{ number_format($fee->amount, 2) }}</span>
             </div>
             <div class="detail-item">
                 <strong>Status</strong>
-                @if ($fee->status === 'paid')
-                    <span class="badge bg-success">Paid</span>
-                @else
-                    <span class="badge bg-warning">Unpaid</span>
-                @endif
+                <span>
+                    @if ($fee->status === 'paid')
+                        <span class="badge badge-success">Paid</span>
+                    @else
+                        <span class="badge badge-warning">Unpaid</span>
+                    @endif
+                </span>
             </div>
             <div class="detail-item">
                 <strong>Due Date</strong>
-                {{ $fee->due_date?->format('d M Y') ?? '—' }}
+                <span>{{ $fee->due_date?->format('d M Y') ?? '—' }}</span>
             </div>
             <div class="detail-item">
                 <strong>Created</strong>
-                {{ $fee->created_at->format('d M Y H:i') }}
+                <span>{{ $fee->created_at->format('d M Y H:i') }}</span>
             </div>
             <div class="detail-item">
                 <strong>Last Updated</strong>
-                {{ $fee->updated_at->format('d M Y H:i') }}
+                <span>{{ $fee->updated_at->format('d M Y H:i') }}</span>
             </div>
         </div>
     </div>

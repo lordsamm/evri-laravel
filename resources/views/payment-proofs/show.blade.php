@@ -3,25 +3,19 @@
 @section('title', 'Payment Proof - '.$proof->payer_name)
 
 @section('content')
-<div class="container-fluid">
-    <div class="row mb-3">
-        <div class="col">
-            <h1>Payment Proof Details</h1>
-        </div>
-        <div class="col text-end">
-            <a href="{{ route('admin.payment-proofs.index') }}" class="btn btn-secondary">Back to List</a>
-        </div>
+<div class="container-fluid p-0">
+    <div class="page-header">
+        <h2>Payment Proof Details</h2>
+        <a href="{{ route('admin.payment-proofs.index') }}" class="btn btn-secondary">Back to List</a>
     </div>
 
     @if(session('success'))
-        <div class="alert alert-success alert-dismissible fade show" role="alert">
+        <div class="alert alert-success">
             {{ session('success') }}
-            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
         </div>
     @endif
 
-    <div class="card">
-        <div class="card-body">
+    <div class="card p-4">
             @if($proof->status === 'pending')
                 <div class="mb-3">
                     <form action="{{ route('admin.payment-proofs.verify', $proof) }}" method="POST" style="display: inline;">
@@ -42,58 +36,61 @@
             <div class="detail-grid">
                 <div class="detail-item">
                     <strong>Tracking Number</strong>
-                    @if($proof->shipmentFee && $proof->shipmentFee->shipment)
-                        <a href="{{ route('admin.shipments.show', $proof->shipmentFee->shipment) }}">{{ $proof->shipmentFee->shipment->tracking_number }}</a>
-                    @else
-                        <span class="text-muted">—</span>
-                    @endif
+                    <span>
+                        @if($proof->shipmentFee && $proof->shipmentFee->shipment)
+                            <a href="{{ route('admin.shipments.show', $proof->shipmentFee->shipment) }}">{{ $proof->shipmentFee->shipment->tracking_number }}</a>
+                        @else
+                            —
+                        @endif
+                    </span>
                 </div>
                 <div class="detail-item">
                     <strong>Fee Name</strong>
-                    {{ $proof->shipmentFee->fee_name ?? '—' }}
+                    <span>{{ $proof->shipmentFee->fee_name ?? '—' }}</span>
                 </div>
                 <div class="detail-item">
                     <strong>Fee Amount</strong>
-                    {{ $proof->shipmentFee ? '£' . number_format($proof->shipmentFee->amount, 2) : '—' }}
+                    <span>{{ $proof->shipmentFee ? '£' . number_format($proof->shipmentFee->amount, 2) : '—' }}</span>
                 </div>
                 <div class="detail-item">
                     <strong>Payer Name</strong>
-                    {{ $proof->payer_name }}
+                    <span>{{ $proof->payer_name }}</span>
                 </div>
                 <div class="detail-item">
                     <strong>Payment Reference</strong>
-                    {{ $proof->payment_reference ?? '—' }}
+                    <span>{{ $proof->payment_reference ?? '—' }}</span>
                 </div>
                 <div class="detail-item">
                     <strong>Status</strong>
-                    @if ($proof->status === 'pending')
-                        <span class="badge bg-warning">Pending</span>
-                    @elseif ($proof->status === 'verified')
-                        <span class="badge bg-success">Verified</span>
-                    @else
-                        <span class="badge bg-danger">Rejected</span>
-                    @endif
+                    <span>
+                        @if ($proof->status === 'pending')
+                            <span class="badge badge-warning">Pending</span>
+                        @elseif ($proof->status === 'verified')
+                            <span class="badge badge-success">Verified</span>
+                        @else
+                            <span class="badge badge-danger">Rejected</span>
+                        @endif
+                    </span>
                 </div>
                 <div class="detail-item">
                     <strong>Submitted Date</strong>
-                    {{ $proof->created_at?->format('d M Y H:i') ?? '—' }}
+                    <span>{{ $proof->created_at?->format('d M Y H:i') ?? '—' }}</span>
                 </div>
                 <div class="detail-item">
                     <strong>Last Updated</strong>
-                    {{ $proof->updated_at?->format('d M Y H:i') ?? '—' }}
+                    <span>{{ $proof->updated_at?->format('d M Y H:i') ?? '—' }}</span>
                 </div>
                 <div class="detail-item" style="grid-column: 1 / -1;">
                     <strong>Note</strong>
-                    {{ $proof->note ?? '—' }}
+                    <span>{{ $proof->note ?? '—' }}</span>
                 </div>
                 <div class="detail-item" style="grid-column: 1 / -1;">
                     <strong>Receipt</strong>
                     <div style="margin-top: 0.5rem;">
-                        <img src="{{ asset('storage/' . $proof->receipt_path) }}" alt="Receipt" style="max-width: 100%; max-height: 400px; border: 1px solid #dee2e6; border-radius: 4px;">
+                        <img src="{{ asset('storage/' . $proof->receipt_path) }}" alt="Receipt" style="max-width: 100%; max-height: 400px; border: 1px solid var(--gray-200); border-radius: var(--radius-lg);">
                     </div>
                 </div>
             </div>
-        </div>
     </div>
 </div>
 @endsection

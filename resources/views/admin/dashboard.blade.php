@@ -14,7 +14,7 @@
         <div class="col-12 col-md-6 col-lg-4">
             <a href="{{ route('admin.shipments.index') }}" class="stat-card">
                 <div class="card h-100 p-4">
-                    <div class="stat-icon text-primary">
+                    <div class="stat-icon" style="color: var(--evri-purple-primary);">
                         <i class="bi bi-box-seam"></i>
                     </div>
                     <div class="stat-number">{{ $totalShipments }}</div>
@@ -27,7 +27,7 @@
         <div class="col-12 col-md-6 col-lg-4">
             <a href="{{ route('admin.shipments.index') }}" class="stat-card">
                 <div class="card h-100 p-4">
-                    <div class="stat-icon text-warning">
+                    <div class="stat-icon" style="color: var(--warning);">
                         <i class="bi bi-truck"></i>
                     </div>
                     <div class="stat-number">{{ $pendingShipments + $inTransitShipments + $heldShipments }}</div>
@@ -40,7 +40,7 @@
         <div class="col-12 col-md-6 col-lg-4">
             <a href="{{ route('admin.shipments.index') }}" class="stat-card">
                 <div class="card h-100 p-4">
-                    <div class="stat-icon text-success">
+                    <div class="stat-icon" style="color: var(--success);">
                         <i class="bi bi-check-circle"></i>
                     </div>
                     <div class="stat-number">{{ $deliveredShipments }}</div>
@@ -53,7 +53,7 @@
         <div class="col-12 col-md-6 col-lg-4">
             <a href="{{ route('admin.countries.index') }}" class="stat-card">
                 <div class="card h-100 p-4">
-                    <div class="stat-icon text-info">
+                    <div class="stat-icon" style="color: var(--info);">
                         <i class="bi bi-globe"></i>
                     </div>
                     <div class="stat-number">{{ $totalCountries }}</div>
@@ -66,7 +66,7 @@
         <div class="col-12 col-md-6 col-lg-4">
             <a href="{{ route('admin.payment-proofs.index') }}" class="stat-card">
                 <div class="card h-100 p-4">
-                    <div class="stat-icon text-danger">
+                    <div class="stat-icon" style="color: var(--danger);">
                         <i class="bi bi-credit-card"></i>
                     </div>
                     <div class="stat-number">{{ $pendingPaymentProofs }}</div>
@@ -79,7 +79,7 @@
         <div class="col-12 col-md-6 col-lg-4">
             <a href="#" class="stat-card">
                 <div class="card h-100 p-4">
-                    <div class="stat-icon text-success">
+                    <div class="stat-icon" style="color: var(--success);">
                         <i class="bi bi-currency-pound"></i>
                     </div>
                     <div class="stat-number">£{{ number_format($outstandingRevenue, 2) }}</div>
@@ -129,9 +129,13 @@
                                 <td>{{ $shipment->sender_name }}</td>
                                 <td>{{ $shipment->receiver_name }}</td>
                                 <td>
-                                    <span class="badge bg-{{ $shipment->current_status === 'delivered' ? 'success' : ($shipment->current_status === 'pending' ? 'warning' : 'primary') }}">
-                                        {{ ucfirst($shipment->current_status) }}
-                                    </span>
+                                    @if($shipment->current_status === 'delivered')
+                                        <span class="badge badge-success">{{ ucfirst($shipment->current_status) }}</span>
+                                    @elseif($shipment->current_status === 'pending')
+                                        <span class="badge badge-warning">{{ ucfirst($shipment->current_status) }}</span>
+                                    @else
+                                        <span class="badge badge-purple">{{ ucfirst($shipment->current_status) }}</span>
+                                    @endif
                                 </td>
                                 <td>{{ $shipment->created_at ? $shipment->created_at->format('M d, Y') : '—' }}</td>
                                 <td>
@@ -167,7 +171,7 @@
                                 <td>{{ $tracking->shipment->tracking_number }}</td>
                                 <td>{{ $tracking->location }}</td>
                                 <td>
-                                    <span class="badge bg-info">{{ ucfirst($tracking->tracking_status) }}</span>
+                                    <span class="badge badge-info">{{ ucfirst($tracking->tracking_status) }}</span>
                                 </td>
                                 <td>{{ $tracking->event_datetime ? $tracking->event_datetime->format('M d, Y H:i') : '—' }}</td>
                             </tr>
@@ -203,11 +207,11 @@
                                 <td>{{ $proof->payer_name }}</td>
                                 <td>
                                     @if($proof->status === 'pending')
-                                        <span class="badge bg-warning">Pending</span>
+                                        <span class="badge badge-warning">Pending</span>
                                     @elseif($proof->status === 'verified')
-                                        <span class="badge bg-success">Verified</span>
+                                        <span class="badge badge-success">Verified</span>
                                     @elseif($proof->status === 'rejected')
-                                        <span class="badge bg-danger">Rejected</span>
+                                        <span class="badge badge-danger">Rejected</span>
                                     @endif
                                 </td>
                                 <td>
@@ -293,7 +297,7 @@
             datasets: [{
                 label: 'Shipments',
                 data: [12, 19, 3, 5, 2, 3],
-                backgroundColor: '#007a53'
+                backgroundColor: '#6b21a8'
             }]
         },
         options: {

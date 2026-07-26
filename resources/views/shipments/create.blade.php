@@ -8,7 +8,7 @@
         <a href="{{ route('admin.shipments.index') }}" class="btn btn-secondary">Back to list</a>
     </div>
 
-    <div class="card">
+    <div class="card p-4">
         <form method="POST" action="{{ route('admin.shipments.store') }}">
             @csrf
 

@@ -31,11 +31,11 @@
                         <tr>
                             <td>
                                 @if($document->isPdf())
-                                    <i class="bi bi-file-earmark-pdf text-danger fs-5"></i>
+                                    <i class="bi bi-file-earmark-pdf fs-5" style="color: var(--danger);"></i>
                                 @elseif($document->isImage())
-                                    <i class="bi bi-file-earmark-image text-primary fs-5"></i>
+                                    <i class="bi bi-file-earmark-image fs-5" style="color: var(--evri-purple-primary);"></i>
                                 @else
-                                    <i class="bi bi-file-earmark text-secondary fs-5"></i>
+                                    <i class="bi bi-file-earmark fs-5" style="color: var(--gray-500);"></i>
                                 @endif
                             </td>
                             <td>{{ $document->document_name }}</td>
@@ -45,13 +45,13 @@
                             <td>{{ $document->created_at ? $document->created_at->format('M d, Y H:i') : '—' }}</td>
                             <td>
                                 <div class="btn-group">
-                                    <a href="{{ route('admin.shipments.documents.preview', [$shipment, $document]) }}" class="btn btn-sm btn-info" title="Preview">
+                                    <a href="{{ route('admin.shipments.documents.preview', [$shipment, $document]) }}" class="btn btn-sm btn-primary" title="Preview">
                                         <i class="bi bi-eye"></i>
                                     </a>
                                     <a href="{{ route('admin.shipments.documents.download', [$shipment, $document]) }}" class="btn btn-sm btn-success" title="Download">
                                         <i class="bi bi-download"></i>
                                     </a>
-                                    <a href="{{ route('admin.shipments.documents.edit', [$shipment, $document]) }}" class="btn btn-sm btn-warning" title="Replace">
+                                    <a href="{{ route('admin.shipments.documents.edit', [$shipment, $document]) }}" class="btn btn-sm btn-secondary" title="Replace">
                                         <i class="bi bi-pencil"></i>
                                     </a>
                                     <form method="POST" action="{{ route('admin.shipments.documents.destroy', [$shipment, $document]) }}" style="display: inline;">

@@ -3,16 +3,14 @@
 @section('title', 'Payment Proofs')
 
 @section('content')
-<div class="container-fluid">
-    <div class="row mb-3">
-        <div class="col">
-            <h1>Payment Proofs</h1>
-        </div>
+<div class="container-fluid p-0">
+    <div class="page-header">
+        <h2>Payment Proofs</h2>
     </div>
 
-    <div class="card">
-        <div class="card-body">
-            <table class="table">
+    <div class="card p-4">
+        <div class="table-responsive">
+            <table class="table table-hover">
                 <thead>
                     <tr>
                         <th>Tracking Number</th>
@@ -37,16 +35,16 @@
                             <td>{{ $proof->payer_name }}</td>
                             <td>
                                 @if ($proof->status === 'pending')
-                                    <span class="badge bg-warning">Pending</span>
+                                    <span class="badge badge-warning">Pending</span>
                                 @elseif ($proof->status === 'verified')
-                                    <span class="badge bg-success">Verified</span>
+                                    <span class="badge badge-success">Verified</span>
                                 @else
-                                    <span class="badge bg-danger">Rejected</span>
+                                    <span class="badge badge-danger">Rejected</span>
                                 @endif
                             </td>
                             <td>{{ $proof->created_at->format('d M Y H:i') }}</td>
                             <td>
-                                <a href="{{ route('admin.payment-proofs.show', $proof) }}" class="btn btn-sm btn-info">View</a>
+                                <a href="{{ route('admin.payment-proofs.show', $proof) }}" class="btn btn-sm btn-primary">View</a>
                             </td>
                         </tr>
                     @endforeach
