@@ -67,9 +67,9 @@
                         @endforeach
                     @else
                         <tr>
-                            <td colspan="7" class="text-center py-4">
-                                <p class="mb-0">No documents uploaded yet.</p>
-                                <a href="{{ route('admin.shipments.documents.create', $shipment) }}" class="btn btn-primary mt-2">Upload First Document</a>
+                            <td colspan="7" class="text-center py-5">
+                                <p class="mb-0 text-muted">No documents uploaded yet.</p>
+                                <a href="{{ route('admin.shipments.documents.create', $shipment) }}" class="btn btn-primary mt-3">Upload First Document</a>
                             </td>
                         </tr>
                     @endif

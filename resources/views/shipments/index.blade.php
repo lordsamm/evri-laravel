@@ -3,6 +3,7 @@
 @section('title', 'All Shipments')
 
 @section('content')
+<div class="container-fluid p-0">
     <div class="page-header">
         <h2>All Shipments</h2>
         <a href="{{ route('admin.shipments.create') }}" class="btn btn-primary">Create Shipment</a>
@@ -10,7 +11,10 @@
 
     <div class="card p-4">
         @if ($shipments->isEmpty())
-            <p>No shipments yet. <a href="{{ route('admin.shipments.create') }}">Create the first shipment</a>.</p>
+            <div class="text-center py-5">
+                <p class="mb-0 text-muted">No shipments yet.</p>
+                <a href="{{ route('admin.shipments.create') }}" class="btn btn-primary mt-3">Create the first shipment</a>
+            </div>
         @else
             <div class="table-responsive">
                 <table class="table table-hover">
@@ -56,4 +60,5 @@
             </div>
         @endif
     </div>
+</div>
 @endsection

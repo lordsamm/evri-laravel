@@ -10,6 +10,12 @@
     </div>
 
     <div class="card p-4">
+        @if ($countries->isEmpty())
+            <div class="text-center py-5">
+                <p class="mb-0 text-muted">No countries added yet.</p>
+                <a href="{{ route('admin.countries.create') }}" class="btn btn-primary mt-3">Add the first country</a>
+            </div>
+        @else
         <div class="table-responsive">
             <table class="table table-hover">
                 <thead>
@@ -47,6 +53,7 @@
 
             {{ $countries->links() }}
         </div>
+        @endif
     </div>
 </div>
 @endsection

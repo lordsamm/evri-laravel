@@ -10,7 +10,13 @@
     </div>
 
     <div class="card p-4">
-        @include('shipment-fees._form')
+        <form method="POST" action="{{ route('admin.shipments.fees.store', $shipment) }}">
+            @csrf
+
+            @include('shipment-fees._form')
+
+            <button type="submit" class="btn btn-primary">Add Fee</button>
+        </form>
     </div>
 </div>
 @endsection

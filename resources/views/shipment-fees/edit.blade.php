@@ -10,7 +10,14 @@
     </div>
 
     <div class="card p-4">
-        @include('shipment-fees._form')
+        <form method="POST" action="{{ route('admin.shipments.fees.update', [$shipment, $fee]) }}">
+            @csrf
+            @method('PUT')
+
+            @include('shipment-fees._form')
+
+            <button type="submit" class="btn btn-primary">Update Fee</button>
+        </form>
     </div>
 </div>
 @endsection

@@ -3,6 +3,7 @@
 @section('title', 'Add Tracking Event - '.$shipment->tracking_number)
 
 @section('content')
+<div class="container-fluid p-0">
     <div class="page-header">
         <h2>Add Tracking Event</h2>
         <div>
@@ -28,4 +29,5 @@
             <button type="submit" class="btn btn-primary">Add Tracking Event</button>
         </form>
     </div>
+</div>
 @endsection

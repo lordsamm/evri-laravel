@@ -9,6 +9,11 @@
     </div>
 
     <div class="card p-4">
+        @if ($proofs->isEmpty())
+            <div class="text-center py-5">
+                <p class="mb-0 text-muted">No payment proofs submitted yet.</p>
+            </div>
+        @else
         <div class="table-responsive">
             <table class="table table-hover">
                 <thead>
@@ -53,6 +58,7 @@
 
             {{ $proofs->links() }}
         </div>
+        @endif
     </div>
 </div>
 @endsection

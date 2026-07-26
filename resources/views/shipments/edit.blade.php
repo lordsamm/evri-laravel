@@ -3,6 +3,7 @@
 @section('title', 'Edit Shipment')
 
 @section('content')
+<div class="container-fluid p-0">
     <div class="page-header">
         <h2>Edit Shipment</h2>
         <div>
@@ -21,4 +22,5 @@
             <button type="submit" class="btn btn-primary">Update Shipment</button>
         </form>
     </div>
+</div>
 @endsection

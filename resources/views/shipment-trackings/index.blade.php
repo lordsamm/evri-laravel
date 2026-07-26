@@ -3,6 +3,7 @@
 @section('title', 'Tracking Timeline - '.$shipment->tracking_number)
 
 @section('content')
+<div class="container-fluid p-0">
     <div class="page-header">
         <h2>Tracking Timeline</h2>
         <div>
@@ -21,7 +22,10 @@
         </div>
 
         @if ($trackingEvents->isEmpty())
-            <p style="margin-top: 1rem;">No tracking events yet. <a href="{{ route('admin.shipments.trackings.create', $shipment) }}">Add the first tracking event</a>.</p>
+            <div class="text-center py-5">
+                <p class="mb-0 text-muted">No tracking events yet.</p>
+                <a href="{{ route('admin.shipments.trackings.create', $shipment) }}" class="btn btn-primary mt-3">Add the first tracking event</a>
+            </div>
         @else
             <div class="timeline" style="margin-top: 1rem;">
                 @foreach ($trackingEvents as $index => $event)
@@ -50,4 +54,5 @@
             </div>
         @endif
     </div>
+</div>
 @endsection

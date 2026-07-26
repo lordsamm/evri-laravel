@@ -13,6 +13,12 @@
     </div>
 
     <div class="card p-4">
+        @if ($fees->isEmpty())
+            <div class="text-center py-5">
+                <p class="mb-0 text-muted">No fees recorded for this shipment.</p>
+                <a href="{{ route('admin.shipments.fees.create', $shipment) }}" class="btn btn-primary mt-3">Add the first fee</a>
+            </div>
+        @else
         <div class="table-responsive">
             <table class="table table-hover">
                 <thead>
@@ -55,6 +61,7 @@
 
             {{ $fees->links() }}
         </div>
+        @endif
     </div>
 </div>
 @endsection
