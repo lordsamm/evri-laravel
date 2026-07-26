@@ -1,59 +1,157 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Evri Laravel Application
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+A comprehensive Laravel-based shipment tracking and management system with public-facing pages and an admin dashboard.
 
-## About Laravel
+## Project Description
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+This application provides a complete parcel delivery management solution including:
+- Public shipment tracking interface
+- Admin dashboard for managing shipments, tracking events, fees, and documents
+- Payment proof submission and verification system
+- Country management for international shipping
+- Public-facing static pages migrated from the Evri website
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Main Features
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+### Admin Dashboard
+- **Shipment Management**: Create, view, edit, and track shipments
+- **Tracking Events**: Add and manage tracking status updates
+- **Fee Management**: Track and manage shipment fees with payment status
+- **Document Management**: Upload and manage shipment-related documents (invoices, labels, customs forms, etc.)
+- **Payment Proofs**: Review and verify customer payment submissions
+- **Country Management**: Manage supported shipping destinations
 
-## Learning Laravel
+### Public Features
+- **Shipment Tracking**: Public tracking page for customers to check shipment status
+- **Payment Proof Submission**: Customers can submit payment proofs for unpaid fees
+- **Static Pages**: 400+ public-facing pages including FAQs, guides, service information, and more
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+## Tech Stack
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+- **Backend**: Laravel 12 (PHP 8.2+)
+- **Frontend**: Blade Templates, Bootstrap 5
+- **Build Tool**: Vite
+- **CSS Framework**: Tailwind CSS 4
+- **Database**: MySQL/SQLite
+- **Authentication**: Laravel Auth
+- **File Storage**: Laravel Storage (Public Disk)
 
-## Laravel Sponsors
+## Installation
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+### Prerequisites
+- PHP 8.2 or higher
+- Composer
+- Node.js and NPM
+- MySQL or SQLite database
 
-### Premium Partners
+### Setup Instructions
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd evri-laravel
+   ```
 
-## Contributing
+2. **Install dependencies**
+   ```bash
+   composer install
+   npm install
+   ```
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+3. **Environment configuration**
+   ```bash
+   cp .env.example .env
+   php artisan key:generate
+   ```
 
-## Code of Conduct
+4. **Configure database**
+   Edit `.env` file with your database credentials:
+   ```
+   DB_CONNECTION=mysql
+   DB_HOST=127.0.0.1
+   DB_PORT=3306
+   DB_DATABASE=evri_laravel
+   DB_USERNAME=your_username
+   DB_PASSWORD=your_password
+   ```
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+5. **Run migrations**
+   ```bash
+   php artisan migrate
+   ```
 
-## Security Vulnerabilities
+6. **Build assets**
+   ```bash
+   npm run build
+   ```
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+7. **Link storage (for file uploads)**
+   ```bash
+   php artisan storage:link
+   ```
+
+8. **Start development server**
+   ```bash
+   php artisan serve
+   ```
+
+## Admin Login
+
+Access the admin dashboard at `/admin/login`
+
+Default credentials (create an admin user in the database):
+- Username: (configured in database)
+- Password: (configured in database)
+
+## Public Tracking
+
+Access the public tracking page at `/track-a-parcel`
+
+Enter a tracking number to view shipment status and tracking history.
+
+## Screenshots
+
+<!-- Add screenshots here -->
+- Admin Dashboard
+- Shipment Management
+- Tracking Interface
+- Payment Proof Verification
+
+## Deployment
+
+### Production Deployment Checklist
+
+1. **Environment Variables**
+   - Set `APP_ENV=production` in `.env`
+   - Set `APP_DEBUG=false` in `.env`
+   - Configure production database credentials
+   - Set appropriate `APP_URL`
+
+2. **Optimization**
+   ```bash
+   composer install --optimize-autoloader --no-dev
+   php artisan config:cache
+   php artisan route:cache
+   php artisan view:cache
+   npm run build
+   ```
+
+3. **File Permissions**
+   - Ensure `storage` and `bootstrap/cache` directories are writable
+   - Run `php artisan storage:link` for file uploads
+
+4. **Queue Workers** (if using queues)
+   ```bash
+   php artisan queue:work --daemon
+   ```
+
+### Server Requirements
+- PHP >= 8.2
+- MySQL >= 5.7 or SQLite
+- Composer
+- Node.js & NPM
+- Mod_rewrite or equivalent URL rewriting
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+This project is open-sourced software licensed under the MIT license.

@@ -1,8 +1,7 @@
 *.log
 .DS_Store
 .env
-.env.backup
-.env.production
+.env.*
 .phpactor.json
 .phpunit.result.cache
 /.fleet
@@ -17,8 +16,16 @@
 /public/hot
 /public/storage
 /storage/*.key
+/bootstrap/cache/*.php
 /storage/pail
 /vendor
+npm-debug.log
+yarn-error.log
 Homestead.json
 Homestead.yaml
 Thumbs.db
+__pycache__/
+*.pyc
+check_storage.php
+migrate_static_site.py
+migration-manifest.json
