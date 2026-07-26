@@ -95,13 +95,13 @@ This application provides a complete parcel delivery management solution includi
    php artisan serve
    ```
 
-## Admin Login
+## Demo Access
 
-Access the admin dashboard at `/admin/login`
+For security reasons, administrator credentials are not published in this repository.
 
-Default credentials (create an admin user in the database):
-- Username: (configured in database)
-- Password: (configured in database)
+To create an administrator account, run the appropriate database seeder or create a user through the application after installation.
+
+If this project is being reviewed for demonstration purposes, demo credentials can be provided privately upon request.
 
 ## Public Tracking
 
