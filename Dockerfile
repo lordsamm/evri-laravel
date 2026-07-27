@@ -36,7 +36,7 @@ WORKDIR /var/www/html
 
 # Composer dependencies
 COPY composer.json composer.lock ./
-RUN composer install --no-dev --optimize-autoloader --no-interaction
+RUN composer install --no-dev --optimize-autoloader --no-interaction --no-scripts
 
 # Node dependencies
 COPY package.json package-lock.json ./
@@ -44,6 +44,9 @@ RUN npm install
 
 # Copy the application
 COPY . .
+
+# Run Laravel post-install scripts
+RUN composer run-script post-autoload-dump
 
 # Build frontend assets
 RUN npm run build
